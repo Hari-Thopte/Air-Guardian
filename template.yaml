@@ -1,0 +1,696 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Air Guardian controlled school pilot - no demo accounts or data
+
+Parameters:
+  EnableWebsiteHosting:
+    Type: String
+    Default: 'true'
+    AllowedValues: ['true', 'false']
+    Description: Disable temporarily when CloudFront account verification is pending
+  LocalWebsiteOrigin:
+    Type: String
+    Default: http://localhost:5191
+    AllowedPattern: 'http://localhost:[0-9]{2,5}'
+    Description: Loopback origin for testing the live backend before CloudFront activation
+  CognitoDomainPrefix:
+    Type: String
+    AllowedPattern: '[a-z0-9][a-z0-9-]{3,50}'
+    Description: Globally unique Cognito hosted-login domain prefix
+  ReserveIngestionConcurrency:
+    Type: String
+    Default: 'false'
+    AllowedValues: ['true', 'false']
+    Description: Enable only when the account quota permits reserved concurrency
+  ProviderParameters:
+    Type: String
+    Default: '{}'
+    Description: JSON mapping openaq/openweather/cpcb/waqi/iqair to SSM SecureString names under /airguardian/
+  RetainProviders:
+    Type: String
+    Default: Open-Meteo / CAMS
+    Description: Comma-separated approved providers; review licenses before adding keyed feeds
+  CpcbResourceId:
+    Type: String
+    Default: ''
+  VapidPublicKey:
+    Type: String
+    Default: ''
+  VapidPrivateParameter:
+    Type: String
+    Default: ''
+    Description: Optional SSM SecureString path under /airguardian/
+  VapidSubject:
+    Type: String
+    Default: ''
+    Description: Optional mailto contact for Web Push
+  SesFrom:
+    Type: String
+    Default: ''
+    Description: Optional verified SES sender; sandbox requires verified recipients
+  EnableSensors:
+    Type: String
+    Default: 'false'
+    AllowedValues: ['true', 'false']
+  PaidChannels:
+    Type: String
+    Default: ''
+    AllowedValues: ['', sms, whatsapp, 'sms,whatsapp']
+  SmsOrigination:
+    Type: String
+    Default: ''
+  SmsConfigSet:
+    Type: String
+    Default: ''
+  SmsEntityId:
+    Type: String
+    Default: ''
+  SmsTemplateId:
+    Type: String
+    Default: ''
+  WhatsAppOrigin:
+    Type: String
+    Default: ''
+  WhatsAppTemplate:
+    Type: String
+    Default: ''
+  MetaApiVersion:
+    Type: String
+    Default: ''
+
+  BudgetEmail:
+    Type: String
+    Default: ''
+    Description: Optional email for a USD 10 monthly budget notification
+  OperationsEmail:
+    Type: String
+    Default: ''
+    Description: Operator email; confirm SNS subscription to receive alarms
+  CognitoSmsRoleArn:
+    Type: String
+    Default: ''
+    Description: Optional existing Cognito SMS publishing role with approved origination
+  CognitoSmsExternalId:
+    Type: String
+    Default: ''
+    Description: External ID required by the Cognito SMS role trust policy
+
+Conditions:
+  WebsiteHostingEnabled: !Equals [!Ref EnableWebsiteHosting, 'true']
+  IngestionReservationEnabled: !Equals [!Ref ReserveIngestionConcurrency, 'true']
+  OperationsEmailEnabled: !Not [!Equals [!Ref OperationsEmail, '']]
+  PhoneVerificationEnabled: !Not [!Equals [!Ref CognitoSmsRoleArn, '']]
+  BudgetEnabled: !Not [!Equals [!Ref BudgetEmail, '']]
+  SensorsEnabled: !Equals [!Ref EnableSensors, 'true']
+  EmailEnabled: !Not [!Equals [!Ref SesFrom, '']]
+
+Globals:
+  Function:
+    Tracing: Active
+    Runtime: python3.12
+    Architectures: [arm64]
+    CodeUri: .build/backend/
+    MemorySize: 256
+    Timeout: 30
+    Environment:
+      Variables:
+        APP_TABLE: !Ref AppTable
+        READINGS_TABLE: !Ref ReadingsTable
+        POWERTOOLS_SERVICE_NAME: airguardian
+        LOG_LEVEL: INFO
+        PAID_CHANNELS: !Ref PaidChannels
+        SMS_ORIGINATION: !Ref SmsOrigination
+        SMS_CONFIG_SET: !Ref SmsConfigSet
+        SMS_ENTITY_ID: !Ref SmsEntityId
+        SMS_TEMPLATE_ID: !Ref SmsTemplateId
+        WHATSAPP_ORIGIN: !Ref WhatsAppOrigin
+        WHATSAPP_TEMPLATE: !Ref WhatsAppTemplate
+        META_API_VERSION: !Ref MetaApiVersion
+
+Resources:
+  AppTable:
+    Type: AWS::DynamoDB::Table
+    DeletionPolicy: RetainExceptOnCreate
+    UpdateReplacePolicy: Retain
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - {AttributeName: pk, AttributeType: S}
+        - {AttributeName: sk, AttributeType: S}
+      KeySchema:
+        - {AttributeName: pk, KeyType: HASH}
+        - {AttributeName: sk, KeyType: RANGE}
+      TimeToLiveSpecification: {AttributeName: expires, Enabled: true}
+      SSESpecification: {SSEEnabled: true}
+      PointInTimeRecoverySpecification: {PointInTimeRecoveryEnabled: true}
+  ReadingsTable:
+    Type: AWS::DynamoDB::Table
+    DeletionPolicy: RetainExceptOnCreate
+    UpdateReplacePolicy: Retain
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - {AttributeName: pk, AttributeType: S}
+        - {AttributeName: sk, AttributeType: S}
+      KeySchema:
+        - {AttributeName: pk, KeyType: HASH}
+        - {AttributeName: sk, KeyType: RANGE}
+      TimeToLiveSpecification: {AttributeName: expires, Enabled: true}
+      SSESpecification: {SSEEnabled: true}
+  WebBucket:
+    Type: AWS::S3::Bucket
+    Condition: WebsiteHostingEnabled
+    DeletionPolicy: RetainExceptOnCreate
+    UpdateReplacePolicy: Retain
+    Properties:
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault: {SSEAlgorithm: AES256}
+      OwnershipControls:
+        Rules: [{ObjectOwnership: BucketOwnerEnforced}]
+  OriginAccess:
+    Type: AWS::CloudFront::OriginAccessControl
+    Condition: WebsiteHostingEnabled
+    Properties:
+      OriginAccessControlConfig:
+        Name: !Sub '${AWS::StackName}-web'
+        OriginAccessControlOriginType: s3
+        SigningBehavior: always
+        SigningProtocol: sigv4
+  SecurityHeaders:
+    Type: AWS::CloudFront::ResponseHeadersPolicy
+    Condition: WebsiteHostingEnabled
+    Properties:
+      ResponseHeadersPolicyConfig:
+        Name: !Sub '${AWS::StackName}-headers'
+        SecurityHeadersConfig:
+          ContentTypeOptions: {Override: true}
+          FrameOptions: {FrameOption: DENY, Override: true}
+          ReferrerPolicy: {ReferrerPolicy: no-referrer, Override: true}
+          StrictTransportSecurity: {AccessControlMaxAgeSec: 31536000, IncludeSubdomains: true, Override: true}
+          ContentSecurityPolicy:
+            Override: true
+            ContentSecurityPolicy: "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https://*.amazonaws.com https://*.amazoncognito.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'"
+  Distribution:
+    Type: AWS::CloudFront::Distribution
+    Condition: WebsiteHostingEnabled
+    Properties:
+      DistributionConfig:
+        Enabled: true
+        DefaultRootObject: home.html
+        PriceClass: PriceClass_100
+        Origins:
+          - Id: website
+            DomainName: !GetAtt WebBucket.RegionalDomainName
+            OriginAccessControlId: !Ref OriginAccess
+            S3OriginConfig: {OriginAccessIdentity: ''}
+        DefaultCacheBehavior:
+          TargetOriginId: website
+          ViewerProtocolPolicy: redirect-to-https
+          AllowedMethods: [GET, HEAD]
+          CachedMethods: [GET, HEAD]
+          Compress: true
+          CachePolicyId: 658327ea-f89d-4fab-a63d-7e88639e58f6
+          ResponseHeadersPolicyId: !Ref SecurityHeaders
+        ViewerCertificate: {CloudFrontDefaultCertificate: true}
+  WebBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Condition: WebsiteHostingEnabled
+    Properties:
+      Bucket: !Ref WebBucket
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal: {Service: cloudfront.amazonaws.com}
+            Action: s3:GetObject
+            Resource: !Sub '${WebBucket.Arn}/*'
+            Condition:
+              StringEquals:
+                AWS:SourceArn: !Sub 'arn:${AWS::Partition}:cloudfront::${AWS::AccountId}:distribution/${Distribution}'
+          - Effect: Deny
+            Principal: '*'
+            Action: s3:*
+            Resource: [!GetAtt WebBucket.Arn, !Sub '${WebBucket.Arn}/*']
+            Condition:
+              Bool: {aws:SecureTransport: 'false'}
+  UserPool:
+    Type: AWS::Cognito::UserPool
+    DeletionPolicy: RetainExceptOnCreate
+    UpdateReplacePolicy: Retain
+    Properties:
+      UsernameAttributes: [email]
+      AutoVerifiedAttributes: [email]
+      UserPoolTier: ESSENTIALS
+      MfaConfiguration: 'ON'
+      EnabledMfas: [SOFTWARE_TOKEN_MFA]
+      SmsConfiguration: !If
+        - PhoneVerificationEnabled
+        - {SnsCallerArn: !Ref CognitoSmsRoleArn, ExternalId: !Ref CognitoSmsExternalId, SnsRegion: !Ref 'AWS::Region'}
+        - !Ref 'AWS::NoValue'
+      AccountRecoverySetting:
+        RecoveryMechanisms: [{Name: verified_email, Priority: 1}]
+      Policies:
+        PasswordPolicy:
+          MinimumLength: 12
+          RequireLowercase: true
+          RequireUppercase: true
+          RequireNumbers: true
+          RequireSymbols: true
+      Schema:
+        - {Name: email, AttributeDataType: String, Required: true, Mutable: true}
+  UserClient:
+    Type: AWS::Cognito::UserPoolClient
+    Properties:
+      UserPoolId: !Ref UserPool
+      GenerateSecret: false
+      PreventUserExistenceErrors: ENABLED
+      EnableTokenRevocation: true
+      AccessTokenValidity: 15
+      IdTokenValidity: 15
+      RefreshTokenValidity: 1
+      TokenValidityUnits: {AccessToken: minutes, IdToken: minutes, RefreshToken: days}
+      AllowedOAuthFlowsUserPoolClient: true
+      AllowedOAuthFlows: [code]
+      AllowedOAuthScopes: [openid, email, aws.cognito.signin.user.admin]
+      SupportedIdentityProviders: [COGNITO]
+      CallbackURLs: [!If [WebsiteHostingEnabled, !Sub 'https://${Distribution.DomainName}/cloud.html', !Sub '${LocalWebsiteOrigin}/cloud.html']]
+      LogoutURLs: [!If [WebsiteHostingEnabled, !Sub 'https://${Distribution.DomainName}/cloud.html', !Sub '${LocalWebsiteOrigin}/cloud.html']]
+  UserDomain:
+    Type: AWS::Cognito::UserPoolDomain
+    Properties:
+      Domain: !Ref CognitoDomainPrefix
+      UserPoolId: !Ref UserPool
+      ManagedLoginVersion: 1
+  HttpApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      StageName: '$default'
+      DefaultRouteSettings:
+        ThrottlingBurstLimit: 20
+        ThrottlingRateLimit: 10
+      CorsConfiguration:
+        AllowOrigins: [!If [WebsiteHostingEnabled, !Sub 'https://${Distribution.DomainName}', !Ref LocalWebsiteOrigin]]
+        AllowHeaders: [Authorization, Content-Type]
+        AllowMethods: [GET, POST, DELETE, OPTIONS]
+        MaxAge: 300
+      Auth:
+        DefaultAuthorizer: Cognito
+        Authorizers:
+          Cognito:
+            IdentitySource: '$request.header.Authorization'
+            JwtConfiguration:
+              issuer: !Sub 'https://cognito-idp.${AWS::Region}.amazonaws.com/${UserPool}'
+              audience: [!Ref UserClient]
+            AuthorizationScopes: [aws.cognito.signin.user.admin]
+  ApiFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: cloud.api.handler
+      Environment:
+        Variables:
+          VAPID_PUBLIC_KEY: !Ref VapidPublicKey
+          PROVIDER_PARAMETERS: !Ref ProviderParameters
+      Policies:
+        - DynamoDBCrudPolicy: {TableName: !Ref AppTable}
+        - DynamoDBReadPolicy: {TableName: !Ref ReadingsTable}
+        - Statement:
+            - Effect: Allow
+              Action: [ssm:GetParameters]
+              Resource: !Sub 'arn:${AWS::Partition}:ssm:${AWS::Region}:${AWS::AccountId}:parameter/airguardian/*'
+      Events:
+        Api:
+          Type: HttpApi
+          Properties: {ApiId: !Ref HttpApi, Path: '/v1/{proxy+}', Method: ANY, PayloadFormatVersion: '2.0'}
+        Preflight:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref HttpApi
+            Path: '/v1/{proxy+}'
+            Method: OPTIONS
+            PayloadFormatVersion: '2.0'
+            Auth: {Authorizer: NONE}
+  IngestionFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: cloud.pipeline.handler
+      Timeout: 300
+      ReservedConcurrentExecutions: !If [IngestionReservationEnabled, 1, !Ref 'AWS::NoValue']
+      DeadLetterQueue: {Type: SQS, TargetArn: !GetAtt DeadLetters.Arn}
+      Environment:
+        Variables:
+          PROVIDER_PARAMETERS: !Ref ProviderParameters
+          RETAIN_PROVIDERS: !Ref RetainProviders
+          CPCB_RESOURCE_ID: !Ref CpcbResourceId
+      Policies:
+        - DynamoDBCrudPolicy: {TableName: !Ref AppTable}
+        - DynamoDBCrudPolicy: {TableName: !Ref ReadingsTable}
+        - Statement:
+            - Effect: Allow
+              Action: [ssm:GetParameters]
+              Resource: !Sub 'arn:${AWS::Partition}:ssm:${AWS::Region}:${AWS::AccountId}:parameter/airguardian/*'
+      Events:
+        Tick:
+          Type: ScheduleV2
+          Properties:
+            ScheduleExpression: rate(15 minutes)
+            FlexibleTimeWindow: {Mode: 'OFF'}
+            RetryPolicy: {MaximumRetryAttempts: 2, MaximumEventAgeInSeconds: 900}
+            DeadLetterConfig: {Arn: !GetAtt DeadLetters.Arn}
+  DeliveryQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      SqsManagedSseEnabled: true
+      VisibilityTimeout: 720
+      MessageRetentionPeriod: 172800
+      RedrivePolicy: {deadLetterTargetArn: !GetAtt DeadLetters.Arn, maxReceiveCount: 5}
+  DeadLetters:
+    Type: AWS::SQS::Queue
+    Properties:
+      SqsManagedSseEnabled: true
+      MessageRetentionPeriod: 1209600
+  RelayFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: cloud.pipeline.relay
+      Timeout: 60
+      Environment:
+        Variables:
+          DELIVERY_QUEUE: !Ref DeliveryQueue
+      Policies:
+        - DynamoDBCrudPolicy: {TableName: !Ref AppTable}
+        - SQSSendMessagePolicy: {QueueName: !GetAtt DeliveryQueue.QueueName}
+      Events:
+        Tick:
+          Type: ScheduleV2
+          Properties:
+            ScheduleExpression: rate(1 minute)
+            FlexibleTimeWindow: {Mode: 'OFF'}
+            RetryPolicy: {MaximumRetryAttempts: 2, MaximumEventAgeInSeconds: 300}
+            DeadLetterConfig: {Arn: !GetAtt DeadLetters.Arn}
+  DeliveryFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: cloud.notifications.handler
+      Timeout: 120
+      Environment:
+        Variables:
+          VAPID_PRIVATE_PARAMETER: !Ref VapidPrivateParameter
+          VAPID_SUBJECT: !Ref VapidSubject
+          SES_FROM: !Ref SesFrom
+          SES_CONFIG_SET: !If [EmailEnabled, !Ref EmailConfiguration, '']
+      Policies:
+        - DynamoDBCrudPolicy: {TableName: !Ref AppTable}
+        - Statement:
+            - Effect: Allow
+              Action: [ssm:GetParameter]
+              Resource: !Sub 'arn:${AWS::Partition}:ssm:${AWS::Region}:${AWS::AccountId}:parameter/airguardian/*'
+            - Effect: Allow
+              Action: [ses:SendEmail]
+              Resource: !Sub 'arn:${AWS::Partition}:ses:${AWS::Region}:${AWS::AccountId}:identity/*'
+            - Effect: Allow
+              Action: [ses:SendEmail]
+              Resource: !Sub 'arn:${AWS::Partition}:ses:${AWS::Region}:${AWS::AccountId}:configuration-set/*'
+            - Effect: Allow
+              Action: [sms-voice:SendTextMessage]
+              Resource: !Sub 'arn:${AWS::Partition}:sms-voice:${AWS::Region}:${AWS::AccountId}:*'
+            - Effect: Allow
+              Action: [social-messaging:SendWhatsAppMessage]
+              Resource: !Sub 'arn:${AWS::Partition}:social-messaging:${AWS::Region}:${AWS::AccountId}:phone-number-id/*'
+      Events:
+        Queue:
+          Type: SQS
+          Properties:
+            Queue: !GetAtt DeliveryQueue.Arn
+            BatchSize: 1
+            FunctionResponseTypes: [ReportBatchItemFailures]
+  SensorFunction:
+    Type: AWS::Serverless::Function
+    Condition: SensorsEnabled
+    Properties:
+      Handler: cloud.sensors.handler
+      Policies:
+        - DynamoDBCrudPolicy: {TableName: !Ref AppTable}
+        - DynamoDBCrudPolicy: {TableName: !Ref ReadingsTable}
+  SensorRule:
+    Type: AWS::IoT::TopicRule
+    Condition: SensorsEnabled
+    Properties:
+      TopicRulePayload:
+        AwsIotSqlVersion: '2016-03-23'
+        RuleDisabled: false
+        Sql: "SELECT topic(2) AS deviceId, observedAt, pm25, humidity, sampleCount, sequence FROM 'airguardian/+/telemetry'"
+        Actions:
+          - Lambda: {FunctionArn: !GetAtt SensorFunction.Arn}
+  SensorPermission:
+    Type: AWS::Lambda::Permission
+    Condition: SensorsEnabled
+    Properties:
+      Action: lambda:InvokeFunction
+      FunctionName: !Ref SensorFunction
+      Principal: iot.amazonaws.com
+      SourceAccount: !Ref AWS::AccountId
+      SourceArn: !GetAtt SensorRule.Arn
+  OperationsTopic:
+    Type: AWS::SNS::Topic
+  OperationsTopicPolicy:
+    Type: AWS::SNS::TopicPolicy
+    Properties:
+      Topics: [!Ref OperationsTopic]
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal: {Service: cloudwatch.amazonaws.com}
+            Action: sns:Publish
+            Resource: !Ref OperationsTopic
+            Condition:
+              StringEquals: {aws:SourceAccount: !Ref 'AWS::AccountId'}
+              ArnLike: {aws:SourceArn: !Sub 'arn:${AWS::Partition}:cloudwatch:${AWS::Region}:${AWS::AccountId}:alarm:*'}
+  OperationsSubscription:
+    Type: AWS::SNS::Subscription
+    Condition: OperationsEmailEnabled
+    Properties:
+      TopicArn: !Ref OperationsTopic
+      Protocol: email
+      Endpoint: !Ref OperationsEmail
+  DeliveryErrorAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      Namespace: AWS/Lambda
+      MetricName: Errors
+      Dimensions: [{Name: FunctionName, Value: !Ref DeliveryFunction}]
+      Statistic: Sum
+      Period: 300
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: notBreaching
+      AlarmActions: [!Ref OperationsTopic]
+  StaleSourceAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      Namespace: AirGuardian
+      MetricName: StaleSourceCount
+      Dimensions: [{Name: service, Value: airguardian}]
+      Statistic: Sum
+      Period: 900
+      EvaluationPeriods: 2
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: notBreaching
+      AlarmActions: [!Ref OperationsTopic]
+  ServiceFailureAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      Namespace: AirGuardian
+      MetricName: DeliveryOrServiceFailures
+      Dimensions: [{Name: service, Value: airguardian}]
+      Statistic: Sum
+      Period: 300
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: notBreaching
+      AlarmActions: [!Ref OperationsTopic]
+  FeedbackTopic:
+    Type: AWS::SNS::Topic
+  FeedbackTopicPolicy:
+    Type: AWS::SNS::TopicPolicy
+    Properties:
+      Topics: [!Ref FeedbackTopic]
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Sid: SesFeedbackPublish
+            Principal: {Service: ses.amazonaws.com}
+            Action: sns:Publish
+            Resource: !Ref FeedbackTopic
+            Condition:
+              StringEquals: {AWS:SourceAccount: !Ref 'AWS::AccountId'}
+          - Effect: Allow
+            Sid: SmsFeedbackPublish
+            Principal: {Service: sms-voice.amazonaws.com}
+            Action: sns:Publish
+            Resource: !Ref FeedbackTopic
+            Condition:
+              StringEquals: {AWS:SourceAccount: !Ref 'AWS::AccountId'}
+  FeedbackPublisherRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal: {Service: social-messaging.amazonaws.com}
+            Action: sts:AssumeRole
+            Condition:
+              StringEquals: {AWS:SourceAccount: !Ref 'AWS::AccountId'}
+      Policies:
+        - PolicyName: PublishDeliveryFeedback
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action: sns:Publish
+                Resource: !Ref FeedbackTopic
+  EmailConfiguration:
+    Type: AWS::SES::ConfigurationSet
+    Condition: EmailEnabled
+  EmailFeedback:
+    Type: AWS::SES::ConfigurationSetEventDestination
+    Condition: EmailEnabled
+    DependsOn: FeedbackTopicPolicy
+    Properties:
+      ConfigurationSetName: !Ref EmailConfiguration
+      EventDestination:
+        Name: delivery-feedback
+        Enabled: true
+        MatchingEventTypes: [delivery, bounce, complaint]
+        SnsDestination: {TopicARN: !Ref FeedbackTopic}
+  FeedbackFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: cloud.feedback.handler
+      DeadLetterQueue: {Type: SQS, TargetArn: !GetAtt DeadLetters.Arn}
+      Environment:
+        Variables:
+          FEEDBACK_TOPIC: !Ref FeedbackTopic
+      Policies:
+        - DynamoDBCrudPolicy: {TableName: !Ref AppTable}
+      Events:
+        Feedback:
+          Type: SNS
+          Properties: {Topic: !Ref FeedbackTopic}
+  IngestionErrorAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      Namespace: AWS/Lambda
+      MetricName: Errors
+      Dimensions: [{Name: FunctionName, Value: !Ref IngestionFunction}]
+      Statistic: Sum
+      Period: 900
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: notBreaching
+      AlarmActions: [!Ref OperationsTopic]
+  MissingIngestionAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      Namespace: AWS/Lambda
+      MetricName: Invocations
+      Dimensions: [{Name: FunctionName, Value: !Ref IngestionFunction}]
+      Statistic: Sum
+      Period: 1800
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: LessThanThreshold
+      TreatMissingData: breaching
+      AlarmActions: [!Ref OperationsTopic]
+  DeadLetterAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      Namespace: AWS/SQS
+      MetricName: ApproximateNumberOfMessagesVisible
+      Dimensions: [{Name: QueueName, Value: !GetAtt DeadLetters.QueueName}]
+      Statistic: Maximum
+      Period: 300
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: notBreaching
+      AlarmActions: [!Ref OperationsTopic]
+  RelayErrorAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      Namespace: AWS/Lambda
+      MetricName: Errors
+      Dimensions: [{Name: FunctionName, Value: !Ref RelayFunction}]
+      Statistic: Sum
+      Period: 300
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: notBreaching
+      AlarmActions: [!Ref OperationsTopic]
+  ApiLogs:
+    Type: AWS::Logs::LogGroup
+    Properties: {LogGroupName: !Sub '/aws/lambda/${ApiFunction}', RetentionInDays: 14}
+  IngestionLogs:
+    Type: AWS::Logs::LogGroup
+    Properties: {LogGroupName: !Sub '/aws/lambda/${IngestionFunction}', RetentionInDays: 14}
+  RelayLogs:
+    Type: AWS::Logs::LogGroup
+    Properties: {LogGroupName: !Sub '/aws/lambda/${RelayFunction}', RetentionInDays: 14}
+  DeliveryLogs:
+    Type: AWS::Logs::LogGroup
+    Properties: {LogGroupName: !Sub '/aws/lambda/${DeliveryFunction}', RetentionInDays: 14}
+  SensorLogs:
+    Type: AWS::Logs::LogGroup
+    Condition: SensorsEnabled
+    Properties: {LogGroupName: !Sub '/aws/lambda/${SensorFunction}', RetentionInDays: 14}
+  FeedbackLogs:
+    Type: AWS::Logs::LogGroup
+    Properties: {LogGroupName: !Sub '/aws/lambda/${FeedbackFunction}', RetentionInDays: 14}
+
+  PlanningDashboard:
+    Type: AWS::CloudWatch::Dashboard
+    Properties:
+      DashboardBody: !Sub |
+        {"widgets":[{"type":"metric","width":24,"height":6,"properties":{"title":"Air Guardian aggregate operations","region":"${AWS::Region}","metrics":[["AirGuardian","PlansPublished","service","airguardian"],["AirGuardian","StaleSourceCount","service","airguardian"],["AirGuardian","DeliveryOrServiceFailures","service","airguardian"]],"stat":"Sum","period":300}},{"type":"metric","width":24,"height":6,"properties":{"title":"Handler latency","region":"${AWS::Region}","metrics":[["AirGuardian","Latency","service","airguardian"]],"stat":"Average","period":300}}]}
+  MonthlyBudget:
+    Type: AWS::Budgets::Budget
+    Condition: BudgetEnabled
+    Properties:
+      Budget:
+        BudgetType: COST
+        TimeUnit: MONTHLY
+        BudgetLimit: {Amount: 10, Unit: USD}
+      NotificationsWithSubscribers:
+        - Notification: {NotificationType: ACTUAL, ComparisonOperator: GREATER_THAN, Threshold: 80, ThresholdType: PERCENTAGE}
+          Subscribers: [{SubscriptionType: EMAIL, Address: !Ref BudgetEmail}]
+
+Outputs:
+  Region: {Value: !Ref 'AWS::Region'}
+  DeliveryQueueUrl: {Value: !Ref DeliveryQueue}
+  DeadLetterQueueUrl: {Value: !Ref DeadLetters}
+  Website: {Value: !If [WebsiteHostingEnabled, !Sub 'https://${Distribution.DomainName}', !Ref LocalWebsiteOrigin]}
+  ApiUrl: {Value: !Sub 'https://${HttpApi}.execute-api.${AWS::Region}.amazonaws.com'}
+  UserPoolId: {Value: !Ref UserPool}
+  ClientId: {Value: !Ref UserClient}
+  AuthDomain: {Value: !Sub 'https://${CognitoDomainPrefix}.auth.${AWS::Region}.amazoncognito.com'}
+  AppTableName: {Value: !Ref AppTable}
+  ReadingsTableName: {Value: !Ref ReadingsTable}
+  WebBucketName: {Condition: WebsiteHostingEnabled, Value: !Ref WebBucket}
+  DistributionId: {Condition: WebsiteHostingEnabled, Value: !Ref Distribution}
+  OperationsTopicArn: {Value: !Ref OperationsTopic}
+  IngestionFunctionName: {Value: !Ref IngestionFunction}
+  FeedbackTopicArn: {Value: !Ref FeedbackTopic}
+  FeedbackPublisherRoleArn: {Value: !GetAtt FeedbackPublisherRole.Arn}

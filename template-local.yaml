@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Credential-free fictional Powertools engine demonstration, not a school deployment
+Resources:
+  Engine:
+    Type: AWS::Serverless::Function
+    Properties:
+      Runtime: python3.12
+      Handler: cloud.local_engine.handler
+      CodeUri: .build/backend/
+      Timeout: 15
+      MemorySize: 256
+      Events:
+        Read:
+          Type: Api
+          Properties:
+            Path: /engine
+            Method: get

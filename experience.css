@@ -1,0 +1,237 @@
+/* Air Guardian: one visual language across the welcome page and school workspace. */
+:root{--canvas:#f6f8fb;--surface:#fff;--soft:#edf4fa;--text:#172736;--muted:#5d6e7c;--line:#d9e3ec;--accent:#0774c8;--accent-hover:#045d9f;--green:#0774c8;--navy:#172736;--focus:#536d81;color-scheme:light}
+body[data-theme=dark]{--canvas:#111a22;--surface:#1a2631;--soft:#223341;--text:#edf4fa;--muted:#b0c0cd;--line:#344958;--accent:#66c5f3;--accent-hover:#91d8fb;--green:#66c5f3;--navy:#edf4fa;--focus:#b0c0cd;color-scheme:dark}
+body{font-family:Arial,sans-serif;color:var(--text);background:var(--canvas);line-height:1.5}
+button,input,select,textarea{font:inherit}button{transition:background-color .15s,color .15s,border-color .15s}button:focus:not(:focus-visible),a:focus:not(:focus-visible),select:focus:not(:focus-visible),input:focus:not(:focus-visible){outline:none;box-shadow:none}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:2px solid var(--focus);outline-offset:3px;box-shadow:none}button:active{box-shadow:none}#main:focus{outline:none}
+.primary,.secondary,.small-button,.icon-button{border-radius:9px;min-height:42px;font-size:13px;line-height:1.4;font-weight:600;box-shadow:none;display:inline-flex;align-items:center;justify-content:center;gap:8px}.primary,.small-button{background:var(--accent);color:#fff;border:1px solid transparent;padding:12px 18px}.primary:hover,.small-button:hover{background:var(--accent-hover)}body[data-theme=dark] .primary,body[data-theme=dark] .small-button{color:#10232e}.secondary{background:var(--surface);color:var(--text);border:1px solid var(--line);padding:11px 16px}.secondary:hover{background:var(--soft);border-color:var(--muted)}.text-button{color:var(--accent);font-size:13px;min-height:36px;padding:7px 0;line-height:1.5}.text-button:hover{text-decoration:underline}.icon-button{color:var(--muted);background:transparent;width:42px}.icon-button:hover{background:var(--soft);color:var(--text)}button:disabled{opacity:.55;cursor:default}.panel,.content-panel{background:var(--surface);border:1px solid var(--line);border-radius:13px}.field input,.field select,.field textarea,dialog input,dialog select,dialog textarea{border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--text);padding:11px 12px;min-height:44px}input[type=checkbox]{accent-color:var(--accent);width:17px;height:17px}dialog{background:var(--surface);color:var(--text);border-color:var(--line);border-radius:16px}details summary{cursor:pointer}.micro,.subtitle{color:var(--muted);line-height:1.65}.notice{background:var(--soft);color:var(--text);border-color:var(--line)}h1,h2,h3{font-family:Arial,sans-serif}h1{letter-spacing:-1.4px}.page-heading h1{font-size:32px;font-weight:600}.panel-kicker,.eyebrow{color:var(--accent);font-family:Arial,sans-serif;font-size:10px;letter-spacing:1.7px;font-weight:700}
+#app{display:grid;grid-template-columns:232px minmax(0,1fr);max-width:1600px;border:0;margin:auto;min-height:100vh}.sidebar{display:flex;position:sticky;top:0;inset:auto;width:auto;height:100vh;grid-column:1;grid-row:1;padding:26px 18px;border-right:1px solid var(--line);background:var(--surface);flex-direction:column;z-index:4}.brand{display:flex;grid-column:auto;grid-row:auto;padding:0 4px 24px;min-height:0;border:0;gap:9px;font-size:21px;color:var(--text);text-decoration:none}.brand img{width:44px;height:44px}.brand small{font-size:6.5px;letter-spacing:1.1px;color:var(--muted)}.brand span{color:var(--accent)}.nav-label{display:block;margin:15px 12px 12px;font-size:9px;letter-spacing:1.5px;color:var(--muted)}.nav{display:flex;grid-column:auto;grid-row:auto;flex-direction:column;align-items:stretch;padding:0;margin:0;border:0;gap:6px;overflow:visible}.nav button,.nav button:first-child{justify-content:flex-start;padding:13px 12px;border:0;border-radius:8px;min-height:46px;flex-shrink:0;gap:11px;text-transform:none;font-family:Arial,sans-serif;font-size:13px;letter-spacing:0;color:var(--muted);background:transparent}.nav .icon{width:19px;height:19px}.nav button.active,body[data-theme=dark] .nav button.active,body[data-theme=dark] .nav button.active:hover{background:var(--soft);color:var(--accent);box-shadow:none;font-weight:600}.nav button:hover,body[data-theme=dark] .nav button:hover{background:var(--soft);color:var(--text)}.nav button.active:before{display:none}.nav .count{border-radius:5px;background:var(--soft);color:var(--muted);margin-left:auto}.sidebar-bottom{display:block;margin-top:auto;padding-top:25px}.sidebar-note{border:1px solid var(--line);background:var(--canvas);padding:16px;border-radius:10px}.sidebar-note .note-orbit{display:none}.sidebar-note b{font-size:12px}.sidebar-note p{font-size:11px;line-height:1.65;margin:7px 0}.sidebar-note button{color:var(--accent);background:transparent;font-size:11px;display:flex;gap:8px;align-items:center;padding:7px 0}.profile{margin-top:16px;padding:17px 4px 0;color:var(--text)}.avatar,.header-avatar{background:var(--soft);color:var(--accent);border-radius:8px}.workspace{display:block;grid-column:2;grid-row:1;margin:0;min-width:0}.topbar{height:82px;grid-row:auto;grid-column:auto;padding:0 30px;border-bottom:1px solid var(--line);background:var(--surface)}.school-picker select{max-width:240px;color:var(--text);font-size:13px;background:transparent}.school-picker small{font-size:10px;color:var(--muted)}.school-pin{color:var(--accent);width:34px;height:34px}.school-pin .icon{visibility:visible}.role-switch{border-radius:8px;border:1px solid var(--line);background:var(--canvas);padding:3px}.role-switch button{border-radius:5px;color:var(--muted);padding:8px 10px;font-size:11px;min-height:30px}.role-switch button.active{background:var(--surface);color:var(--accent);box-shadow:none}.top-actions{gap:10px}main{grid-row:auto;grid-column:auto;max-width:none;padding:32px 30px 28px;margin:0}.page-heading{margin-bottom:25px}.context-strip{border-bottom:1px solid var(--line);padding:0 0 19px;margin-bottom:22px}.context-description{color:var(--muted)}.data-controls{flex-wrap:wrap;gap:9px}.data-controls select{border-radius:7px;border:1px solid var(--line);background:var(--surface);color:var(--text);padding:10px 12px}.scenario-choices{display:flex;gap:3px;background:var(--soft);padding:3px;border-radius:8px}.scenario-choices button{font-size:11px;padding:8px 10px;min-height:34px;background:transparent;color:var(--muted);border-radius:5px}.scenario-choices button.active{background:var(--surface);color:var(--accent);font-weight:700;box-shadow:none}.page-footer{line-height:1.7;color:var(--muted)}.guardian-tabs{gap:5px;border:0;background:var(--soft);padding:5px;border-radius:10px}.guardian-tabs button{border:0;border-radius:7px;padding:12px 15px;background:transparent;color:var(--muted)}.guardian-tabs button.active{background:var(--surface);color:var(--accent);font-weight:600}.guardian-role-hero{border-top:1px solid var(--line)!important}.guardian-account{padding:8px 0 20px}.guardian-common{padding-top:0}.guardian-common select{border-radius:7px}.guardian-role-hero details p{font-size:12px;line-height:1.7}.guardian-source,.guardian-event{overflow-wrap:anywhere}.guardian-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.guardian-flag{border-radius:6px;font-size:12px;font-weight:600;padding:5px 10px}.guardian-actions article{padding:16px 0}.guardian-actions h3{font-size:14px}.guardian-grid .guardian-form-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.guardian-role-hero+.panel{margin-top:20px}.plan-review-card{display:flex;justify-content:space-between;align-items:center;gap:20px;background:var(--soft);border:1px solid var(--line);border-radius:11px;padding:23px;margin-bottom:22px}.plan-review-card h2{font-size:21px;margin:0 0 8px}.plan-review-card p{font-size:13px;color:var(--muted);margin-bottom:0}.plan-notice{background:var(--soft);border-left:3px solid var(--accent);padding:20px;border-radius:8px;margin:20px 0}.plan-notice h3{margin-bottom:8px;font-size:16px}.plan-notice p{font-size:15px;line-height:1.7}.plan-notice small{color:var(--muted)}.review-status{font-size:13px;color:var(--muted);margin:15px 0}.preparation-step{padding:12px 0;border-top:1px solid var(--line)}.preparation-step .text-button{margin-left:28px}.family-reminder{border:0;padding:0}.planner-symbol{display:flex;align-items:center;justify-content:center;width:70px;height:70px;gap:10px;border-radius:13px;background:var(--soft);color:var(--accent);margin-bottom:20px}.planner-symbol .icon{width:25px;height:25px}.preparation-symbol{width:45px;height:45px;display:grid;place-items:center;background:var(--soft);color:var(--accent);border-radius:10px;margin-bottom:18px}.campus-feature,.adult-checklist{background:var(--surface);border-color:var(--line);border-radius:13px}.campus-feature .section-heading h2{font-size:21px}.adult-checklist{padding:24px}.adult-checklist>div:last-child{gap:0}.air-intro{background:var(--surface);border:1px solid var(--line);border-radius:15px;padding:0;overflow:hidden}.intro-copy{padding:35px}.intro-copy h2{color:var(--text);font-size:42px;line-height:1.12}.intro-copy h2 span{color:var(--accent)}.intro-copy p{color:var(--muted)}.intro-kicker,.intro-context{color:var(--muted)}.intro-kicker i{background:var(--accent)}.intro-actions .primary{background:var(--accent);color:#fff}.intro-actions .secondary{background:var(--surface);color:var(--text);border-color:var(--line)}.intro-landscape{margin:0}.intro-landscape figcaption{background:var(--surface);color:var(--muted)}body[data-theme=dark] .air-intro{background:var(--surface)}.weather-panel,.action-panel,.aqi-panel,.community-banner,.kid-plan,.kid-plan-full,.kid-checklist,.kid-explainer,.kid-quiz,.kid-journal,.kid-details{background:var(--surface);color:var(--text);border-color:var(--line)}.aqi-copy h3,.weather-temperature,.action-panel h3,.community-banner h2{color:var(--text)}.aqi-copy p,.action-panel p,.weather-facts,.community-banner p{color:var(--muted)}.aqi-foot,.aqi-foot span{color:var(--muted)}.status{border-radius:5px}.aqi-gauge circle:first-child{stroke:var(--line)}.gauge-value strong{color:var(--text)}.gauge-value span,.scale-labels{color:var(--muted)}.chart text{fill:var(--muted)}.pollutant,.schedule-panel,.trend-panel{background:var(--surface);border-color:var(--line)}.pollutant-value,.pollutant-head{color:var(--text)}.weather-facts b{color:var(--text)}
+/* A simpler, brighter space for children; no adult charts or repeated hero image. */
+.kid-day,.kid-day.better,.kid-day.indoor{border:1px solid var(--line);border-radius:16px;background:var(--surface);color:var(--text);padding:0;grid-template-columns:1.15fr 1fr;overflow:hidden}.kid-day:after{display:none}.kid-day-copy{padding:36px}.kid-day-copy h2{font-size:37px;line-height:1.15;font-weight:600;color:var(--text);letter-spacing:-1.1px}.kid-day-copy p{font-size:15px;color:var(--muted);line-height:1.8}.kid-day .kid-label{color:var(--accent)}.kid-scene{background:var(--soft);display:flex;align-items:center;padding:15px}.campus-scene{border:0;margin:0}.campus-scene img{height:auto;width:100%;object-fit:contain;aspect-ratio:520/330}.campus-scene figcaption{background:transparent;color:var(--muted);font-size:10px;padding:10px}.kid-status{background:var(--soft);color:var(--text);border:0;border-radius:8px}.kid-day-copy .primary{background:var(--accent);color:#fff}.kid-two-col{gap:22px}.kid-plan,.kid-checklist,.kid-plan-full{padding:26px}.kid-plan h2,.kid-checklist h2,.kid-plan-full h2{font-size:23px;color:var(--text);line-height:1.4}.kid-activities>div{border-radius:8px;background:var(--soft);padding:17px}.kid-activities b{color:var(--text)}.kid-activities small{color:var(--muted)}.kid-teacher-note{background:var(--soft);color:var(--text);border-color:var(--line);border-radius:9px}.kid-teacher-note p{color:var(--muted)}.kid-check{padding:15px 0;color:var(--text)}.kid-checklist>p{font-size:13px;color:var(--muted)}.kid-checklist .text-button{margin:8px 0}.kid-learn-strip{background:var(--soft);border-color:var(--line);border-radius:12px}.kid-learn-strip h2{color:var(--text)}.kid-learn-strip p,.check-progress{color:var(--muted)}.kid-learn-icon{background:var(--surface);color:var(--accent)}.quiz-answers button{background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:9px;min-height:50px}.quiz-answers button.correct{background:var(--soft);color:var(--accent);border-color:var(--accent)}.kid-details{padding:18px 24px}.kid-details summary{color:var(--muted)}
+/* Public welcome page. */
+body[data-page=landing] #app{display:block;max-width:1280px;padding:0 40px}body[data-page=landing] .skip{color:var(--text);background:var(--surface)}.landing-header{display:flex;align-items:center;justify-content:space-between;gap:25px;padding:25px 0;border-bottom:1px solid var(--line)}.landing-brand{display:flex;align-items:center;gap:11px;font-size:24px;color:var(--text);text-decoration:none;letter-spacing:-.7px;font-weight:600}.landing-brand strong{color:var(--accent)}.landing-brand small{display:block;letter-spacing:1.5px;font-size:7px;color:var(--muted);margin-top:2px}.landing-header nav{display:flex;gap:24px;align-items:center;font-size:13px}.landing-header nav a{color:var(--muted);text-decoration:none}.landing-header nav a:hover{color:var(--accent)}.landing-main{padding:0}.landing-hero{display:grid;grid-template-columns:1.1fr 1fr;gap:25px;align-items:center;padding:65px 0 60px}.landing-kicker{font-size:10px;letter-spacing:1.8px;font-weight:700;color:var(--accent);margin-bottom:20px}.landing-hero h1{font-size:clamp(38px,4.8vw,62px);line-height:1.08;font-weight:600;letter-spacing:-2.6px;margin-bottom:25px}.landing-hero em{font-style:normal;color:var(--accent)}.landing-hero p{font-size:16px;line-height:1.8;max-width:47ch;color:var(--muted)}.landing-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.landing-hero .landing-honesty{font-size:11px;margin:18px 0 0;line-height:1.8}.landing-visual{margin:0}.landing-visual img{display:block;width:100%;height:auto}.landing-visual figcaption{font-size:11px;text-align:center;color:var(--muted);margin-top:12px}.landing-workflow{padding:55px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:.8fr 1.4fr;gap:50px}.landing-workflow h2,.landing-audiences h2,.landing-faq h2{font-size:32px;line-height:1.25;letter-spacing:-1px;font-weight:500;margin-bottom:14px}.landing-workflow>div>p{font-size:14px;color:var(--muted)}.landing-workflow ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));list-style:none;padding:0;margin:0;gap:30px}.landing-workflow li span{font-size:12px;color:var(--accent);display:block;margin-bottom:25px;font-family:Consolas,monospace}.landing-workflow h3{font-size:16px;line-height:1.4;margin-bottom:10px}.landing-workflow li p{font-size:13px;line-height:1.8;color:var(--muted)}.landing-audiences{padding:55px 0;border-top:1px solid var(--line)}.landing-audiences>div:last-child{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:35px;margin-top:35px}.landing-audiences article{border-top:2px solid var(--line);padding:25px 0}.landing-audiences article>.icon{color:var(--accent);width:26px;height:26px;margin-bottom:18px}.landing-audiences h3{font-size:21px;margin-bottom:12px}.landing-audiences p{font-size:14px;line-height:1.8;color:var(--muted);min-height:50px}.landing-faq{border-top:1px solid var(--line);padding:55px 0;display:grid;grid-template-columns:1fr 1.4fr;gap:60px}.landing-faq details{padding:18px 0;border-bottom:1px solid var(--line)}.landing-faq summary{font-size:15px;font-weight:600;list-style-position:outside}.landing-faq p{font-size:13px;line-height:1.9;color:var(--muted);margin:16px 0 0}.landing-footer{display:flex;justify-content:space-between;gap:25px;align-items:center;border-top:1px solid var(--line);padding:25px 0 35px;font-size:12px;color:var(--muted)}
+@media(max-width:1200px){#app{grid-template-columns:210px minmax(0,1fr)}.sidebar{padding:24px 13px}.brand{font-size:19px}.brand img{width:40px;height:40px}.topbar{padding:0 24px}.top-actions{gap:5px}.school-picker select{max-width:190px}main{padding:28px 24px}.intro-copy h2{font-size:35px}.intro-copy{padding:28px}.hero-grid,.lower-grid{grid-template-columns:1fr}.hero-side{grid-template-columns:1fr 1fr;display:grid}.context-strip{align-items:flex-start;gap:18px;flex-direction:column}}
+@media(max-width:900px){#app{display:block}.workspace{display:block;margin:0}.sidebar{position:fixed;inset:auto 0 0;height:74px;width:100%;padding:0;display:block;border-right:0;border-top:1px solid var(--line);z-index:8}.sidebar .brand,.nav-label,.sidebar-bottom{display:none}.nav{flex-direction:row;overflow-x:auto;height:100%;padding:0 6px;gap:2px;align-items:center;scrollbar-width:none}.nav button,.nav button:first-child{flex:1 0 78px;min-width:78px;flex-direction:column;gap:5px;justify-content:center;text-align:center;font-size:10px;padding:8px 5px;min-height:61px;white-space:normal}.nav button span:not(.count){display:block;font-family:Arial,sans-serif;font-size:10px}.nav button .count{display:none}.nav .icon{width:19px;height:19px}.nav button[data-page=journal],.nav button[data-page=reports]{display:flex}.topbar{height:78px;padding:12px 22px}.top-actions{width:auto;gap:8px}.header-avatar{display:none}.school-picker select{max-width:240px}main{padding:27px 22px 95px}.guardian-grid{grid-template-columns:1fr}.guardian-forecast{grid-template-columns:repeat(4,minmax(0,1fr))}.landing-hero{grid-template-columns:1fr 1fr;padding:50px 0;gap:15px}.landing-hero h1{font-size:43px}.landing-header nav a{display:none}.landing-header nav{gap:10px}.landing-workflow{grid-template-columns:1fr;gap:25px}.landing-workflow ol{gap:25px}.landing-faq{gap:30px}.kid-day-copy h2{font-size:32px}.kid-day-copy{padding:28px}.kid-two-col{grid-template-columns:1fr 1fr}.plan-review-card{align-items:flex-start}}
+@media(max-width:650px){.topbar{flex-wrap:wrap;height:auto;min-height:110px;gap:10px;padding:14px 18px}.school-picker{width:100%}.school-picker select{max-width:260px}.school-pin{background:none;width:26px;height:26px}.school-pin .icon{visibility:visible}.top-actions{width:100%;justify-content:flex-end}.role-switch{margin-right:auto;max-width:none;flex:initial}.role-switch button{min-height:31px;padding:7px 15px}.top-actions .icon-button{width:36px;min-height:36px}.page-heading{flex-direction:column}.page-heading h1{font-size:28px}.heading-actions{display:flex;flex-wrap:wrap;gap:9px}.heading-actions .primary,.heading-actions .secondary{font-size:12px;min-height:40px;padding:10px 12px}main{padding:25px 17px 96px}.scenario-choices button{padding:9px 12px;min-height:39px}.context-strip{gap:13px}.context-description{display:none}.intro-copy{padding:27px 23px}.intro-copy h2{font-size:37px}.air-intro{grid-template-columns:1fr}.intro-landscape{max-height:210px}.intro-landscape img{height:185px}.hero-side{grid-template-columns:1fr}.hero-grid,.lower-grid{gap:17px}.guardian-forecast{grid-template-columns:repeat(2,minmax(0,1fr))}.guardian-grid .guardian-form-grid{grid-template-columns:1fr}.plan-review-card{flex-direction:column;padding:20px}.plan-review-card .primary{width:100%}.guardian-account b{font-size:16px}.guardian-tabs button{min-height:43px;padding:11px 14px}.guardian-login h2{font-size:25px}.content-panel{padding:23px 20px}.kid-day{display:flex;flex-direction:column}.kid-day-copy{padding:28px 24px}.kid-day-copy h2{font-size:32px}.kid-day-copy .primary{width:100%;margin-top:5px}.kid-scene{max-height:215px;padding:0 22px}.campus-scene img{max-height:190px}.campus-scene figcaption{padding:0 0 12px}.kid-two-col{grid-template-columns:1fr}.kid-plan,.kid-checklist,.kid-plan-full{padding:24px 21px}.kid-plan h2,.kid-checklist h2{font-size:23px}.kid-status{font-size:12px;padding:10px 12px}.kid-learn-strip{flex-wrap:wrap;gap:13px}.kid-learn-strip .secondary{width:100%}.kid-activities.horizontal{grid-template-columns:1fr}.preparation-step .text-button{font-size:12px}.page-footer{flex-direction:column;align-items:flex-start;gap:10px}body[data-page=landing] #app{padding:0 21px}.landing-header{padding:18px 0}.landing-brand{font-size:21px}.landing-brand img{width:41px;height:41px}.landing-header .primary{font-size:11px;padding:10px 12px;min-height:40px}.landing-header .primary .icon{display:none}.landing-header nav{gap:4px}.landing-header .icon-button{width:32px}.landing-main{padding:0}.landing-hero{grid-template-columns:1fr;gap:28px;padding:43px 0 40px}.landing-hero h1{font-size:43px;letter-spacing:-1.8px}.landing-hero p{font-size:15px}.landing-actions .primary,.landing-actions .secondary{width:100%;min-height:46px}.landing-visual{max-width:450px;margin:0 auto}.landing-visual img{max-height:330px}.landing-workflow,.landing-audiences,.landing-faq{padding:35px 0}.landing-workflow ol{grid-template-columns:1fr;gap:15px}.landing-workflow li{padding-left:43px;position:relative}.landing-workflow li span{position:absolute;left:0;top:4px;margin:0}.landing-workflow h2,.landing-audiences h2,.landing-faq h2{font-size:29px}.landing-audiences>div:last-child{grid-template-columns:1fr;gap:10px}.landing-audiences p{min-height:0}.landing-audiences article{padding:22px 0 10px}.landing-audiences article>.icon{margin-bottom:10px}.landing-faq{grid-template-columns:1fr;gap:10px}.landing-footer{flex-direction:column;align-items:flex-start;gap:10px}.guardian-login{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){button{transition:none}}
+body[data-theme=dark] .kid-day,body[data-theme=dark] .kid-day.indoor,body[data-theme=dark] .kid-day.better{background:var(--surface);color:var(--text);border:1px solid var(--line)}
+body[data-theme=dark] .kid-day-copy h2{color:var(--text)}body[data-theme=dark] .kid-day-copy p,body[data-theme=dark] .kid-status{color:var(--muted)}
+.campus-scene img{border:0;border-radius:0}.kid-activities .icon{color:var(--accent)}
+@media print{.sidebar,.topbar,.landing-header nav{display:none!important}#app,.workspace{display:block}main{padding:0}.panel{break-inside:avoid}.landing-main{padding:0}}
+
+body[data-guardian-authenticated=true] .guardian-tabs,body[data-guardian-authenticated=true] .role-switch{display:none}body[data-guardian-authenticated=true] .sidebar .nav{overflow-y:auto;scrollbar-width:thin}body[data-guardian-authenticated=true] .sidebar-note{display:none}@media(max-width:900px){body[data-guardian-authenticated=true] .sidebar .nav{overflow-y:hidden;overflow-x:auto}body[data-guardian-authenticated=true] .top-actions{margin-left:auto}}
+.skip:not(:focus-visible){clip-path:inset(50%);width:1px;height:1px;overflow:hidden;padding:0;white-space:nowrap}.skip:focus-visible{clip-path:none;width:auto;height:auto;overflow:visible;padding:12px 16px;top:12px;left:12px;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:8px}
+@media(max-width:650px){.landing-header nav>.primary{display:none}.landing-header{gap:12px}.landing-hero>*{min-width:0}.landing-header nav{margin-left:auto}}
+body[data-role=student] .top-actions .icon-button[data-action=theme]{display:inline-flex}body[data-role=student] .data-controls{max-width:100%}.nav button span:not(.count){display:block}.kid-day .kid-label,.kid-day.indoor .kid-label,.kid-day.better .kid-label,body[data-theme=dark] .kid-day .kid-label{color:var(--accent);font-weight:700}body[data-theme=dark] .primary,body[data-theme=dark] .small-button,body[data-theme=dark] .intro-actions .primary,body[data-theme=dark] .kid-day-copy .primary{background:var(--accent);color:#10232e}body[data-theme=dark] .primary:hover{background:var(--accent-hover)}body[data-role=student] .heading-actions .text-button{display:inline-flex}
+
+/* Editorial + school-day direction: warm paper, azure, pixel skies, clear decisions. */
+:root {
+  --canvas:#fbfaf6; --surface:#fff; --soft:#eef4f8; --text:#182832;
+  --muted:#576770; --line:#dddeda; --accent:#006cc8; --accent-hover:#00559d;
+  --green:var(--accent); --navy:var(--text); --focus:#596d79;
+  --paper:#fff5d9; --hero:#0672c6; --hero-text:#fff;
+}
+body[data-theme=dark] {
+  --canvas:#121e27; --surface:#1b2b36; --soft:#253c49; --text:#faf8f1;
+  --muted:#bdcbd2; --line:#3c525f; --accent:#83d7ff; --accent-hover:#b0e7ff;
+  --green:var(--accent); --navy:var(--text); --focus:#d4e2e8;
+  --paper:#3e3327; --hero:#084f88; --hero-text:#fff;
+}
+body {font-family:'Segoe UI',Arial,sans-serif; background:var(--canvas)}
+h1,h2,h3 {font-family:'Trebuchet MS',Arial,sans-serif}
+h1 {font-weight:800; letter-spacing:-1.7px}
+.page-heading h1 {font-size:34px; font-weight:800; line-height:1.17}
+.page-heading .subtitle {font-size:14px; margin-top:12px}
+.eyebrow,.panel-kicker,.landing-kicker,.kid-label {font-family:Consolas,monospace; font-size:10px; letter-spacing:1.5px}
+.brand,.landing-brand {font-family:'Trebuchet MS',Arial,sans-serif; font-weight:800}
+.brand img {width:46px;height:46px}
+.brand small,.landing-brand small {font-family:Consolas,monospace;font-weight:400;font-size:7px}
+.primary,.secondary,.small-button {border-radius:5px;min-height:44px;font-size:13px;padding:12px 17px;gap:12px}
+.primary,.small-button {background:var(--accent);color:#fff}
+.primary:hover,.small-button:hover {background:var(--accent-hover)}
+.secondary {border-color:var(--line);background:var(--surface);color:var(--text)}
+.text-button {font-size:13px; font-weight:650}
+.panel,.content-panel {border-radius:5px;border-color:var(--line);box-shadow:none}
+.topbar {background:var(--surface);height:82px}
+.school-pin {background:var(--soft);border-radius:5px;color:var(--accent)}
+.sidebar {background:var(--surface);padding:28px 18px}
+.nav-label {font-family:Consolas,monospace;letter-spacing:1.1px;font-size:10px}
+.nav button,.nav button:first-child {border-radius:5px;font-size:13px;min-height:46px;font-weight:500}
+.nav button.active {font-weight:750;background:var(--soft)}
+.sidebar-note {background:var(--paper);border:0;border-radius:3px;padding:18px}
+.sidebar-note b {font-family:'Trebuchet MS',Arial,sans-serif;font-size:19px;line-height:1.2;display:block;font-weight:700}
+.sidebar-note p {font-size:12px}
+.avatar,.header-avatar {border-radius:5px}
+.role-switch {border-radius:5px;background:var(--canvas)}
+.role-switch button {border-radius:3px;padding:8px 12px}
+.role-switch button.active {background:var(--accent);color:#fff}
+body[data-theme=dark] .role-switch button.active {background:var(--accent);color:#102a3c}
+.scenario-choices {border:1px solid var(--line);border-radius:5px;background:var(--surface);gap:4px}
+.scenario-choices button {border-radius:3px;min-height:36px;font-weight:500}
+.scenario-choices button.active {background:var(--soft);color:var(--accent)}
+.data-controls select,.guardian-common select,.field input,.field select,.field textarea {border-radius:4px}
+.context-strip {padding-bottom:18px}
+.plan-review-card {border-radius:5px;border:1px solid var(--line);border-left:4px solid var(--accent);background:var(--soft)}
+.plan-review-card h2 {font-weight:750;font-size:24px;letter-spacing:-.5px}
+.plan-notice {border-radius:3px}
+.guardian-role-hero h2 {font-weight:750;font-size:27px}
+.guardian-actions h2,.guardian-grid h2 {font-weight:750;letter-spacing:-.5px}
+.guardian-event,.guardian-actions article {border-color:var(--line)}
+.guardian-forecast {gap:12px}
+.guardian-forecast>div {border-left:0;border-top:3px solid var(--accent);background:var(--soft);padding:12px;border-radius:0}
+.guardian-forecast b {font-family:'Trebuchet MS',Arial,sans-serif;font-weight:800}
+
+/* Welcome: a single azure lead panel, with a sky illustration unique to this page. */
+body[data-page=landing] #app {max-width:1360px;padding:0 44px}
+.landing-header {padding:23px 0;border-color:var(--line)}
+.landing-header nav {font-size:13px}
+.landing-hero {
+  position:relative;isolation:isolate;background:var(--hero);color:var(--hero-text);
+  padding:48px 42px 44px;gap:34px;margin:32px 0 0;grid-template-columns:1fr 1fr;
+  border-radius:0;align-items:center;
+}
+.landing-hero::before {
+  content:'';position:absolute;top:0;right:28px;width:150px;height:44px;background:#ffffff20;
+  clip-path:polygon(0 100%,0 70%,12% 70%,12% 45%,28% 45%,28% 18%,53% 18%,53% 0,68% 0,68% 35%,87% 35%,87% 70%,100% 70%,100% 100%);
+  z-index:-1;
+}
+.landing-hero::after {content:'';position:absolute;bottom:-9px;left:10px;right:10px;height:9px;background:var(--hero)}
+.landing-hero .landing-kicker {color:#fff0bf;letter-spacing:2px;font-size:11px}
+.landing-hero h1 {font-size:clamp(40px,4.4vw,64px);font-weight:800;line-height:1.05;letter-spacing:-2.4px;margin:18px 0 24px;color:#fff}
+.landing-hero em {color:#fff1bf;display:inline}
+.landing-hero p {color:#f1f7ff;font-size:15px;max-width:44ch;line-height:1.8}
+.landing-hero .landing-honesty {color:#eaf5ff;font-size:10px;max-width:52ch}
+.landing-actions {gap:10px;margin-top:24px}
+.landing-actions .primary,.landing-actions .primary:hover {background:#fff5dd;color:#174367;border-color:#fff5dd}
+.landing-actions .secondary {background:transparent;color:#fff;border-color:#c5e5ff}
+.landing-actions .secondary:hover {background:#ffffff18}
+body[data-theme=dark] .landing-actions .primary,body[data-theme=dark] .landing-actions .primary:hover {background:#fff5dd;color:#174367;border-color:#fff5dd}
+.landing-visual {background:transparent;margin:0;min-width:0;padding:0;align-self:center}
+.landing-visual img {border:6px solid #fefcf2;border-bottom-width:22px;width:100%;height:315px;object-fit:cover;object-position:center;box-shadow:10px 10px 0 #06487744}
+.landing-visual figcaption {font:10px/1.7 Consolas,monospace;color:#edf5ff;text-align:left;padding:17px 0 0;margin:0;max-width:46ch}
+.landing-visual .data-saver-placeholder {height:240px;display:grid;place-items:center;background:#ffffff12;color:#fff;border:1px solid #ffffff44;font-size:13px}
+.landing-workflow {margin-top:46px;padding:46px 0;grid-template-columns:.9fr 1.4fr;gap:42px}
+.landing-workflow h2,.landing-audiences h2,.landing-faq h2 {font-weight:800;font-size:35px;letter-spacing:-1.1px}
+.landing-workflow ol {gap:25px}
+.landing-workflow li span {font-size:12px;background:var(--paper);color:var(--text);display:inline-grid;place-items:center;width:34px;height:30px;margin-bottom:19px}
+.landing-workflow h3 {font-family:'Trebuchet MS',Arial,sans-serif;font-weight:800;font-size:17px}
+.landing-workflow li p {font-size:14px;line-height:1.75}
+.landing-audiences {padding:46px 0}
+.landing-audiences>div:last-child {gap:22px;margin-top:28px}
+.landing-audiences article {background:var(--surface);border:1px solid var(--line);padding:28px 24px;position:relative}
+.landing-audiences article:first-child {background:var(--paper)}
+.landing-audiences article::before {content:'';position:absolute;top:-1px;left:20px;width:30px;height:4px;background:var(--accent)}
+.landing-audiences h3 {font-weight:800;font-size:23px}
+.landing-audiences p {font-size:14px;min-height:75px}
+.landing-audiences article>.icon {margin-bottom:18px;width:29px;height:29px}
+.landing-faq {padding:46px 0;gap:45px}
+.landing-faq summary {font-weight:650}
+.landing-footer {font-size:12px}
+
+/* Children: reading-time artwork, a clear headline, paper-like activity rows. */
+.kid-day,.kid-day.better,.kid-day.indoor,
+body[data-theme=dark] .kid-day,body[data-theme=dark] .kid-day.better,body[data-theme=dark] .kid-day.indoor {
+  grid-template-columns:1.04fr 1fr;gap:0;background:var(--surface);border-radius:5px;border:1px solid var(--line);position:relative;
+}
+.kid-day-copy {padding:34px 32px}
+.kid-day .kid-label,.kid-day.indoor .kid-label,.kid-day.better .kid-label,
+body[data-theme=dark] .kid-day .kid-label {color:var(--accent);display:inline-flex;align-items:center;gap:8px;font-size:10px;letter-spacing:1.6px}
+.kid-day .kid-label::before {content:'';width:9px;height:9px;background:var(--accent);box-shadow:5px -5px 0 var(--soft)}
+.kid-day-copy h2,body[data-theme=dark] .kid-day-copy h2 {color:var(--text);font-size:40px;line-height:1.12;font-weight:800;letter-spacing:-1.2px;margin-top:20px;max-width:15ch}
+.kid-day-copy p,body[data-theme=dark] .kid-day-copy p {font-size:15px;color:var(--muted);line-height:1.8;max-width:43ch;margin-top:18px}
+.kid-status,body[data-theme=dark] .kid-status {background:var(--paper);color:var(--text);font-size:12px;display:inline-flex;gap:9px;padding:9px 12px;border-radius:3px;margin:18px 0}
+.kid-day-copy .primary {background:var(--accent);color:#fff;border:1px solid var(--accent);display:flex;width:max-content;min-height:44px;font-size:13px}
+.kid-scene {background:var(--soft);padding:22px;min-width:0;align-items:center}
+.campus-scene {width:100%}
+.campus-scene img {width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border:4px solid var(--surface);border-bottom-width:16px;border-radius:0;box-shadow:7px 7px 0 var(--line)}
+.campus-scene figcaption {font:9px/1.7 Consolas,monospace;padding:15px 0 0;text-align:left;color:var(--muted);margin:0}
+.kid-two-col {grid-template-columns:1.15fr 1fr;gap:22px}
+.kid-plan,.kid-checklist,.kid-plan-full {border-radius:5px;padding:27px;background:var(--surface)}
+.kid-plan h2,.kid-checklist h2,.kid-plan-full h2 {font-size:25px;font-weight:800;letter-spacing:-.7px}
+.kid-checklist {background:var(--canvas)}
+.kid-activities {gap:0}
+.kid-activities>div {padding:18px 0;border-top:1px solid var(--line);background:transparent;border-radius:0}
+.kid-activities>div>.icon,.kid-activities>div:nth-child(2)>.icon {width:42px;height:42px;background:var(--soft);color:var(--accent);border-radius:50%;padding:11px}
+.kid-activities>div:nth-child(2)>.icon {background:var(--paper);color:var(--text)}
+.kid-activities b {font-size:15px;font-weight:750}
+.kid-activities small {font-size:13px;margin-top:5px;color:var(--muted)}
+.kid-teacher-note {background:var(--soft);border-radius:3px;border:0;border-left:3px solid var(--accent);padding:18px}
+.kid-teacher-note p {font-size:13px;line-height:1.8}
+.kid-check {font-size:14px;padding:17px 0}
+.kid-checklist>p {font-size:14px;line-height:1.7}
+.kid-learn-strip {background:var(--paper);border:0;border-radius:5px;padding:25px}
+.kid-learn-strip h2 {font-weight:800;font-size:25px;letter-spacing:-.7px}
+.kid-learn-strip p {font-size:14px}
+.kid-learn-icon {background:transparent;color:var(--text)}
+.kid-details {border-radius:5px}
+.tiny-tag {font-family:Consolas,monospace;font-size:9px;padding:5px 8px;border-radius:2px}
+.campus-feature,.adult-checklist {border-radius:5px;background:var(--surface)}
+.campus-feature h2,.adult-checklist h2 {font-weight:800}
+.air-intro {border-radius:5px;background:var(--hero);border:0;grid-template-columns:1.2fr .8fr;gap:0}
+.intro-copy h2 {color:#fff;font-weight:800;font-size:42px}
+.intro-copy h2 span {color:#fff1bf}
+.intro-copy p,.intro-kicker,.intro-context,.intro-copy .intro-kicker {color:#edf6ff}
+.intro-copy .intro-kicker i {background:#ffe39d}
+.intro-actions .primary,.intro-actions .primary:hover {background:#fff5dd;color:#174367;border-color:#fff5dd}
+.intro-actions .secondary {color:#fff;background:transparent;border-color:#badffc}
+.intro-landscape {background:var(--hero);padding:22px;display:grid;align-content:center}
+.intro-landscape img {height:215px;width:100%;object-fit:contain;aspect-ratio:auto;border:0;box-shadow:none}
+.intro-landscape figcaption {background:transparent;color:#e9f4ff;padding:5px;font:9px Consolas,monospace;text-align:center}
+body[data-theme=dark] .air-intro {background:var(--hero)}
+body[data-theme=dark] .intro-actions .primary {background:#fff5dd;color:#174367}
+body[data-theme=dark] .kid-day-copy .primary {color:#102a3c;background:var(--accent);border-color:var(--accent)}
+
+@media(max-width:1200px) {
+  .landing-hero {padding:38px 30px;gap:25px}
+  .landing-hero h1 {font-size:49px}.landing-visual img {height:290px}
+  .kid-day-copy h2,body[data-theme=dark] .kid-day-copy h2 {font-size:35px}
+  .kid-day-copy {padding:30px 27px}.kid-scene {padding:18px}
+}
+@media(max-width:900px) {
+  .sidebar {height:74px;padding:0}
+  .nav button,.nav button:first-child {font-size:10px;padding:8px 5px;min-height:60px}
+  .topbar {height:auto;min-height:78px}
+  .landing-hero {grid-template-columns:1fr 1fr;padding:33px 25px;gap:22px}
+  .landing-hero h1 {font-size:40px;letter-spacing:-1.5px}
+  .landing-visual img {height:260px;border-width:4px;border-bottom-width:15px}
+  .landing-workflow {grid-template-columns:1fr;gap:25px}
+  .landing-workflow h2,.landing-audiences h2,.landing-faq h2 {font-size:32px}
+  .kid-two-col {grid-template-columns:1fr}
+  .page-heading h1 {font-size:31px}
+}
+@media(max-width:650px) {
+  body[data-page=landing] #app {padding:0 18px}
+  .landing-header {padding:17px 0}.landing-brand {font-size:21px}
+  .landing-hero {grid-template-columns:1fr;padding:30px 23px 27px;margin-top:22px;gap:27px}
+  .landing-hero h1 {font-size:44px;line-height:1.07;letter-spacing:-1.8px}
+  .landing-hero p {font-size:14px}
+  .landing-hero .landing-kicker {font-size:9px;letter-spacing:1.5px}
+  .landing-actions {gap:10px}.landing-actions .primary,.landing-actions .secondary {width:100%}
+  .landing-visual {width:100%;max-width:none}.landing-visual img {height:205px;max-height:none;box-shadow:6px 6px 0 #06487744}
+  .landing-visual figcaption {font-size:9px;padding:16px 0 0}
+  .landing-workflow {margin-top:38px;padding:33px 0;gap:20px}
+  .landing-workflow ol {gap:22px}.landing-workflow li {padding-left:47px}
+  .landing-workflow li span {margin:0;top:1px}
+  .landing-audiences,.landing-faq {padding:33px 0}
+  .landing-audiences>div:last-child {grid-template-columns:1fr;gap:15px}
+  .landing-audiences article {padding:24px}.landing-audiences p {min-height:0}
+  .landing-faq {grid-template-columns:1fr;gap:12px}
+  .page-heading h1,body[data-role=student] .page-heading h1 {font-size:29px;letter-spacing:-1.1px}
+  .page-heading .subtitle {font-size:13px;line-height:1.7}
+  .school-pin {width:29px;height:29px}.topbar {min-height:110px}
+  .role-switch button {padding:8px 15px;min-height:34px}
+  .kid-day,.kid-day.better,.kid-day.indoor {display:flex;flex-direction:column}
+  .kid-day-copy {padding:27px 24px}
+  .kid-day-copy h2,body[data-theme=dark] .kid-day-copy h2 {font-size:35px;max-width:15ch;letter-spacing:-1px}
+  .kid-day-copy p {font-size:14px}.kid-day-copy .primary {width:100%}
+  .kid-scene {max-height:none;padding:22px;background:var(--soft)}
+  .campus-scene img {max-height:none;aspect-ratio:3/2;width:100%}
+  .campus-scene figcaption {font-size:9px;padding:13px 0 0}
+  .kid-plan,.kid-checklist,.kid-plan-full {padding:24px 21px}
+  .kid-plan h2,.kid-checklist h2 {font-size:24px;line-height:1.25}
+  .kid-learn-strip {padding:23px}.kid-learn-strip h2 {font-size:24px}
+  .air-intro {grid-template-columns:1fr}.intro-copy {padding:28px 24px}
+  .intro-copy h2 {font-size:39px}.intro-landscape {padding:0 20px 18px;max-height:none}
+  .intro-landscape img {height:170px}.intro-landscape figcaption {font-size:9px}
+  .guardian-role-hero h2 {font-size:25px}.plan-review-card h2 {font-size:23px}
+}
+.kid-speaker{min-height:52px!important;padding:13px 20px!important;font-size:14px!important;font-weight:800}.kid-air-colour{margin:14px 0;padding:11px 13px;border:2px solid currentColor;border-radius:12px}.kid-air-colour summary{font-weight:800;cursor:pointer}.kid-air-colour.better{color:#167553;background:#e9f8ef}.kid-air-colour.gentle{color:#82620c;background:#fff8d7}.kid-air-colour.indoor{color:#985217;background:#fff0df}.kid-air-colour.unknown{color:#53636c;background:#eef3f5}.kid-air-colour p{color:inherit!important;margin:10px 0 0!important}.kid-achievement{display:grid;grid-template-columns:auto 1fr;gap:3px 9px;align-items:center;margin-top:16px;padding:13px;border-radius:14px;background:#fff4bf;color:#684f00}.kid-achievement .icon{grid-row:1/3}.kid-achievement span{font-size:11px}

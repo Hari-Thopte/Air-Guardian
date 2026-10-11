@@ -1,0 +1,1 @@
+{"name": "Air Guardian — School Air and Plans", "short_name": "Air Guardian", "start_url": "/?page=guardian", "scope": "/", "display": "standalone", "background_color": "#102f2e", "theme_color": "#123f3c", "icons": [{"src": "/assets/logo-still.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}]}

@@ -1,0 +1,34 @@
+openapi: 3.0.3
+info: {title: Air Guardian school API, version: 0.2.0, description: Authenticated planning API; deployment URL is account-specific.}
+security: [{CognitoAccessToken: []}]
+paths:
+  /v1/schools/{school}/health:
+    get:
+      parameters: [{name: school, in: path, required: true, schema: {type: string}}]
+      responses:
+        '200': {description: Source freshness and last successful retrieval for authorized school adults}
+        '403': {description: Membership or role denied}
+  /v1/schools/{school}/workspace:
+    get:
+      parameters: [{name: school, in: path, required: true, schema: {type: string}}]
+      responses:
+        '200': {description: Role-filtered workspace; Kid receives only an allowlisted plan}
+        '403': {description: School membership denied}
+  /v1/schools/{school}/announce:
+    post:
+      parameters: [{name: school, in: path, required: true, schema: {type: string}}]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [requestId, note]
+              properties: {requestId: {type: string}, note: {type: string, maxLength: 300}}
+      responses:
+        '200': {description: Idempotent admin publication}
+        '403': {description: Admin role required}
+        '429': {description: Request limit reached}
+components:
+  securitySchemes:
+    CognitoAccessToken: {type: http, scheme: bearer, bearerFormat: JWT}

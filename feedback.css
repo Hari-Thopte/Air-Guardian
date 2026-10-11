@@ -1,0 +1,126 @@
+/* Feedback refresh: legible parent tools and a dedicated children's front door. */
+.eyebrow,.panel-kicker,.landing-kicker,.kid-label,.brand small,.landing-brand small,.intro-kicker,.intro-landscape figcaption,.landing-visual figcaption{font-family:'Segoe UI',Arial,sans-serif;font-size:12px;letter-spacing:.6px}
+.brand small,.landing-brand small{font-size:9px}
+.content-panel>p,.content-panel details p,.guardian-event p{font-size:14px;line-height:1.7}
+.guardian-event small,.guardian-forecast time,.guardian-forecast small,.micro{font-size:12px}
+.panel{box-shadow:0 4px 18px #24334205}
+.nav-more{color:var(--muted);position:relative}
+.nav-more>summary{list-style:none;display:flex;align-items:center;gap:11px;min-height:46px;padding:13px 12px;font-size:14px;border-radius:6px}
+.nav-more>summary::-webkit-details-marker{display:none}
+.nav-more>summary:after{content:'+';margin-left:auto;font-size:20px}
+.nav-more[open]>summary:after{content:'−'}
+.nav-more>button{width:100%;display:flex}
+.nav-more>summary:hover{background:var(--soft);color:var(--text)}
+.workspace-settings{margin:0 0 20px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+.workspace-settings>summary{padding:12px 16px;color:var(--muted);font-size:14px;display:flex;gap:10px;align-items:center;min-height:44px}
+.workspace-settings .guardian-common{padding:14px 16px;margin:0;border-top:1px solid var(--line)}
+.guardian-role-hero{border-left:4px solid var(--accent);padding:28px;background:var(--surface)}
+.guardian-role-hero h2{font-size:32px;line-height:1.25;max-width:29ch;margin:12px 0 18px}
+.guardian-role-hero h2>.guardian-flag{display:block;width:fit-content;margin-bottom:15px;text-transform:uppercase}
+.child-flag-summary{display:flex;gap:20px;flex-wrap:wrap;padding:16px 0}
+.child-flag-summary>span{display:flex;gap:10px;align-items:center}
+.school-flag-guide{padding-top:14px;margin-top:14px;border-top:1px solid var(--line)}
+.school-flag-guide summary{font-size:14px}
+.flag-guide-items{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0}
+.flag-guide-items>span{white-space:normal;text-transform:none}
+.air-change{font-size:14px;background:var(--soft);padding:10px 14px;border-radius:6px}
+.alert-history{margin:20px 0}
+.landing-hero{background:linear-gradient(125deg,#075a9d 0%,#007cad 64%,#057b94 100%);padding:42px;gap:35px}
+body[data-theme=dark] .landing-hero{background:linear-gradient(125deg,#063954,#095b78 64%,#0b646c)}
+.landing-hero:after,.landing-hero:before{display:none}
+.landing-hero .landing-kicker{font-family:'Segoe UI',Arial,sans-serif;font-size:12px;letter-spacing:1px}
+.landing-visual-group{min-width:0}
+.landing-visual{position:relative;margin:0 0 18px}
+.landing-visual img{height:220px;object-fit:cover;border:5px solid #ffffffde;box-shadow:none}
+.landing-visual figcaption{font-size:12px;line-height:1.5;color:#effaff}
+.landing-air{padding:20px;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:10px;box-shadow:0 6px 20px #122c4b15}
+.landing-air>div:first-child>span{font-size:11px;font-weight:700;letter-spacing:.6px;display:block}
+.landing-air h2{font-size:35px;margin:8px 0;color:var(--text);letter-spacing:-1px;line-height:1.15}
+.landing-air h2 small{font-size:15px;font-family:'Segoe UI',Arial,sans-serif;letter-spacing:0}
+.landing-hero .landing-air p{font-size:12px;color:var(--muted);line-height:1.6;margin:7px 0;max-width:none}
+.landing-air>div:last-child{display:flex;align-items:center;gap:16px;margin-top:14px;flex-wrap:wrap}
+.landing-air .secondary{min-height:38px;padding:8px 12px;font-size:12px}
+.landing-air a{color:var(--accent);font-size:12px;display:inline-flex;align-items:center;gap:6px}
+.landing-hero .landing-honesty{font-size:13px;line-height:1.5;color:#f1f8ff}
+.landing-kicker{font-size:12px}
+.landing-role-link{font-weight:600}
+
+body[data-role=student]:not([data-page=landing]) #app{display:block;max-width:none;min-height:100vh;border:0;padding:0;background:var(--canvas)}
+.kid-top{max-width:1180px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:18px 30px;border-bottom:1px solid var(--line);gap:24px}
+.kid-top .brand{padding:0;font-size:25px;white-space:nowrap}
+.kid-school-picker{margin-left:auto;min-width:0}
+.kid-school-picker label{display:block;font-size:12px;color:var(--muted);margin-bottom:3px}
+.kid-school-picker select{max-width:260px;width:100%;border:0;padding:7px 25px 7px 0;color:var(--text);background:transparent;font-weight:600;font-size:14px}
+.kid-top-actions{display:flex;gap:12px;align-items:center}
+.kid-adult-settings{position:relative;font-size:14px}
+.kid-adult-settings>summary{min-height:44px;padding:11px;white-space:nowrap}
+.kid-adult-settings[open]{position:absolute;right:30px;top:28px;z-index:10;background:var(--surface);border:1px solid var(--line);padding:6px 18px 18px;border-radius:10px;box-shadow:0 8px 35px #132c4526;width:310px}
+.kid-adult-settings label{display:block;margin:14px 0;font-size:13px}
+.kid-adult-settings select{display:block;width:100%;padding:10px;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:6px;margin-top:6px}
+.kid-adult-settings .scenario-choices{display:grid;grid-template-columns:1fr 1fr}
+body[data-role=student] .kid-main{max-width:1080px;margin:auto;padding:32px 30px;min-width:0}
+.kid-page-heading{display:flex;gap:20px;justify-content:space-between;align-items:center;margin-bottom:10px}
+.kid-page-heading h1{font-size:36px;line-height:1.2;margin:0}
+.kid-speaker{font-size:17px;min-height:52px;border-radius:14px;gap:12px;white-space:nowrap}
+.kid-speaker .icon{width:25px;height:25px}
+.kid-data-note{font-size:13px;color:var(--muted);margin:0 0 22px}
+.kid-data-note p{max-width:65ch;margin:10px 0}
+.kid-picture-nav{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:24px 0}
+.kid-picture-nav button{display:flex;align-items:center;gap:14px;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:16px;padding:14px 20px;min-height:80px;font-size:18px}
+.kid-picture-nav button>span{display:grid;place-items:center;width:45px;height:45px;border-radius:12px;background:var(--soft);color:var(--accent)}
+.kid-picture-nav .icon{height:30px;width:30px}
+.kid-picture-nav button.active{border:2px solid var(--accent);background:var(--soft);padding:13px 19px}
+.kid-picture-nav button:hover{background:var(--soft)}
+.kid-glance{display:grid;grid-template-columns:260px 1fr;align-items:center;gap:25px;background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:25px 36px;min-height:300px;margin:20px 0 24px;box-shadow:0 7px 25px #253a4a06}
+.kid-glance.indoor{border-left:7px solid #dca026}.kid-glance.unknown{border-left:7px solid var(--muted)}
+.kid-character{display:grid;justify-items:center;color:var(--muted);font-size:15px;font-weight:600}
+.breezy{width:100%;max-width:245px;height:auto}
+.kid-character .breezy{animation:breezy-bob 5s ease-in-out infinite}
+@keyframes breezy-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.kid-glance h2{font-size:clamp(30px,3.4vw,44px);line-height:1.1;letter-spacing:-1px;margin:10px 0 14px;font-weight:800;color:var(--text)}
+.kid-glance p{font-size:18px;max-width:40ch;line-height:1.5;color:var(--muted)}
+.kid-why{margin:12px 0}
+.kid-why>summary{width:fit-content;min-height:44px;padding:9px 18px;background:var(--soft);border-radius:12px;font-weight:700;color:var(--accent);font-size:17px}
+.kid-why p{font-size:16px;padding-top:10px}
+.kid-main-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+.kid-main-actions .primary,.kid-main-actions .secondary{font-size:16px;min-height:52px;border-radius:12px}
+.kid-mission{border-radius:20px;padding:24px 30px;margin:24px 0;background:var(--surface)}
+.kid-mission>div:first-child{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.kid-mission h2{font-size:25px;margin:0}.kid-mission .text-button{font-size:15px}
+.kid-mission-items{margin-top:20px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.kid-mission .kid-check{padding:14px;border:1px solid var(--line);border-radius:12px;align-items:flex-start;gap:12px;font-size:16px;background:var(--canvas);margin:0;line-height:1.5}
+.kid-mission input{width:23px;height:23px;min-width:23px;margin-top:2px}
+.check-progress{font-size:14px;color:var(--muted);line-height:1.7;margin:18px 0 0}
+.kid-earned{display:inline-flex;gap:7px;color:var(--accent);margin-left:15px;padding:5px 12px;background:var(--soft);border-radius:12px}
+.kid-reading{padding:20px 25px;border:1px solid var(--line);border-radius:18px;background:var(--surface);margin:24px 0;font-size:17px}
+.kid-reading img{margin:22px auto 10px;display:block;width:100%;max-width:750px;height:auto;border-radius:15px}
+.kid-reading p{font-size:13px;color:var(--muted)}
+.kid-footer{display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:14px;color:var(--muted);border-top:1px solid var(--line);padding:24px 0;margin-top:30px}
+.kid-game,.kid-game-complete{border-radius:24px;margin-top:24px;padding:36px;background:var(--surface);text-align:center}
+.kid-game h2,.kid-game-complete h2{font-size:32px;margin:10px 0 20px}.kid-game-question{font-size:24px;line-height:1.4;max-width:32ch;margin:20px auto;color:var(--text)}
+.kid-game-options{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:720px;margin:28px auto}
+.kid-game-options button{border:2px solid var(--line);border-radius:20px;background:var(--canvas);color:var(--text);font-size:21px;min-height:160px;padding:24px;display:grid;justify-items:center;gap:14px;align-content:center;line-height:1.4}
+.kid-game-options .icon{width:45px;height:45px;color:var(--accent)}
+.kid-game-options button:hover{border-color:var(--accent);background:var(--soft)}
+.kid-game-feedback{padding:20px;background:var(--soft);border-radius:15px;margin:20px auto;max-width:720px}.kid-game-feedback b{font-size:22px}.kid-game-feedback p{font-size:17px;margin:10px 0 0}
+.kid-game>.primary,.kid-game-complete>.primary{min-height:52px;font-size:17px;border-radius:12px}
+.kid-game-complete .breezy{width:230px}
+.kid-plan-full{border-radius:20px;padding:28px}.kid-plan-full p{font-size:17px;line-height:1.6}
+.kid-plan-full h2{font-size:30px}.kid-activities>div{padding:18px;min-height:70px}.kid-activities b{font-size:18px}.kid-activities small{font-size:15px}
+.kid-plan-full .primary,.kid-plan-full .secondary{font-size:16px;min-height:50px;border-radius:12px}
+@media(prefers-reduced-motion:reduce){.kid-character .breezy{animation:none}}
+@media(max-width:900px){
+ .sidebar .nav{overflow:visible;justify-content:center;flex-wrap:nowrap}.nav-more{position:relative;flex-shrink:0}.nav-more>summary{font-size:11px;min-height:60px;padding:8px 12px;display:grid;gap:4px;justify-items:center}.nav-more>summary:after{display:none}.nav-more[open]{background:var(--surface);border:1px solid var(--line);border-radius:8px}.nav-more[open]>button{position:relative;background:var(--surface);min-width:155px;min-height:44px;font-size:13px;justify-content:flex-start}.nav-more[open]{position:fixed;right:12px;bottom:10px;z-index:20;padding:8px;box-shadow:0 0 40px #132c451a}.nav-more[open]>summary{min-height:40px;display:flex}.nav-more[open]>summary:after{content:'×';display:block}
+ .kid-top{padding:16px 24px;gap:15px}.kid-picture-nav button{flex-direction:column;gap:7px;min-height:92px;padding:12px;font-size:16px}.kid-picture-nav button.active{padding:11px}
+ .kid-glance{grid-template-columns:180px 1fr;padding:25px;gap:20px}.kid-mission-items{grid-template-columns:1fr}.kid-mission .kid-check{font-size:17px}.landing-hero{padding:30px;gap:25px}.landing-visual img{height:180px}.landing-air{padding:16px}.landing-air h2{font-size:28px}
+}
+@media(max-width:650px){
+ .landing-hero{padding:28px 22px;grid-template-columns:1fr}.landing-visual img{height:155px}.landing-air h2{font-size:32px}.landing-hero .landing-air p{font-size:13px}.landing-hero .landing-kicker{font-size:12px}.landing-hero h1{font-size:40px}.landing-hero p{font-size:15px}.landing-visual figcaption{font-size:12px}
+ .guardian-role-hero h2{font-size:27px}.guardian-role-hero{padding:23px}.guardian-common{display:grid;grid-template-columns:1fr}.guardian-account{font-size:14px}
+ .kid-top{padding:13px 18px;flex-wrap:wrap;gap:10px}.kid-top .brand{font-size:22px}.kid-top .brand img{width:38px;height:38px}.kid-school-picker{order:3;width:100%;margin:0}.kid-school-picker select{max-width:none}.kid-top-actions{margin-left:auto;gap:4px}.kid-adult-settings[open]{right:12px;top:16px;width:min(310px,calc(100vw - 24px))}
+ body[data-role=student] .kid-main{padding:25px 18px}.kid-page-heading{gap:14px;align-items:flex-start}.kid-page-heading h1{font-size:29px;max-width:10ch}.kid-speaker{font-size:14px;min-height:47px;padding:11px 12px;white-space:normal;gap:7px}.kid-speaker .icon{width:22px;flex-shrink:0}.kid-data-note{margin-top:15px;font-size:13px}
+ .kid-picture-nav{gap:8px;margin:20px 0}.kid-picture-nav button{font-size:13px;min-height:89px;padding:10px 3px;border-radius:14px}.kid-picture-nav button.active{padding:9px 2px}.kid-picture-nav button>span{width:36px;height:36px}.kid-picture-nav .icon{width:26px;height:26px}
+ .kid-glance{grid-template-columns:1fr;text-align:center;padding:20px 22px;gap:4px;min-height:0;border-radius:20px}.kid-character .breezy{width:150px}.kid-character>span{font-size:13px;margin-top:-7px}.kid-label{font-size:12px}.kid-glance h2{font-size:33px;margin-top:8px}.kid-glance p{font-size:17px;margin:10px auto}.kid-why>summary{margin:auto}.kid-main-actions{display:grid;gap:10px}.kid-main-actions .primary,.kid-main-actions .secondary{font-size:15px;width:100%;min-height:48px}
+ .kid-mission{padding:23px 20px}.kid-mission>div:first-child{display:block}.kid-mission h2{font-size:24px}.kid-mission .text-button{margin-top:10px}.kid-mission-items{gap:10px}.kid-mission .kid-check{font-size:16px;padding:14px}.kid-earned{margin:8px 0 0;display:flex;width:fit-content}.kid-reading{padding:18px}.kid-footer{display:block;font-size:13px}.kid-footer .text-button{margin-top:10px}
+ .kid-game,.kid-game-complete{padding:25px 20px}.kid-game h2,.kid-game-complete h2{font-size:28px}.kid-game-question{font-size:21px}.kid-game-options{gap:12px;grid-template-columns:1fr}.kid-game-options button{min-height:110px;font-size:18px;padding:20px;grid-template-columns:40px 1fr;text-align:left;justify-items:start;gap:20px}.kid-game-options .icon{width:35px;height:35px}.kid-game-feedback p{font-size:16px}.kid-plan-full{padding:24px 20px}.kid-plan-full h2{font-size:26px}
+}

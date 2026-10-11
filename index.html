@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#087be5" />
+    <link rel="icon" type="image/svg+xml" href="/assets/logo.svg" />
+    <meta name="description" content="Air Guardian helps parents, children and school staff understand local air quality and plan the school day." />
+    <title>Air Guardian · A clearer school day</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/redesign.css" />
+    <link rel="stylesheet" href="/refinement.css" />
+    <link rel="stylesheet" href="/guardian.css" />
+    <link rel="stylesheet" href="/experience.css" />
+    <link rel="stylesheet" href="/feedback.css" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/brand-entry.css" />
+    <link rel="stylesheet" href="/brand-refresh.css" />
+    <script defer src="/brand-entry.js"></script>
+    <script type="module" src="/app.js"></script>
+    <link rel="preload" href="/assets/logo.svg" as="image">
+</head>
+  <body>
+    <a class="skip" href="#main">Skip to dashboard</a>
+    <div id="app"></div>
+    <dialog id="settings" aria-labelledby="settings-title">
+      <form id="preferences-form">
+        <div class="section-heading"><h2 id="settings-title">Your alert preferences</h2><button type="button" class="icon-button" id="close-settings" aria-label="Close preferences">×</button></div>
+        <p>Saved on this device. Notification delivery will be available when the backend is connected.</p>
+        <label class="field">Morning reminder time<input name="time" type="time" value="07:00" required /></label>
+        <label class="check"><input name="morning" type="checkbox" checked /> Show a morning school update</label>
+        <label class="check"><input name="caution" type="checkbox" /> Use extra-caution guidance</label>
+        <button class="primary" type="submit">Save preferences</button>
+      </form>
+    </dialog>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <dialog id="school-dialog" aria-labelledby="school-title">
+      <form id="school-form">
+        <div class="section-heading"><h2 id="school-title">Set up your school</h2><button type="button" class="icon-button" data-close="school-dialog" aria-label="Close school setup">×</button></div>
+        <p>Use your campus coordinates for regional air and weather estimates. This does not connect a school sensor.</p>
+        <label class="field">School name<input name="name" maxlength="80" required placeholder="Your school’s name" /></label>
+        <label class="field">City<select name="city" aria-label="City"><option>Delhi</option><option>Mumbai</option></select></label>
+        <div class="form-grid"><label class="field">Latitude<input name="lat" type="number" step="any" min="-90" max="90" required value="28.6139" /></label><label class="field">Longitude<input name="lon" type="number" step="any" min="-180" max="180" required value="77.2090" /></label></div>
+        <p class="micro">Saved on this device. Please verify your campus coordinates before using the regional view.</p>
+        <button class="primary" type="submit">Save school</button>
+      </form>
+    </dialog>
+    <dialog id="journal-dialog" aria-labelledby="journal-title">
+      <form id="journal-form">
+        <div class="section-heading"><h2 id="journal-title">Log an outdoor activity</h2><button type="button" class="icon-button" data-close="journal-dialog" aria-label="Close activity log">×</button></div>
+        <p>Keep a simple record of time spent outside. This is an activity log, not a medical exposure assessment.</p>
+        <label class="field">Activity<select name="activity" aria-label="Activity"><option>Walk to school</option><option>Outdoor play</option><option>Sports session</option><option>School assembly</option><option>Other outdoor activity</option></select></label>
+        <label class="field">Date<input name="date" type="date" required /></label>
+        <label class="field">Minutes outdoors<input name="minutes" type="number" min="1" max="1440" value="20" required /></label>
+        <label class="field">Note (optional)<input name="note" maxlength="160" placeholder="e.g. Walked with a parent" /></label>
+        <button class="primary" type="submit">Save activity</button>
+      </form>
+    </dialog>
+  </body>
+</html>
