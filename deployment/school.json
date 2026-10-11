@@ -1,0 +1,11 @@
+{
+  "id": "st-xaviers-manickpur",
+  "name": "St. Xaviers School, Manickpur",
+  "lat": 19.372139,
+  "lon": 72.828225,
+  "timezone": "Asia/Kolkata",
+  "cpcb_city": "Vasai",
+  "admin_email": "harshikathopte@gmail.com",
+  "coordinate_source": "https://kiwix.scoggi.net/content/wikipedia_en_all_maxi_2023-11/A/St._Xavier%27s_English_Medium_School_%28ICSE%29%2C_Manickpur",
+  "coordinate_note": "Published campus coordinates; approximate, not a physical sensor installation location."
+}

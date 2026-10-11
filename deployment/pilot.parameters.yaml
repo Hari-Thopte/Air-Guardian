@@ -1,0 +1,10 @@
+CognitoDomainPrefix: airguardian-stxaviers-manickpur-pilot
+BudgetEmail: harshikathopte@gmail.com
+OperationsEmail: harshikathopte@gmail.com
+VapidPublicKey: BLcKjc60CFaOIdoc5ZbC5fS1rK8hJIqOCmaFyQuXT6FbOgRPs6dTUukzF7rJFhp2IzyEWbc0gQ0wcruf9E-Kps0
+VapidPrivateParameter: /airguardian/vapid/private
+VapidSubject: mailto:harshikathopte@gmail.com
+PaidChannels: ''
+EnableSensors: 'false'
+EnableWebsiteHosting: 'false'
+LocalWebsiteOrigin: http://localhost:5191

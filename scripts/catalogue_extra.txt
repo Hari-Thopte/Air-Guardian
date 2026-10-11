@@ -1,0 +1,229 @@
+Notifications|सूचनाएँ|सूचना
+Update history|जानकारी का इतिहास|माहितीचा इतिहास
+Campus settings|परिसर की व्यवस्था|परिसर सेटिंग्ज
+People & classes|लोग और कक्षाएँ|लोक आणि वर्ग
+Sensors|सेंसर|संवेदक
+Plan history & activity log|योजना और गतिविधि इतिहास|योजना आणि उपक्रमांचा इतिहास
+Child profiles|बच्चों की जानकारी|मुलांची माहिती
+My data|मेरी जानकारी|माझी माहिती
+admin workspace · Demo clock {0} IST|व्यवस्थापक कार्यस्थल · नमूना घड़ी {0} IST|प्रशासक कार्यस्थान · नमुना घड्याळ {0} IST
+teacher workspace · Demo clock {0} IST|शिक्षक कार्यस्थल · नमूना घड़ी {0} IST|शिक्षक कार्यस्थान · नमुना घड्याळ {0} IST
+parent workspace · Demo clock {0} IST|अभिभावक कार्यस्थल · नमूना घड़ी {0} IST|पालक कार्यस्थान · नमुना घड्याळ {0} IST
+staff workspace · Demo clock {0} IST|कर्मचारी कार्यस्थल · नमूना घड़ी {0} IST|कर्मचारी कार्यस्थान · नमुना घड्याळ {0} IST
+Decide, publish and track reviews.|निर्णय लें, प्रकाशित करें और समीक्षा देखें।|निर्णय घ्या, प्रकाशित करा आणि आढावे तपासा.
+Check the timetable and confirm your class plan.|समय-सारणी देखें और कक्षा की योजना की पुष्टि करें।|वेळापत्रक तपासा आणि वर्गाची योजना मान्य करा.
+Read the duty instruction and complete your checklist.|ड्यूटी निर्देश पढ़ें और कार्यसूची पूरी करें।|ड्युटीची सूचना वाचा आणि कृती यादी पूर्ण करा.
+Read the school message and prepare for pickup.|स्कूल का संदेश पढ़ें और बच्चे को लेने की तैयारी करें।|शाळेचा संदेश वाचा आणि मुलाला घेण्याची तयारी करा.
+One little air question, with a grown-up nearby.|हवा का छोटा सवाल, पास में एक बड़ा हो।|हवेचा छोटा प्रश्न, जवळ मोठी व्यक्ती असू द्या.
+{0} scene · Air flag: {1}. {2}|{0} दृश्य · हवा का संकेत: {1}। {2}|{0} दृश्य · हवेचा संकेत: {1}. {2}
+Demo data.|नमूना डेटा।|नमुना माहिती.
+School planning guidance.|स्कूल की योजना के लिए मार्गदर्शन।|शाळेच्या योजनेसाठी मार्गदर्शन.
+School planning guidance. Follow your school’s instructions and existing care plans. Regional estimates do not measure the school gate.|स्कूल योजना का मार्गदर्शन। स्कूल निर्देश और देखभाल योजना मानें। क्षेत्रीय अनुमान स्कूल गेट का माप नहीं हैं।|शाळेच्या योजनेचे मार्गदर्शन. शाळेच्या सूचना आणि काळजी योजना पाळा. प्रादेशिक अंदाज शाळेच्या गेटचे मोजमाप नाहीत.
+School adult|स्कूल के वयस्क|शाळेतील प्रौढ
+{0} µg/m³ above {1} µg/m³ · red planning boundary|{0} µg/m³, लाल सीमा {1} µg/m³ से अधिक|{0} µg/m³, लाल मर्यादा {1} µg/m³ पेक्षा अधिक
+{0} µg/m³ below {1} µg/m³ · red planning boundary|{0} µg/m³, लाल सीमा {1} µg/m³ से कम|{0} µg/m³, लाल मर्यादा {1} µg/m³ पेक्षा कमी
+Trend unavailable|रुझान उपलब्ध नहीं|कल उपलब्ध नाही
+Rising · supplied observations|बढ़ रहा है · उपलब्ध अवलोकन|वाढत आहे · उपलब्ध निरीक्षणे
+Falling · supplied observations|घट रहा है · उपलब्ध अवलोकन|कमी होत आहे · उपलब्ध निरीक्षणे
+Stable · supplied observations|स्थिर · उपलब्ध अवलोकन|स्थिर · उपलब्ध निरीक्षणे
+Forecast below red boundary|पूर्वानुमान लाल सीमा से कम|अंदाज लाल मर्यादेपेक्षा कमी
+If the suggested PE and assembly changes are reviewed and followed. {0} minutes considered for an indoor alternative.|खेल और सभा के सुझाए बदलावों की समीक्षा करके अपनाने पर। अंदर के विकल्प के लिए {0} मिनट सोचे गए हैं।|खेळ आणि सभेतील सुचवलेल्या बदलांचा आढावा घेऊन पालन केल्यास. आतील पर्यायासाठी {0} मिनिटांचा विचार केला.
+Planning estimate. Not an exposure or health measurement.|योजना का अनुमान। संपर्क या स्वास्थ्य का माप नहीं।|योजनेचा अंदाज. संपर्क किंवा आरोग्याचे मोजमाप नाही.
+Available regional hourly forecast; unmatched blocks use current flag.|उपलब्ध क्षेत्रीय प्रति घंटे का पूर्वानुमान; बेमेल समय पर मौजूदा संकेत।|उपलब्ध प्रादेशिक तासाचा अंदाज; न जुळलेल्या वेळेस सध्याचा संकेत.
+Current flag applied to the timetable; no matching hourly data.|समय-सारणी पर मौजूदा संकेत; प्रति घंटे का मेल खाता डेटा नहीं।|वेळापत्रकाला सध्याचा संकेत; जुळणारी तासाची माहिती नाही.
+See each block|हर समय का हिस्सा देखें|प्रत्येक वेळेचा भाग पाहा
+Observed {0}|अवलोकन {0}|निरीक्षण {0}
+Last successful retrieval {0}|अंतिम सफल प्राप्ति {0}|शेवटची यशस्वी प्राप्ती {0}
+Getting old after {0} hour; stale after {1} hours. Unknown conditions block publication.|{0} घंटे बाद पुराना होने लगता है; {1} घंटे बाद पुराना है। अज्ञात स्थिति में प्रकाशन रुकेगा।|{0} तासानंतर जुने होऊ लागते; {1} तासांनंतर जुने आहे. अज्ञात स्थितीत प्रकाशन थांबेल.
+Open the school plan to read the current notice and confirm your next step.|मौजूदा सूचना पढ़ने और अगला कदम तय करने के लिए स्कूल योजना खोलें।|सध्याची सूचना वाचायला आणि पुढचे पाऊल ठरवायला शाळेची योजना उघडा.
+Create or review school plan|स्कूल योजना बनाएँ या देखें|शाळेची योजना तयार करा किंवा तपासा
+Fictional fixtures|काल्पनिक डेटा|काल्पनिक माहिती
+Indoor conditions are unknown unless a suitable fresh measurement is available. AC does not establish clean indoor air.|उपयुक्त ताज़ा माप के बिना अंदर की स्थिति अज्ञात है। AC से साफ़ हवा साबित नहीं होती।|योग्य ताज्या मोजमापाशिवाय आतील स्थिती अज्ञात आहे. AC मुळे स्वच्छ हवा सिद्ध होत नाही.
+No forecast is available. Follow the current school plan and check again later.|पूर्वानुमान उपलब्ध नहीं। मौजूदा स्कूल योजना मानें और बाद में फिर जाँचें।|अंदाज उपलब्ध नाही. सध्याची शाळेची योजना पाळा आणि नंतर पुन्हा तपासा.
+Provider forecast, not school-gate prediction. Forecast issue time may be unavailable; retrieval time is shown separately.|स्रोत का पूर्वानुमान, स्कूल गेट की भविष्यवाणी नहीं। जारी समय उपलब्ध न हो सकता है; प्राप्ति समय अलग है।|स्रोताचा अंदाज, शाळेच्या गेटची भविष्यवाणी नाही. जारी वेळ उपलब्ध नसू शकते; मिळवलेली वेळ वेगळी आहे.
+Not used|उपयोग नहीं हुआ|वापरले नाही
+adapter available|एडाप्टर उपलब्ध|अडॅप्टर उपलब्ध
+Used now|अभी उपयोग हुआ|आता वापरले
+Current input: {0}. Freshness: {1}. No external provider requests occur in the demo.|मौजूदा स्रोत: {0}। ताज़गी: {1}। नमूने में बाहरी स्रोत अनुरोध नहीं होते।|सध्याचा स्रोत: {0}. ताजेपणा: {1}. नमुन्यात बाह्य स्रोत विनंत्या नाहीत.
+Policy {0} · Evidence: {1}|नीति {0} · आधार: {1}|धोरण {0} · पुरावा: {1}
+Moderate|मध्यम|मध्यम
+High|उच्च|उच्च
+Low|कम|कमी
+Air index {0} compared with {1} policy boundaries {2}.|हवा के सूचकांक {0} की तुलना {1} आयु की नीति सीमाओं {2} से।|हवेचा निर्देशांक {0} याची तुलना {1} वयाच्या धोरण मर्यादा {2} सोबत.
+PM2.5 {0} µg/m³ compared with planning boundaries {1} µg/m³.|PM2.5 {0} µg/m³ की तुलना योजना सीमाओं {1} µg/m³ से।|PM2.5 {0} µg/m³ याची तुलना योजना मर्यादा {1} µg/m³ सोबत.
+Building: {0}; AC alone does not establish cleaner indoor air.|भवन: {0}; केवल AC से अंदर की साफ़ हवा साबित नहीं होती।|इमारत: {0}; केवळ AC मुळे आतील स्वच्छ हवा सिद्ध होत नाही.
+No fresh usable air context is available.|हवा का ताज़ा उपयोगी डेटा उपलब्ध नहीं है।|हवेची ताजी वापरण्यायोग्य माहिती उपलब्ध नाही.
+These are school planning rules, not a diagnosis or activity clearance.|ये स्कूल योजना के नियम हैं, निदान या गतिविधि की अनुमति नहीं।|हे शाळा नियोजनाचे नियम आहेत, निदान किंवा उपक्रमाची परवानगी नाही.
+School sections|स्कूल के विभाग|शाळेचे विभाग
+Adults who confirmed review|समीक्षा की पुष्टि करने वाले वयस्क|आढावा निश्चित करणारे प्रौढ
+Preferences are checked again at dispatch.|भेजने से पहले विकल्प फिर जाँचे जाते हैं।|पाठवण्यापूर्वी प्राधान्ये पुन्हा तपासली जातात.
+This reading is old or unavailable. Check the source before publishing.|रीडिंग पुरानी या अनुपलब्ध है। प्रकाशन से पहले स्रोत जाँचें।|रीडिंग जुनी किंवा अनुपलब्ध आहे. प्रकाशित करण्यापूर्वी स्रोत तपासा.
+Demo preferences are saved for this running preview. External notifications are off.|विकल्प इस चल रहे नमूने के लिए सहेजे हैं। बाहरी सूचनाएँ बंद हैं।|प्राधान्ये या चालू नमुन्यासाठी जतन केली. बाह्य सूचना बंद आहेत.
+Quiet hours use {0}.|शांत समय {0} के अनुसार है।|शांत वेळ {0} नुसार आहे.
+Provider acceptance does not establish that the device displayed a message or that a person read it.|स्रोत की स्वीकृति से संदेश दिखने या पढ़ने का प्रमाण नहीं मिलता।|सेवेच्या स्वीकृतीने संदेश दिसला किंवा व्यक्तीने वाचला हे सिद्ध होत नाही.
+Morning update: {0} · Quiet hours {1}–{2}|सुबह का अपडेट: {0} · शांत समय {1}–{2}|सकाळचे अद्यतन: {0} · शांत वेळ {1}–{2}
+No school notice has been published.|स्कूल की सूचना प्रकाशित नहीं है।|शाळेची सूचना प्रकाशित नाही.
+Review counts are unavailable to this role.|इस भूमिका को समीक्षा गिनती नहीं दिखती।|या भूमिकेला आढाव्यांची संख्या दिसत नाही.
+No receipts for this plan yet.|इस योजना की पुष्टि अभी दर्ज नहीं है।|या योजनेची पुष्टी अजून नोंदलेली नाही.
+Receipts record review and checklist completion, not health outcomes.|पुष्टि समीक्षा और कार्यसूची की पूर्णता दर्ज करती है, स्वास्थ्य परिणाम नहीं।|पुष्टी आढावा आणि कृती यादीची पूर्णता नोंदवते, आरोग्य परिणाम नाही.
+Only confirm what you actually completed. Receipts record review and completion, not health outcomes.|केवल किया हुआ काम पुष्ट करें। पुष्टि समीक्षा और पूर्णता दर्ज करती है, स्वास्थ्य परिणाम नहीं।|प्रत्यक्ष पूर्ण केलेले कामच निश्चित करा. पुष्टी आढावा आणि पूर्णता नोंदवते, आरोग्य परिणाम नाही.
+Publish this school plan?|यह स्कूल योजना प्रकाशित करें?|ही शाळेची योजना प्रकाशित करायची का?
+Keep editing|संपादन जारी रखें|संपादन सुरू ठेवा
+This will notify {0} adults. Quiet hours and the daily limit still apply.|इससे {0} वयस्कों को सूचना जाएगी। शांत समय और दैनिक सीमा लागू हैं।|यामुळे {0} प्रौढांना सूचना जाईल. शांत वेळ आणि दैनिक मर्यादा लागू आहेत.
+Demo data. No external messages will be sent.|नमूना डेटा। बाहरी संदेश नहीं भेजे जाएंगे।|नमुना माहिती. बाह्य संदेश पाठवले जाणार नाहीत.
+The delivery worker applies each recipient’s saved preferences.|भेजने की सेवा हर प्राप्तकर्ता के सहेजे विकल्प मानती है।|वितरण सेवा प्रत्येक प्राप्तकर्त्याची जतन केलेली प्राधान्ये पाळते.
+Current school information is unavailable|स्कूल की मौजूदा जानकारी उपलब्ध नहीं|शाळेची सध्याची माहिती उपलब्ध नाही
+Use Refresh to retry. Follow the school’s actual instructions.|फिर जाँचें से पुनः प्रयास करें। स्कूल के वास्तविक निर्देश मानें।|पुन्हा तपासा वापरा. शाळेच्या प्रत्यक्ष सूचना पाळा.
+Regional provider forecast|क्षेत्रीय स्रोत का पूर्वानुमान|प्रादेशिक स्रोताचा अंदाज
+Forecast not connected for tomorrow morning. Current reading only.|कल सुबह का पूर्वानुमान जुड़ा नहीं है। केवल मौजूदा रीडिंग।|उद्याच्या सकाळचा अंदाज जोडलेला नाही. फक्त सध्याची रीडिंग.
+No change needed|बदलाव की ज़रूरत नहीं|बदल आवश्यक नाही
+Verify conditions first|पहले स्थिति जाँचें|आधी स्थिती तपासा
+Planning estimate; check timetable conflicts and recheck before the activity.|योजना का अनुमान; समय-सारणी में टकराव जाँचें और गतिविधि से पहले फिर जाँचें।|योजनेचा अंदाज; वेळापत्रकातील संघर्ष तपासा आणि उपक्रमापूर्वी पुन्हा तपासा.
+Decision recorded. Review and publish the school instruction.|निर्णय दर्ज हुआ। स्कूल निर्देश देखें और प्रकाशित करें।|निर्णय नोंदवला. शाळेची सूचना तपासा आणि प्रकाशित करा.
+Example only. Follow your teacher’s actual instruction.|केवल उदाहरण। शिक्षक के वास्तविक निर्देश मानें।|केवळ उदाहरण. शिक्षकांच्या प्रत्यक्ष सूचना पाळा.
+At pickup, follow the school’s published gate arrangements. Keep vehicle engines off while waiting where permitted.|बच्चे को लेने पर प्रकाशित गेट व्यवस्था मानें। जहाँ अनुमति हो, इंतज़ार में वाहन का इंजन बंद रखें।|मुलाला घेताना प्रकाशित गेट व्यवस्था पाळा. परवानगी असेल तिथे थांबताना वाहनाचे इंजिन बंद ठेवा.
+The school has not published the current plan. Ask a school adult for the instruction.|स्कूल ने मौजूदा योजना प्रकाशित नहीं की। जिम्मेदार वयस्क से निर्देश पूछें।|शाळेने सध्याची योजना प्रकाशित नाही. जबाबदार प्रौढाला सूचना विचारा.
+No duty tasks assigned to this plan yet.|इस योजना में ड्यूटी काम नहीं सौंपे हैं।|या योजनेत ड्युटी कामे अजून नेमलेली नाहीत.
+No child profiles linked. Ask your school administrator.|बच्चों की जानकारी जुड़ी नहीं है। स्कूल व्यवस्थापक से पूछें।|मुलांची माहिती जोडलेली नाही. शाळेच्या प्रशासकाला विचारा.
+Awaiting publication · suggestions are not school instructions|प्रकाशन की प्रतीक्षा · सुझाव स्कूल निर्देश नहीं हैं|प्रकाशनाची प्रतीक्षा · सूचना शाळेचे प्रत्यक्ष निर्देश नाहीत
+Navigation language: {0}|भाषा: {0}|भाषा: {0}
+Choose navigation language; guidance keeps its original wording|भाषा चुनें; प्रकाशित निर्देश के मूल शब्द सुरक्षित रहते हैं|भाषा निवडा; प्रकाशित सूचनेचा मूळ मजकूर जपला जातो
+Open website menu|वेबसाइट मेनू खोलें|वेबसाइट मेनू उघडा
+Close website menu|वेबसाइट मेनू बंद करें|वेबसाइट मेनू बंद करा
+Switch to dark theme|गहरा रंग चुनें|गडद रंग निवडा
+Switch to light theme|हल्का रंग चुनें|हलका रंग निवडा
+English|अंग्रेज़ी|इंग्रजी
+Hindi|हिन्दी|हिंदी
+Marathi|मराठी|मराठी
+Read aloud is unavailable in this browser.|इस ब्राउज़र में पढ़कर सुनाना उपलब्ध नहीं।|या ब्राउझरमध्ये वाचून दाखवणे उपलब्ध नाही.
+Translation draft|अनुवाद का मसौदा|अनुवादाचा मसुदा
+Expires|समाप्ति|कालबाह्य
+{0} review|{0} समीक्षा|{0} आढावा
+{0} of {1} classes confirmed|{0} / {1} कक्षाओं ने पुष्टि की|{0} / {1} वर्गांनी पुष्टी केली
+The shared school timetable applies to these classes; class-specific rooms must be reviewed by the teacher.|इन कक्षाओं के लिए साझा समय-सारणी है; शिक्षक हर कक्षा के कमरे की स्थिति देखें।|या वर्गांसाठी सामायिक वेळापत्रक आहे; शिक्षकांनी प्रत्येक वर्गातील खोलीची स्थिती तपासावी.
+Sent; awaiting class check|भेजा गया; कक्षा की जाँच की प्रतीक्षा|पाठवले; वर्गाच्या तपासणीची प्रतीक्षा
+Quiet hours use Asia/Kolkata.|शांत समय के लिए Asia/Kolkata समय क्षेत्र है।|शांत वेळेसाठी Asia/Kolkata वेळ क्षेत्र आहे.
+Notification limits|सूचनाओं की सीमा|सूचनांची मर्यादा
+{0} of {1} messages used today|आज {0} / {1} संदेश उपयोग किए|आज {0} / {1} संदेश वापरले
+Quiet hours {0} · Not active now · Asia/Kolkata|शांत समय {0} · अभी लागू नहीं · Asia/Kolkata|शांत वेळ {0} · सध्या लागू नाही · Asia/Kolkata
+Notification limits use the actual school-local clock. Demo display timestamps are shifted to a 07:30 morning.|सूचनाओं की सीमा स्कूल की वास्तविक स्थानीय घड़ी पर है। नमूना समय सुबह 07:30 पर दिखता है।|सूचनांची मर्यादा शाळेच्या प्रत्यक्ष स्थानिक घड्याळावर आहे. नमुना वेळ सकाळी 07:30 दाखवते.
+Remind people who have not confirmed|पुष्टि न करने वालों को याद दिलाएँ|पुष्टी न केलेल्यांना आठवण पाठवा
+Only in-app records are generated. No external messages are sent.|केवल ऐप के रिकॉर्ड बनते हैं। बाहरी संदेश नहीं भेजे जाते।|केवळ अॅपमधील नोंदी तयार होतात. बाहेरील संदेश पाठवले जात नाहीत.
+Delivery acceptance is not a review receipt.|संदेश स्वीकार करना समीक्षा की पुष्टि नहीं है।|संदेश स्वीकारणे म्हणजे आढाव्याची पुष्टी नाही.
+No external sends.|बाहरी संदेश नहीं भेजे।|बाहेरील संदेश पाठवले नाहीत.
+demo-record-only|केवल नमूना रिकॉर्ड|केवळ नमुना नोंद
+admin|व्यवस्थापक|प्रशासक
+parent|अभिभावक|पालक
+staff|कर्मचारी|कर्मचारी
+teacher|शिक्षक|शिक्षक
+Haze is illustrative.|धुंध केवल चित्रण है।|धुके केवळ चित्रण आहे.
+Publish by|इस समय तक प्रकाशित करें|या वेळेपर्यंत प्रकाशित करा
+minutes remaining|मिनट शेष|मिनिटे उरली
+Deadline passed — check the current instruction|समय निकल गया — मौजूदा निर्देश जाँचें|वेळ निघून गेली — सध्याची सूचना तपासा
+Offline · reconnect before changing the school plan.|ऑफ़लाइन · स्कूल योजना बदलने से पहले फिर जुड़ें।|ऑफलाइन · शाळेची योजना बदलण्याआधी पुन्हा जोडा.
+Offline · last known plan. Current conditions cannot be verified. Reconnect before taking action.|ऑफ़लाइन · अंतिम उपलब्ध योजना। मौजूदा स्थिति सत्यापित नहीं है। कदम उठाने से पहले फिर जुड़ें।|ऑफलाइन · शेवटची उपलब्ध योजना. सध्याची स्थिती पडताळता येत नाही. कृती करण्यापूर्वी पुन्हा जोडा.
+Fetch live regional model|वास्तविक क्षेत्रीय मॉडल प्राप्त करें|प्रत्यक्ष प्रादेशिक मॉडेल मिळवा
+Update available — reload|अपडेट उपलब्ध — फिर खोलें|अपडेट उपलब्ध — पुन्हा उघडा
+A more cautious flag is held until consecutive hourly recovery observations are available.|लगातार घंटेवार सुधार के अवलोकन मिलने तक अधिक सावधानी का संकेत कायम है।|सलग ताशी सुधाराची निरीक्षणे मिळेपर्यंत अधिक सावध इशारा कायम आहे.
+Cached reading · last successful retrieval|सहेजा हुआ डेटा · अंतिम सफल प्राप्ति|साठवलेला डेटा · शेवटची यशस्वी प्राप्ती
+needs native review|मातृभाषी समीक्षा आवश्यक|मातृभाषिक पुनरावलोकन आवश्यक
+A clearer school day|स्कूल का दिन स्पष्ट बनाएँ|शाळेचा दिवस स्पष्ट करा
+Know the air.|हवा को जानें।|हवा जाणून घ्या.
+Make a plan.|योजना बनाएँ।|योजना करा.
+Give assembly, PE and pickup a clear plan that school adults can share and families can review.|सभा, खेल और बच्चे को लेने के लिए स्पष्ट योजना बनाएँ जिसे स्कूल साझा करे और परिवार पढ़ें।|सभा, खेळ आणि मुलांना घेण्यासाठी स्पष्ट योजना करा जी शाळा शेअर करेल आणि कुटुंबे तपासतील.
+Open the school workspace|स्कूल कार्यस्थल खोलें|शाळेचे कार्यस्थळ उघडा
+See the parent view|अभिभावक दृश्य देखें|पालकांचे दृश्य पहा
+Built for Environmental Hacks · Bharat Builds Tour · Air track|Environmental Hacks · Bharat Builds Tour · हवा विषय के लिए|Environmental Hacks · Bharat Builds Tour · हवा विभागासाठी
+Example sky|उदाहरण का आकाश|उदाहरणाचे आकाश
+Not today’s school instruction.|आज का स्कूल निर्देश नहीं।|आजची शाळेची सूचना नाही.
+Walk through a school day|स्कूल का दिन देखें|शाळेचा दिवस पहा
+Example day. Not today's school instruction.|उदाहरण का दिन। आज का स्कूल निर्देश नहीं।|उदाहरणाचा दिवस. आजची शाळेची सूचना नाही.
+Air scenario|हवा का उदाहरण|हवेचे उदाहरण
+{0} example|{0} उदाहरण|{0} उदाहरण
+Explore the hour {0}|समय देखें {0}|वेळ पहा {0}
+Example PM2.5: {0} µg/m³ · planning flag, not official AQI.|उदाहरण PM2.5: {0} µg/m³ · योजना का संकेत, आधिकारिक AQI नहीं।|उदाहरण PM2.5: {0} µg/m³ · योजनेचा इशारा, अधिकृत AQI नाही.
+A reading becomes a shared decision|जानकारी से साझा निर्णय|माहितीतून सामायिक निर्णय
+The school makes the decision. Air Guardian keeps its evidence and review trail together.|निर्णय स्कूल लेता है। Air Guardian प्रमाण और समीक्षा साथ रखता है।|निर्णय शाळा घेते. Air Guardian पुरावे आणि आढाव्याची नोंद एकत्र ठेवते.
+Reading|जानकारी|माहिती
+Check the evidence|प्रमाण जाँचें|पुरावे तपासा
+Source, observation time and confidence stay visible. Missing air data stays unknown.|स्रोत, अवलोकन का समय और भरोसे का स्तर दिखते हैं। अनुपलब्ध जानकारी अज्ञात रहती है।|स्रोत, निरीक्षणाची वेळ आणि विश्वासपातळी दिसतात. नसलेली माहिती अज्ञात राहते.
+Review what changes|बदलाव की समीक्षा करें|बदल तपासा
+Explainable rules suggest timetable actions. A school adult checks rooms and edits wording.|स्पष्ट नियम समय-सारणी के बदलाव सुझाते हैं। जिम्मेदार वयस्क कमरे जाँचते और निर्देश लिखते हैं।|स्पष्ट नियम वेळापत्रकातील बदल सुचवतात. जबाबदार प्रौढ खोल्या तपासतात आणि सूचना लिहितात.
+Share one instruction|एक निर्देश साझा करें|एक सूचना शेअर करा
+Every role receives the same plan through saved notification preferences.|हर भूमिका को सहेजे विकल्पों के अनुसार वही योजना मिलती है।|प्रत्येक भूमिकेला जतन केलेल्या पर्यायांनुसार तीच योजना मिळते.
+Know who confirmed|किसने पुष्टि की जानें|कोणी पुष्टी केली ते पहा
+Explicit receipts and teacher checklists show completion, not health outcomes.|पुष्टि और शिक्षक की जाँच सूची काम पूरा होना दिखाती हैं, स्वास्थ्य परिणाम नहीं।|पुष्टी आणि शिक्षकांची तपाससूची काम पूर्ण होणे दाखवतात, आरोग्य परिणाम नाही.
+The right next step for each person|हर व्यक्ति के लिए अगला कदम|प्रत्येकासाठी पुढचे पाऊल
+School admin|स्कूल व्यवस्थापक|शाळेचा प्रशासक
+Set today’s school plan.|आज की स्कूल योजना तय करें।|आजची शाळेची योजना ठरवा.
+Check the plan for your class.|अपनी कक्षा की योजना देखें।|तुमच्या वर्गाची योजना तपासा.
+Your school-day duty instruction.|स्कूल की ड्यूटी का निर्देश।|शाळेच्या ड्युटीची सूचना.
+Know what your child’s school has planned.|अपने बच्चे के स्कूल की योजना जानें।|मुलाच्या शाळेची योजना जाणून घ्या.
+Open →|खोलें →|उघडा →
+Young explorer|नन्हे खोजी|छोटे शोधक
+Simple words, one question and a grown-up to ask.|आसान शब्द, एक सवाल और मदद करने वाला बड़ा।|सोपे शब्द, एक प्रश्न आणि मदतीसाठी प्रौढ.
+Big ideas.|बड़े विचार।|मोठ्या कल्पना.
+Little next steps.|छोटे अगले कदम।|छोटी पुढची पावले.
+Read the plan with a grown-up →|बड़े के साथ योजना पढ़ें →|मोठ्यांसोबत योजना वाचा →
+Try a little air question|हवा का छोटा सवाल पूछें|हवेचा छोटा प्रश्न सोडवा
+Your school says indoor play today.|स्कूल कहता है आज अंदर खेलें।|शाळा सांगते आज आत खेळा.
+What would you do?|आप क्या करेंगे?|तुम्ही काय कराल?
+Pick an answer. This is a learning example, not today’s school instruction.|उत्तर चुनें। यह सीखने का उदाहरण है, आज का स्कूल निर्देश नहीं।|उत्तर निवडा. हे शिकण्याचे उदाहरण आहे, आजची शाळेची सूचना नाही.
+Useful guidance needs clear boundaries|उपयोगी मार्गदर्शन की सीमाएँ स्पष्ट हों|उपयुक्त मार्गदर्शनाच्या मर्यादा स्पष्ट हव्यात
+Every reading explains where it came from and how fresh it is.|हर जानकारी अपना स्रोत और ताज़गी बताती है।|प्रत्येक माहिती तिचा स्रोत आणि ताजेपणा सांगते.
+Children use aliases. No date of birth or diagnosis is needed.|बच्चों के लिए उपनाम हैं। जन्मतिथि या बीमारी का विवरण नहीं चाहिए।|मुलांसाठी उपनावे आहेत. जन्मतारीख किंवा निदान आवश्यक नाही.
+Channel consent, quiet hours and daily limits control notifications.|माध्यम की सहमति, शांत समय और दैनिक सीमा सूचनाएँ नियंत्रित करते हैं।|माध्यमाची संमती, शांत वेळ आणि रोजची मर्यादा सूचनांवर नियंत्रण ठेवतात.
+A school adult publishes the instruction. A receipt records review.|स्कूल का जिम्मेदार वयस्क निर्देश प्रकाशित करता है। पुष्टि समीक्षा दर्ज करती है।|शाळेचा जबाबदार प्रौढ सूचना प्रकाशित करतो. पुष्टी आढावा नोंदवते.
+Indoor conditions are unknown unless measured.|माप के बिना अंदर की स्थिति अज्ञात है।|मोजमाप नसल्यास आतील स्थिती अज्ञात आहे.
+Honest boundaries|स्पष्ट सीमाएँ|प्रामाणिक मर्यादा
+Does this measure air at my school gate?|क्या यह स्कूल गेट की हवा मापता है?|हे शाळेच्या गेटवरील हवा मोजते का?
+Is the example plan a real school instruction?|क्या उदाहरण वास्तविक स्कूल निर्देश है?|उदाहरणाची योजना प्रत्यक्ष शाळेची सूचना आहे का?
+What information do children need to share?|बच्चों को कौन सी जानकारी देनी है?|मुलांनी कोणती माहिती द्यायची?
+How does AWS fit?|AWS की भूमिका क्या है?|AWS ची भूमिका काय आहे?
+The implementation behind the plan|योजना के पीछे की तकनीक|योजनेमागील तंत्रज्ञान
+Air inputs|हवा की जानकारी|हवेची माहिती
+Policy engine|नियम इंजन|नियम इंजिन
+Role views|भूमिका के दृश्य|भूमिकांचे दृश्य
+Reviews|समीक्षाएँ|आढावे
+Provider adapters|स्रोत के अडैप्टर|स्रोताचे अडॅप्टर
+Fixtures locally|स्थानीय नमूने|स्थानिक नमुने
+Adult publication|वयस्क का प्रकाशन|प्रौढाचे प्रकाशन
+Give the school day a clear next step.|स्कूल के दिन को स्पष्ट अगला कदम दें।|शाळेच्या दिवसाला स्पष्ट पुढचे पाऊल द्या.
+Cloud resources are implemented in templates. No AWS deployment is claimed.|क्लाउड संसाधनों के टेम्पलेट बने हैं। AWS पर तैनाती का दावा नहीं है।|क्लाउड संसाधनांचे टेम्पलेट तयार आहेत. AWS वरील तैनातीचा दावा नाही.
+Adapter implemented · not used in this demo|अडैप्टर बना है · इस नमूने में उपयोग नहीं|अडॅप्टर तयार · या नमुन्यात वापर नाही
+CPCB adapter implemented · not used in this demo|CPCB अडैप्टर बना है · इस नमूने में उपयोग नहीं|CPCB अडॅप्टर तयार · या नमुन्यात वापर नाही
+Reset demo|नमूना रीसेट करें|नमुना रीसेट करा
+Fictional demo reset. No cloud records were changed.|काल्पनिक नमूना रीसेट हुआ। क्लाउड रिकॉर्ड नहीं बदले।|काल्पनिक नमुना रीसेट झाला. क्लाउड नोंदी बदलल्या नाहीत.
+Demo story|नमूने की कहानी|नमुन्याची गोष्ट
+Parent view|अभिभावक दृश्य|पालकांचे दृश्य
+Receipts|पुष्टियाँ|पुष्टी नोंदी
+Publish|प्रकाशित करें|प्रकाशित करा
+Review|समीक्षा|आढावा
+Automatic deadline reminder queued|समय की स्वचालित याद दिलाने का संदेश कतार में|वेळेची स्वयंचलित आठवण रांगेत
+Consent, quiet hours and daily caps still apply.|सहमति, शांत समय और दैनिक सीमा लागू रहती हैं।|संमती, शांत वेळ आणि रोजची मर्यादा लागू राहतात.
+Example only. A school adult checks room conditions before confirming.|केवल उदाहरण। पुष्टि से पहले स्कूल का जिम्मेदार वयस्क कमरे की स्थिति देखता है।|केवळ उदाहरण. पुष्टीपूर्वी शाळेचा जबाबदार प्रौढ खोलीची स्थिती तपासतो.
+Read the plan with a grown-up. Ask your teacher where your class will play. Tell an adult if you feel unwell.|बड़े के साथ योजना पढ़ें। शिक्षक से पूछें कक्षा कहाँ खेलेगी। तबीयत ठीक न हो तो बड़े को बताएँ।|मोठ्यांसोबत योजना वाचा. वर्ग कुठे खेळेल ते शिक्षकांना विचारा. बरे वाटत नसल्यास प्रौढाला सांगा.
+Regional model estimates describe a wider area. They do not prove conditions at the school gate. The workspace shows sources and observation times; suitable local sensors need installation and assessment.|क्षेत्रीय मॉडल बड़े इलाके का अनुमान देते हैं। वे स्कूल गेट की स्थिति साबित नहीं करते। कार्यस्थल में स्रोत और अवलोकन समय दिखते हैं; स्थानीय सेंसर लगाने और जाँचने होंगे।|प्रादेशिक मॉडेल मोठ्या परिसराचे अंदाज देतात. ते शाळेच्या गेटवरील स्थिती सिद्ध करत नाहीत. कार्यस्थळात स्रोत व निरीक्षण वेळ दिसते; स्थानिक सेन्सर बसवून तपासावे लागतील.
+No. The landing page example is an illustration. The local cloud preview uses labelled fictional data and sends no messages. In a configured school workspace, follow the school’s actual published instruction.|नहीं। मुखपृष्ठ का उदाहरण केवल चित्रण है। स्थानीय नमूना काल्पनिक डेटा उपयोग करता है और संदेश नहीं भेजता। जुड़े स्कूल कार्यस्थल में वास्तविक प्रकाशित निर्देश मानें।|नाही. मुखपृष्ठाचे उदाहरण केवळ चित्रण आहे. स्थानिक नमुन्यात काल्पनिक डेटा आहे आणि संदेश पाठवले जात नाहीत. जोडलेल्या शाळेच्या कार्यस्थळात प्रत्यक्ष प्रकाशित सूचना पाळा.
+This home page and learning question need no child details. School profiles use aliases, age groups and optional caution preferences. A school administrator controls membership and role access.|मुखपृष्ठ और सीखने के सवाल के लिए बच्चों की जानकारी नहीं चाहिए। स्कूल प्रोफ़ाइल में उपनाम, आयु वर्ग और वैकल्पिक सावधानी है। व्यवस्थापक सदस्यता और भूमिका की पहुँच तय करता है।|मुखपृष्ठ व शिकण्याच्या प्रश्नासाठी मुलांची माहिती लागत नाही. शाळेच्या प्रोफाइलमध्ये उपनावे, वयोगट व ऐच्छिक काळजी पर्याय आहेत. प्रशासक सदस्यत्व व भूमिकांची प्रवेशमर्यादा ठरवतो.
+The project includes a cloud implementation for Cognito, DynamoDB and Lambda, plus a working local preview. Cloud deployment has not been verified. The original local API uses Powertools for AWS Lambda, an AWS open-source project.|परियोजना में Cognito, DynamoDB और Lambda का क्लाउड कोड और चलता हुआ स्थानीय नमूना है। क्लाउड तैनाती सत्यापित नहीं है। मूल स्थानीय API में AWS का मुक्त स्रोत Powertools for AWS Lambda है।|प्रकल्पात Cognito, DynamoDB व Lambda चा क्लाउड कोड आणि चालणारा स्थानिक नमुना आहे. क्लाउड तैनाती पडताळलेली नाही. मूळ स्थानिक API मध्ये AWS चे मुक्त स्रोत Powertools for AWS Lambda आहे.
+Live adapters also support WAQI, OpenWeather and regional Open-Meteo/CAMS. None is called by this fictional preview. Observation and retrieval times are shown separately in the workspace.|अडैप्टर WAQI, OpenWeather और क्षेत्रीय Open-Meteo/CAMS के लिए हैं। स्वतः चलने वाला नमूना काल्पनिक है; व्यवस्थापक वास्तविक मॉडल अलग से प्राप्त कर सकता है। कार्यस्थल में अवलोकन और प्राप्ति का समय अलग है।|WAQI, OpenWeather आणि प्रादेशिक Open-Meteo/CAMS साठी अडॅप्टर आहेत. आपोआप चालणारा नमुना काल्पनिक आहे; प्रशासक प्रत्यक्ष मॉडेल वेगळे मिळवू शकतो. कार्यस्थळात निरीक्षण व प्राप्ती वेळ वेगळी आहे.
+Your school workspace|आपका स्कूल कार्यस्थल|तुमचे शाळेचे कार्यस्थळ
+A clearer view.|स्पष्ट जानकारी।|स्पष्ट माहिती.
+A better school day.|बेहतर स्कूल दिवस।|चांगला शाळेचा दिवस.
+Review the air, agree on the school day, and keep families informed.|हवा जाँचें, स्कूल दिन की योजना तय करें और परिवारों को बताएँ।|हवा तपासा, शाळेच्या दिवसाची योजना ठरवा आणि कुटुंबांना माहिती द्या.
+Sign in to your school|स्कूल में साइन इन करें|शाळेत साइन इन करा
+Your school approves access. Signing up alone does not grant access to a school or child.|स्कूल पहुँच मंज़ूर करता है। खाता बनाने से ही स्कूल या बच्चे की जानकारी नहीं मिलती।|शाळा प्रवेश मंजूर करते. केवळ खाते केल्याने शाळा किंवा मुलांची माहिती मिळत नाही.
+Loading school information…|स्कूल की जानकारी लोड हो रही है…|शाळेची माहिती लोड होत आहे…
+Hourly recovery check pending|घंटेवार सुधार की जाँच बाकी|ताशी सुधाराची तपासणी बाकी
+Supporting hourly mean; not a replacement measurement.|सहायक घंटेवार औसत; वास्तविक माप का विकल्प नहीं।|सहायक ताशी सरासरी; प्रत्यक्ष मोजमापाचा पर्याय नाही.
+Regional model, not a school-gate sensor.|क्षेत्रीय मॉडल, स्कूल गेट का सेंसर नहीं।|प्रादेशिक मॉडेल, शाळेच्या गेटवरील सेन्सर नाही.
+Live adapters also support WAQI, OpenWeather and regional Open-Meteo/CAMS. The preview starts with fictional data; an administrator can request a real regional model in Demo tools. Observation and retrieval times are shown separately in the workspace.|अडैप्टर WAQI, OpenWeather और क्षेत्रीय Open-Meteo/CAMS के लिए हैं। नमूना काल्पनिक डेटा से शुरू होता है; व्यवस्थापक नमूना उपकरणों से वास्तविक क्षेत्रीय मॉडल प्राप्त कर सकता है। कार्यस्थल में अवलोकन और प्राप्ति समय अलग हैं।|WAQI, OpenWeather आणि प्रादेशिक Open-Meteo/CAMS साठी अडॅप्टर आहेत. नमुना काल्पनिक डेटाने सुरू होतो; प्रशासक नमुना साधनांतून प्रत्यक्ष प्रादेशिक मॉडेल मिळवू शकतो. कार्यस्थळात निरीक्षण व प्राप्ती वेळ वेगळी आहे.
+Automatic preview uses fixtures. Demo tools can request a live regional model; no external messages are sent.|स्वचालित नमूना काल्पनिक डेटा उपयोग करता है। नमूना उपकरणों से वास्तविक क्षेत्रीय मॉडल माँग सकते हैं; बाहरी संदेश नहीं भेजे जाते।|स्वयंचलित नमुन्यात काल्पनिक डेटा वापरला जातो. नमुना साधनांतून प्रत्यक्ष प्रादेशिक मॉडेल मागवू शकता; बाहेरील संदेश पाठवले जात नाहीत.
+PM2.5 {0} micrograms per cubic metre; school planning bands, not official AQI|PM2.5 {0} माइक्रोग्राम प्रति घन मीटर; स्कूल योजना के स्तर, आधिकारिक AQI नहीं|PM2.5 {0} मायक्रोग्रॅम प्रति घनमीटर; शाळेच्या योजनेचे स्तर, अधिकृत AQI नाही
+unavailable|उपलब्ध नहीं|उपलब्ध नाही
+Website controls|वेबसाइट नियंत्रण|वेबसाइट नियंत्रणे
+Navigation language; school guidance remains in its original language|वेबसाइट की भाषा; स्कूल निर्देश मूल भाषा में रहते हैं|वेबसाइटची भाषा; शाळेच्या सूचना मूळ भाषेत राहतात
+Fictional school · Real source|काल्पनिक स्कूल · वास्तविक स्रोत|काल्पनिक शाळा · प्रत्यक्ष स्रोत
+Demo data · Haze is illustrative|नमूना डेटा · धुंध केवल चित्रण है|नमुना डेटा · धुके केवळ चित्रण आहे
+School planning guidance · Haze is illustrative|स्कूल योजना मार्गदर्शन · धुंध केवल चित्रण है|शाळेच्या योजनेचे मार्गदर्शन · धुके केवळ चित्रण आहे
