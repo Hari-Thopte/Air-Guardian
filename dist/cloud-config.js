@@ -1,0 +1,1 @@
+export const config = {"apiUrl": "https://u3mieg0j2e.execute-api.ap-south-1.amazonaws.com", "clientId": "76jvr3a2h7o2vse5dkh24mcv50", "authDomain": "https://airguardian-stxaviers-manickpur-pilot.auth.ap-south-1.amazoncognito.com", "redirectUri": "http://localhost:5191/cloud.html"};

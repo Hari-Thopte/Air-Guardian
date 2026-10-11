@@ -1,0 +1,3148 @@
+{
+  "label": "Example day. Not today's school instruction.",
+  "flags": [
+    "green",
+    "yellow",
+    "orange",
+    "red",
+    "unknown"
+  ],
+  "thresholds": [
+    15,
+    35,
+    60
+  ],
+  "ageGroup": "5-8",
+  "scenarios": [
+    {
+      "name": "Green",
+      "hours": [
+        {
+          "hour": 8,
+          "pm25": 9.2,
+          "flag": "green",
+          "headline": "Review the usual timetable and recheck the air before long outdoor sessions.",
+          "actions": [
+            {
+              "id": "usual",
+              "text": "Review the usual timetable and recheck the air before long outdoor sessions.",
+              "why": "Air index 15 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 9.2 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        },
+        {
+          "hour": 9,
+          "pm25": 9.2,
+          "flag": "green",
+          "headline": "Review the usual timetable and recheck the air before long outdoor sessions.",
+          "actions": [
+            {
+              "id": "usual",
+              "text": "Review the usual timetable and recheck the air before long outdoor sessions.",
+              "why": "Air index 15 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 9.2 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        },
+        {
+          "hour": 10,
+          "pm25": 7.2,
+          "flag": "green",
+          "headline": "Review the usual timetable and recheck the air before long outdoor sessions.",
+          "actions": [
+            {
+              "id": "usual",
+              "text": "Review the usual timetable and recheck the air before long outdoor sessions.",
+              "why": "Air index 12 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 7.2 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        },
+        {
+          "hour": 11,
+          "pm25": 7.2,
+          "flag": "green",
+          "headline": "Review the usual timetable and recheck the air before long outdoor sessions.",
+          "actions": [
+            {
+              "id": "usual",
+              "text": "Review the usual timetable and recheck the air before long outdoor sessions.",
+              "why": "Air index 12 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 7.2 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        },
+        {
+          "hour": 12,
+          "pm25": 7.2,
+          "flag": "green",
+          "headline": "Review the usual timetable and recheck the air before long outdoor sessions.",
+          "actions": [
+            {
+              "id": "usual",
+              "text": "Review the usual timetable and recheck the air before long outdoor sessions.",
+              "why": "Air index 12 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 7.2 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        },
+        {
+          "hour": 13,
+          "pm25": 7.2,
+          "flag": "green",
+          "headline": "Review the usual timetable and recheck the air before long outdoor sessions.",
+          "actions": [
+            {
+              "id": "usual",
+              "text": "Review the usual timetable and recheck the air before long outdoor sessions.",
+              "why": "Air index 12 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 7.2 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        },
+        {
+          "hour": 14,
+          "pm25": 7.2,
+          "flag": "green",
+          "headline": "Review the usual timetable and recheck the air before long outdoor sessions.",
+          "actions": [
+            {
+              "id": "usual",
+              "text": "Review the usual timetable and recheck the air before long outdoor sessions.",
+              "why": "Air index 12 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 7.2 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        },
+        {
+          "hour": 15,
+          "pm25": 9.2,
+          "flag": "green",
+          "headline": "Review the usual timetable and recheck the air before long outdoor sessions.",
+          "actions": [
+            {
+              "id": "usual",
+              "text": "Review the usual timetable and recheck the air before long outdoor sessions.",
+              "why": "Air index 15 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 9.2 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        },
+        {
+          "hour": 16,
+          "pm25": 7.2,
+          "flag": "green",
+          "headline": "Review the usual timetable and recheck the air before long outdoor sessions.",
+          "actions": [
+            {
+              "id": "usual",
+              "text": "Review the usual timetable and recheck the air before long outdoor sessions.",
+              "why": "Air index 12 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 7.2 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "green",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yellow",
+      "hours": [
+        {
+          "hour": 8,
+          "pm25": 28.7,
+          "flag": "yellow",
+          "headline": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+          "actions": [
+            {
+              "id": "gentle",
+              "text": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "why": "Air index 48 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 28.7 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "yellow",
+              "action": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "actionId": "gentle",
+              "why": "Air index 48 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 28.7 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        },
+        {
+          "hour": 9,
+          "pm25": 28.7,
+          "flag": "yellow",
+          "headline": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+          "actions": [
+            {
+              "id": "gentle",
+              "text": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "why": "Air index 48 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 28.7 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "yellow",
+              "action": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "actionId": "gentle",
+              "why": "Air index 48 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 28.7 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        },
+        {
+          "hour": 10,
+          "pm25": 22.5,
+          "flag": "yellow",
+          "headline": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+          "actions": [
+            {
+              "id": "gentle",
+              "text": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "why": "Air index 38 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 22.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "yellow",
+              "action": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "actionId": "gentle",
+              "why": "Air index 38 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 22.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        },
+        {
+          "hour": 11,
+          "pm25": 22.5,
+          "flag": "yellow",
+          "headline": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+          "actions": [
+            {
+              "id": "gentle",
+              "text": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "why": "Air index 38 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 22.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "yellow",
+              "action": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "actionId": "gentle",
+              "why": "Air index 38 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 22.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        },
+        {
+          "hour": 12,
+          "pm25": 22.5,
+          "flag": "yellow",
+          "headline": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+          "actions": [
+            {
+              "id": "gentle",
+              "text": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "why": "Air index 38 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 22.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "yellow",
+              "action": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "actionId": "gentle",
+              "why": "Air index 38 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 22.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        },
+        {
+          "hour": 13,
+          "pm25": 22.5,
+          "flag": "yellow",
+          "headline": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+          "actions": [
+            {
+              "id": "gentle",
+              "text": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "why": "Air index 38 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 22.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "yellow",
+              "action": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "actionId": "gentle",
+              "why": "Air index 38 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 22.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        },
+        {
+          "hour": 14,
+          "pm25": 22.5,
+          "flag": "yellow",
+          "headline": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+          "actions": [
+            {
+              "id": "gentle",
+              "text": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "why": "Air index 38 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 22.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "yellow",
+              "action": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "actionId": "gentle",
+              "why": "Air index 38 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 22.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        },
+        {
+          "hour": 15,
+          "pm25": 28.7,
+          "flag": "yellow",
+          "headline": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+          "actions": [
+            {
+              "id": "gentle",
+              "text": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "why": "Air index 48 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 28.7 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "yellow",
+              "action": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "actionId": "gentle",
+              "why": "Air index 48 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 28.7 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        },
+        {
+          "hour": 16,
+          "pm25": 22.5,
+          "flag": "yellow",
+          "headline": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+          "actions": [
+            {
+              "id": "gentle",
+              "text": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "why": "Air index 38 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 22.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "yellow",
+              "action": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+              "actionId": "gentle",
+              "why": "Air index 38 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 22.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "yellow",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orange",
+      "hours": [
+        {
+          "hour": 8,
+          "pm25": 51.7,
+          "flag": "orange",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 86 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 51.7 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is orange; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is orange; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 86 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 51.7 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 86 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 51.7 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "orange",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        },
+        {
+          "hour": 9,
+          "pm25": 51.7,
+          "flag": "orange",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 86 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 51.7 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is orange; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is orange; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 86 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 51.7 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 86 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 51.7 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "orange",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        },
+        {
+          "hour": 10,
+          "pm25": 40.5,
+          "flag": "orange",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is orange; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is orange; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "orange",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        },
+        {
+          "hour": 11,
+          "pm25": 40.5,
+          "flag": "orange",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is orange; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is orange; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "orange",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        },
+        {
+          "hour": 12,
+          "pm25": 40.5,
+          "flag": "orange",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is orange; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is orange; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "orange",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        },
+        {
+          "hour": 13,
+          "pm25": 40.5,
+          "flag": "orange",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is orange; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is orange; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "orange",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        },
+        {
+          "hour": 14,
+          "pm25": 40.5,
+          "flag": "orange",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is orange; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is orange; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "orange",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        },
+        {
+          "hour": 15,
+          "pm25": 51.7,
+          "flag": "orange",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 86 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 51.7 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is orange; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is orange; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 86 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 51.7 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 86 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 51.7 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "orange",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        },
+        {
+          "hour": 16,
+          "pm25": 40.5,
+          "flag": "orange",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is orange; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is orange; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "orange",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 68 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 40.5 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "orange",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "orange",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is orange. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Red",
+      "hours": [
+        {
+          "hour": 8,
+          "pm25": 115.0,
+          "flag": "red",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 283 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 115.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is red; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is red; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 283 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 115.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 283 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 115.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "red",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        },
+        {
+          "hour": 9,
+          "pm25": 115.0,
+          "flag": "red",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 283 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 115.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is red; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is red; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 283 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 115.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 283 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 115.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "red",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        },
+        {
+          "hour": 10,
+          "pm25": 90.0,
+          "flag": "red",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is red; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is red; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "red",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        },
+        {
+          "hour": 11,
+          "pm25": 90.0,
+          "flag": "red",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is red; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is red; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "red",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        },
+        {
+          "hour": 12,
+          "pm25": 90.0,
+          "flag": "red",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is red; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is red; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "red",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        },
+        {
+          "hour": 13,
+          "pm25": 90.0,
+          "flag": "red",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is red; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is red; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "red",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        },
+        {
+          "hour": 14,
+          "pm25": 90.0,
+          "flag": "red",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is red; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is red; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "red",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        },
+        {
+          "hour": 15,
+          "pm25": 115.0,
+          "flag": "red",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 283 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 115.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is red; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is red; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 283 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 115.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 283 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 115.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "red",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        },
+        {
+          "hour": 16,
+          "pm25": 90.0,
+          "flag": "red",
+          "headline": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+          "actions": [
+            {
+              "id": "indoor-pe",
+              "text": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "id": "mask",
+              "text": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+              "why": "School planning flag is red; mask suitability and fit need individual guidance."
+            },
+            {
+              "id": "pickup",
+              "text": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            },
+            {
+              "id": "route",
+              "text": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+              "why": "Outdoor planning flag is red; exact road pollution is not measured."
+            },
+            {
+              "id": "care-plan",
+              "text": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+              "why": "These are school planning rules, not a diagnosis or activity clearance."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "red",
+              "action": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+              "actionId": "indoor-pe",
+              "why": "Air index 200 compared with 5-8 policy boundaries 40, 80, 140. PM2.5 90.0 µg/m³ compared with planning boundaries 15, 35, 60 µg/m³. Building: unknown; AC alone does not establish cleaner indoor air."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "red",
+              "action": "No change",
+              "actionId": null,
+              "why": "No matching schedule change in the current policy."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "red",
+              "action": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+              "actionId": "pickup",
+              "why": "Outdoor planning flag is red. Traffic at the gate can add local exposure not captured by the estimate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stale reading",
+      "hours": [
+        {
+          "hour": 8,
+          "pm25": 115.0,
+          "flag": "unknown",
+          "headline": "Ask school staff to verify conditions before making an activity decision.",
+          "actions": [
+            {
+              "id": "verify",
+              "text": "Ask school staff to verify conditions before making an activity decision.",
+              "why": "No fresh usable air context is available."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            }
+          ]
+        },
+        {
+          "hour": 9,
+          "pm25": 115.0,
+          "flag": "unknown",
+          "headline": "Ask school staff to verify conditions before making an activity decision.",
+          "actions": [
+            {
+              "id": "verify",
+              "text": "Ask school staff to verify conditions before making an activity decision.",
+              "why": "No fresh usable air context is available."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            }
+          ]
+        },
+        {
+          "hour": 10,
+          "pm25": 90.0,
+          "flag": "unknown",
+          "headline": "Ask school staff to verify conditions before making an activity decision.",
+          "actions": [
+            {
+              "id": "verify",
+              "text": "Ask school staff to verify conditions before making an activity decision.",
+              "why": "No fresh usable air context is available."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            }
+          ]
+        },
+        {
+          "hour": 11,
+          "pm25": 90.0,
+          "flag": "unknown",
+          "headline": "Ask school staff to verify conditions before making an activity decision.",
+          "actions": [
+            {
+              "id": "verify",
+              "text": "Ask school staff to verify conditions before making an activity decision.",
+              "why": "No fresh usable air context is available."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            }
+          ]
+        },
+        {
+          "hour": 12,
+          "pm25": 90.0,
+          "flag": "unknown",
+          "headline": "Ask school staff to verify conditions before making an activity decision.",
+          "actions": [
+            {
+              "id": "verify",
+              "text": "Ask school staff to verify conditions before making an activity decision.",
+              "why": "No fresh usable air context is available."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            }
+          ]
+        },
+        {
+          "hour": 13,
+          "pm25": 90.0,
+          "flag": "unknown",
+          "headline": "Ask school staff to verify conditions before making an activity decision.",
+          "actions": [
+            {
+              "id": "verify",
+              "text": "Ask school staff to verify conditions before making an activity decision.",
+              "why": "No fresh usable air context is available."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            }
+          ]
+        },
+        {
+          "hour": 14,
+          "pm25": 90.0,
+          "flag": "unknown",
+          "headline": "Ask school staff to verify conditions before making an activity decision.",
+          "actions": [
+            {
+              "id": "verify",
+              "text": "Ask school staff to verify conditions before making an activity decision.",
+              "why": "No fresh usable air context is available."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            }
+          ]
+        },
+        {
+          "hour": 15,
+          "pm25": 115.0,
+          "flag": "unknown",
+          "headline": "Ask school staff to verify conditions before making an activity decision.",
+          "actions": [
+            {
+              "id": "verify",
+              "text": "Ask school staff to verify conditions before making an activity decision.",
+              "why": "No fresh usable air context is available."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            }
+          ]
+        },
+        {
+          "hour": 16,
+          "pm25": 90.0,
+          "flag": "unknown",
+          "headline": "Ask school staff to verify conditions before making an activity decision.",
+          "actions": [
+            {
+              "id": "verify",
+              "text": "Ask school staff to verify conditions before making an activity decision.",
+              "why": "No fresh usable air context is available."
+            }
+          ],
+          "blocks": [
+            {
+              "name": "Assembly",
+              "start": "08:30",
+              "end": "08:50",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "PE",
+              "start": "10:00",
+              "end": "10:30",
+              "outdoors": true,
+              "minutes": 30,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Break",
+              "start": "11:30",
+              "end": "11:45",
+              "outdoors": true,
+              "minutes": 15,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            },
+            {
+              "name": "Pickup",
+              "start": "15:00",
+              "end": "15:20",
+              "outdoors": true,
+              "minutes": 20,
+              "flag": "unknown",
+              "action": "Ask school staff to verify conditions before making an activity decision.",
+              "actionId": "verify",
+              "why": "No fresh usable air context is available."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

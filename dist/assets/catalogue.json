@@ -1,0 +1,3063 @@
+{
+  "meta": {
+    "en": {
+      "locale": "en-IN",
+      "review": "reviewed source wording"
+    },
+    "hi": {
+      "locale": "hi-IN",
+      "review": "needs native review"
+    },
+    "mr": {
+      "locale": "mr-IN",
+      "review": "needs native review"
+    }
+  },
+  "entries": {
+    "ui.3b8111454052": {
+      "en": "Guardian tools",
+      "hi": "गार्डियन उपकरण",
+      "mr": "गार्डियन साधने"
+    },
+    "ui.2b065c7c9ce4": {
+      "en": "Today",
+      "hi": "आज",
+      "mr": "आज"
+    },
+    "ui.3583a358a585": {
+      "en": "Children",
+      "hi": "बच्चे",
+      "mr": "मुले"
+    },
+    "ui.cc5454a4b7ce": {
+      "en": "Exposure",
+      "hi": "संपर्क समय",
+      "mr": "संपर्क वेळ"
+    },
+    "ui.2c5b669bcdeb": {
+      "en": "Routes",
+      "hi": "रास्ते",
+      "mr": "मार्ग"
+    },
+    "ui.d455e1980988": {
+      "en": "Classroom air",
+      "hi": "कक्षा की हवा",
+      "mr": "वर्गातील हवा"
+    },
+    "ui.f87558869bcf": {
+      "en": "Observations",
+      "hi": "स्थानीय जानकारी",
+      "mr": "स्थानिक नोंदी"
+    },
+    "ui.f62e9267d196": {
+      "en": "Alerts",
+      "hi": "सूचनाएँ",
+      "mr": "सूचना"
+    },
+    "ui.f81331a57812": {
+      "en": "School desk",
+      "hi": "स्कूल प्रबंधन",
+      "mr": "शाळा व्यवस्थापन"
+    },
+    "ui.dacca3cba3f3": {
+      "en": "Reports",
+      "hi": "रिपोर्ट",
+      "mr": "अहवाल"
+    },
+    "ui.48f0d3d397d4": {
+      "en": "Sign out",
+      "hi": "साइन आउट",
+      "mr": "साइन आउट"
+    },
+    "ui.0e9161011702": {
+      "en": "Refresh",
+      "hi": "फिर जाँचें",
+      "mr": "पुन्हा तपासा"
+    },
+    "ui.1b2fffea95f7": {
+      "en": "My day",
+      "hi": "मेरा दिन",
+      "mr": "माझा दिवस"
+    },
+    "ui.900aa792acfb": {
+      "en": "School plan",
+      "hi": "स्कूल की योजना",
+      "mr": "शाळेची योजना"
+    },
+    "ui.5c0e69b348ac": {
+      "en": "My activities",
+      "hi": "मेरी गतिविधियाँ",
+      "mr": "माझे उपक्रम"
+    },
+    "ui.2cbace85a5a7": {
+      "en": "Air explorer",
+      "hi": "हवा की जानकारी",
+      "mr": "हवेची माहिती"
+    },
+    "ui.0791ec684798": {
+      "en": "Read aloud",
+      "hi": "पढ़कर सुनाएँ",
+      "mr": "वाचून दाखवा"
+    },
+    "ui.60c76cd3c4ba": {
+      "en": "See my school plan",
+      "hi": "स्कूल की योजना देखें",
+      "mr": "शाळेची योजना पाहा"
+    },
+    "ui.beb6e61708cb": {
+      "en": "Take it easy outside today.",
+      "hi": "आज बाहर हल्की गतिविधियाँ करें।",
+      "mr": "आज बाहेर हलके उपक्रम करा."
+    },
+    "ui.069a0619dc41": {
+      "en": "Let’s plan some indoor activities.",
+      "hi": "आज अंदर की गतिविधियों की योजना बनाएँ।",
+      "mr": "आज वर्गातील उपक्रमांची योजना करूया."
+    },
+    "ui.f992e3d101bc": {
+      "en": "My little checklist",
+      "hi": "मेरी छोटी सूची",
+      "mr": "माझी छोटी यादी"
+    },
+    "ui.16e20323e0a2": {
+      "en": "What’s happening at school?",
+      "hi": "स्कूल में क्या योजना है?",
+      "mr": "शाळेत काय योजना आहे?"
+    },
+    "ui.36bd596fd068": {
+      "en": "Your school-day planning flag",
+      "hi": "आज के स्कूल का संकेत",
+      "mr": "आजचा शाळेचा संकेत"
+    },
+    "ui.16685c18c2b9": {
+      "en": "What to review today",
+      "hi": "आज क्या जाँचना है",
+      "mr": "आज काय तपासायचे"
+    },
+    "ui.5d8a995a6fa7": {
+      "en": "Why?",
+      "hi": "कारण क्या है?",
+      "mr": "कारण काय?"
+    },
+    "ui.d56b92ffe42d": {
+      "en": "Why this suggestion?",
+      "hi": "यह सुझाव क्यों?",
+      "mr": "हा सल्ला का?"
+    },
+    "ui.497c7545ac11": {
+      "en": "Compare route proxies",
+      "hi": "रास्तों के अनुमान की तुलना करें",
+      "mr": "मार्गांच्या अंदाजांची तुलना करा"
+    },
+    "ui.c2c2b63fd71c": {
+      "en": "Save notification preferences",
+      "hi": "सूचना विकल्प सहेजें",
+      "mr": "सूचना पर्याय जतन करा"
+    },
+    "ui.6339edbb31c0": {
+      "en": "Acknowledge class plan",
+      "hi": "कक्षा की योजना की पुष्टि करें",
+      "mr": "वर्गाची योजना मान्य करा"
+    },
+    "ui.dd9bb83d2e41": {
+      "en": "Class acknowledged",
+      "hi": "कक्षा की पुष्टि हो गई",
+      "mr": "वर्गाची पुष्टी झाली"
+    },
+    "ui.4cecb01bfc77": {
+      "en": "Publish school announcement",
+      "hi": "स्कूल की सूचना जारी करें",
+      "mr": "शाळेची सूचना प्रकाशित करा"
+    },
+    "ui.83c288debcf4": {
+      "en": "Save child profile",
+      "hi": "बच्चे की जानकारी सहेजें",
+      "mr": "मुलाची माहिती जतन करा"
+    },
+    "ui.e5d845b7cd03": {
+      "en": "Record exposure proxy",
+      "hi": "संपर्क का अनुमान दर्ज करें",
+      "mr": "संपर्काचा अंदाज नोंदवा"
+    },
+    "ui.92a77395e2ba": {
+      "en": "Share school observation",
+      "hi": "स्कूल की जानकारी साझा करें",
+      "mr": "शाळेची नोंद सामायिक करा"
+    },
+    "ui.0ce1374137ab": {
+      "en": "The next 24–48 hours",
+      "hi": "अगले 24–48 घंटे",
+      "mr": "पुढील 24–48 तास"
+    },
+    "ui.6df29e4419d0": {
+      "en": "Enable browser notifications",
+      "hi": "ब्राउज़र सूचनाएँ चालू करें",
+      "mr": "ब्राउझर सूचना सुरू करा"
+    },
+    "ui.19a58710832b": {
+      "en": "Notification preferences",
+      "hi": "सूचना प्राथमिकताएँ",
+      "mr": "सूचना प्राधान्ये"
+    },
+    "ui.cbf7e254a8c0": {
+      "en": "Message language",
+      "hi": "संदेश की भाषा",
+      "mr": "संदेशाची भाषा"
+    },
+    "ui.4f421f3d82b9": {
+      "en": "Quiet hours start",
+      "hi": "शांत समय शुरू",
+      "mr": "शांत वेळ सुरू"
+    },
+    "ui.7089ffb2855e": {
+      "en": "Quiet hours end",
+      "hi": "शांत समय समाप्त",
+      "mr": "शांत वेळ समाप्त"
+    },
+    "ui.9a7e2d38eed2": {
+      "en": "Daily cap",
+      "hi": "दैनिक सीमा",
+      "mr": "दैनिक मर्यादा"
+    },
+    "ui.b846a32c661a": {
+      "en": "School alerts",
+      "hi": "स्कूल सूचनाएँ",
+      "mr": "शाळेच्या सूचना"
+    },
+    "ui.5a16dd082575": {
+      "en": "Delivery history",
+      "hi": "भेजने का इतिहास",
+      "mr": "वितरण इतिहास"
+    },
+    "ui.0e4a58028f93": {
+      "en": "Enable closed-browser Web Push",
+      "hi": "बंद ब्राउज़र के लिए वेब पुश चालू करें",
+      "mr": "बंद ब्राउझरसाठी वेब पुश सुरू करा"
+    },
+    "ui.6f6d139fa8d2": {
+      "en": "Refresh Web Push subscription",
+      "hi": "वेब पुश सदस्यता फिर चालू करें",
+      "mr": "वेब पुश सदस्यता पुन्हा सुरू करा"
+    },
+    "ui.7d73211d6f9d": {
+      "en": "Pilot the indoor-PE routine",
+      "hi": "इनडोर खेल प्रक्रिया का पायलट",
+      "mr": "वर्गातील खेळ प्रक्रियेची चाचणी"
+    },
+    "ui.0b5baf309897": {
+      "en": "Routine",
+      "hi": "प्रक्रिया",
+      "mr": "प्रक्रिया"
+    },
+    "ui.41890adb5ae8": {
+      "en": "Indoor PE",
+      "hi": "इनडोर खेल",
+      "mr": "वर्गातील खेळ"
+    },
+    "ui.7bfa729fe8f7": {
+      "en": "Custom school notice",
+      "hi": "विशेष स्कूल सूचना",
+      "mr": "सानुकूल शाळा सूचना"
+    },
+    "ui.204d1cd186bb": {
+      "en": "Staff instruction",
+      "hi": "कर्मचारी निर्देश",
+      "mr": "कर्मचारी सूचना"
+    },
+    "ui.6e8a50d9bbe7": {
+      "en": "Publish and start completion tracking",
+      "hi": "जारी करें और पूर्णता मापना शुरू करें",
+      "mr": "प्रकाशित करा आणि पूर्णता मोजणे सुरू करा"
+    },
+    "ui.1cd62f7c7483": {
+      "en": "Routine complete",
+      "hi": "प्रक्रिया पूरी हुई",
+      "mr": "प्रक्रिया पूर्ण"
+    },
+    "ui.f018fd503859": {
+      "en": "Routine in progress",
+      "hi": "प्रक्रिया जारी है",
+      "mr": "प्रक्रिया सुरू आहे"
+    },
+    "ui.9e493b6577ef": {
+      "en": "Teacher acknowledgment",
+      "hi": "शिक्षक की पुष्टि",
+      "mr": "शिक्षकांची पुष्टी"
+    },
+    "ui.3ab31f62a5a1": {
+      "en": "Parent review",
+      "hi": "अभिभावक समीक्षा",
+      "mr": "पालकांचा आढावा"
+    },
+    "ui.0d34aead7d72": {
+      "en": "Class action checklist",
+      "hi": "कक्षा कार्य सूची",
+      "mr": "वर्ग कृती सूची"
+    },
+    "ui.6f9865d13e3c": {
+      "en": "Read the latest school notice",
+      "hi": "स्कूल की नई सूचना पढ़ें",
+      "mr": "शाळेची नवीन सूचना वाचा"
+    },
+    "ui.1dcbbdb45c56": {
+      "en": "Confirm the indoor PE space and supervision",
+      "hi": "इनडोर खेल की जगह और निगरानी की पुष्टि करें",
+      "mr": "वर्गातील खेळाची जागा आणि देखरेख निश्चित करा"
+    },
+    "ui.7ef9b2bfebec": {
+      "en": "Tell the class what changes today",
+      "hi": "कक्षा को आज के बदलाव बताएँ",
+      "mr": "वर्गाला आजचे बदल सांगा"
+    },
+    "ui.40b3a2d76eae": {
+      "en": "Outdoor minutes moved indoors",
+      "hi": "अंदर किए गए बाहरी गतिविधि के मिनट",
+      "mr": "वर्गात हलवलेली मैदानी मिनिटे"
+    },
+    "ui.4f25ac678d60": {
+      "en": "Latest published school notice",
+      "hi": "स्कूल की नवीनतम जारी सूचना",
+      "mr": "शाळेची नवीनतम प्रकाशित सूचना"
+    },
+    "ui.26ad577738cb": {
+      "en": "I reviewed this school plan",
+      "hi": "मैंने यह स्कूल योजना देख ली",
+      "mr": "मी ही शाळेची योजना पाहिली"
+    },
+    "ui.8f41f6a0d7e5": {
+      "en": "Plan reviewed",
+      "hi": "योजना देखी गई",
+      "mr": "योजनेचा आढावा झाला"
+    },
+    "ui.48c17b3f3a8f": {
+      "en": "Credentials, sources and freshness",
+      "hi": "प्रमाण-पत्र, स्रोत और ताज़गी",
+      "mr": "प्रमाणपत्रे, स्रोत आणि ताजेपणा"
+    },
+    "ui.3660f61d3051": {
+      "en": "Nearby contributing points",
+      "hi": "पास के योगदान बिंदु",
+      "mr": "जवळचे योगदान बिंदू"
+    },
+    "ui.af9d7bef9606": {
+      "en": "Held-out validation evidence",
+      "hi": "अलग रखे गए डेटा का सत्यापन",
+      "mr": "राखीव डेटाचे प्रमाणीकरण"
+    },
+    "ui.915bfd0a51e3": {
+      "en": "Sources and freshness",
+      "hi": "स्रोत और ताज़गी",
+      "mr": "स्रोत आणि ताजेपणा"
+    },
+    "ui.2c71d94c7048": {
+      "en": "School history and weekly report",
+      "hi": "स्कूल इतिहास और साप्ताहिक रिपोर्ट",
+      "mr": "शाळेचा इतिहास आणि साप्ताहिक अहवाल"
+    },
+    "ui.c02c2e16d060": {
+      "en": "Download weekly report",
+      "hi": "साप्ताहिक रिपोर्ट डाउनलोड करें",
+      "mr": "साप्ताहिक अहवाल डाउनलोड करा"
+    },
+    "ui.c758dfbb9283": {
+      "en": "One school. One shared update.",
+      "hi": "एक स्कूल, एक साझा सूचना।",
+      "mr": "एक शाळा, एक सामायिक सूचना."
+    },
+    "ui.8cfb69880145": {
+      "en": "What changes for the day?",
+      "hi": "आज क्या बदलेगा?",
+      "mr": "आज काय बदलेल?"
+    },
+    "ui.5ebc59145b59": {
+      "en": "Workspace settings",
+      "hi": "कार्यस्थल सेटिंग",
+      "mr": "कार्यस्थान सेटिंग्ज"
+    },
+    "ui.2469de07b6c0": {
+      "en": "What we collect and why",
+      "hi": "हम क्या लेते हैं और क्यों",
+      "mr": "आम्ही काय गोळा करतो आणि का"
+    },
+    "ui.63e78aa833b4": {
+      "en": "YOUR SCHOOL DAY",
+      "hi": "आपका स्कूल का दिन",
+      "mr": "तुमचा शाळेचा दिवस"
+    },
+    "ui.e0f62d08d458": {
+      "en": "AIR EXPLORER",
+      "hi": "हवा के खोजी",
+      "mr": "हवेचा शोधक"
+    },
+    "ui.44e7d4b24846": {
+      "en": "Assembly",
+      "hi": "सभा",
+      "mr": "प्रार्थना सभा"
+    },
+    "ui.fb51213efa4f": {
+      "en": "Break time",
+      "hi": "छुट्टी का समय",
+      "mr": "सुट्टीची वेळ"
+    },
+    "ui.9b1f5daf0a3d": {
+      "en": "Sports",
+      "hi": "खेल",
+      "mr": "खेळ"
+    },
+    "ui.1c9fb9f62cf0": {
+      "en": "Classroom gathering",
+      "hi": "कक्षा में सभा",
+      "mr": "वर्गातील सभा"
+    },
+    "ui.764b5db9455f": {
+      "en": "Short assembly",
+      "hi": "छोटी सभा",
+      "mr": "छोटी सभा"
+    },
+    "ui.fbcc05b2460c": {
+      "en": "Indoor games",
+      "hi": "अंदर के खेल",
+      "mr": "वर्गातील खेळ"
+    },
+    "ui.4a2752170101": {
+      "en": "Gentle play",
+      "hi": "हल्के खेल",
+      "mr": "हलके खेळ"
+    },
+    "ui.518163cbbe2f": {
+      "en": "Indoor movement",
+      "hi": "अंदर की गतिविधियाँ",
+      "mr": "वर्गातील हालचाली"
+    },
+    "ui.d514085cce38": {
+      "en": "Check with your teacher",
+      "hi": "अपने शिक्षक से पूछें",
+      "mr": "शिक्षकांना विचारा"
+    },
+    "ui.f5c39c67edb4": {
+      "en": "Your teacher still needs to review this plan.",
+      "hi": "इस योजना को शिक्षक की समीक्षा चाहिए।",
+      "mr": "या योजनेचा शिक्षकांनी आढावा घ्यायचा आहे."
+    },
+    "ui.4697d8499fc8": {
+      "en": "Practice school plan confirmed",
+      "hi": "अभ्यास की स्कूल योजना की पुष्टि हुई",
+      "mr": "सरावाच्या शाळा योजनेची पुष्टी झाली"
+    },
+    "ui.1659b8bb8ebd": {
+      "en": "School plan confirmed on this device",
+      "hi": "इस डिवाइस पर स्कूल योजना की पुष्टि हुई",
+      "mr": "या उपकरणावर शाळा योजनेची पुष्टी झाली"
+    },
+    "ui.3809002656bc": {
+      "en": "Follow your teacher’s actual instructions. If you feel unwell, tell a trusted adult.",
+      "hi": "शिक्षक के असली निर्देश मानें। तबीयत खराब हो तो किसी भरोसेमंद बड़े को बताएँ।",
+      "mr": "शिक्षकांच्या खऱ्या सूचना पाळा. बरे वाटत नसेल तर विश्वासू मोठ्या व्यक्तीला सांगा."
+    },
+    "ui.03893ed9ba6f": {
+      "en": "Your teacher may choose indoor games today. Check the school plan before going outside.",
+      "hi": "शिक्षक आज अंदर के खेल चुन सकते हैं। बाहर जाने से पहले स्कूल की योजना देखें।",
+      "mr": "शिक्षक आज वर्गातील खेळ निवडू शकतात. बाहेर जाण्यापूर्वी शाळेची योजना पाहा."
+    },
+    "ui.7fba11a4ab85": {
+      "en": "Keep outdoor games gentle. Ask your teacher before a long or energetic sports session.",
+      "hi": "बाहर हल्के खेल खेलें। लंबे या तेज़ खेल से पहले शिक्षक से पूछें।",
+      "mr": "बाहेर हलके खेळ खेळा. लांब किंवा जोरदार खेळापूर्वी शिक्षकांना विचारा."
+    },
+    "ui.52d40ce74761": {
+      "en": "The air update looks better. Ask your teacher about today’s activities.",
+      "hi": "हवा की जानकारी बेहतर दिख रही है। आज की गतिविधियों के बारे में शिक्षक से पूछें।",
+      "mr": "हवेची माहिती चांगली दिसते. आजच्या उपक्रमांबद्दल शिक्षकांना विचारा."
+    },
+    "ui.dc0904ec3d82": {
+      "en": "We don’t have a current air update. Follow your teacher’s instructions.",
+      "hi": "हवा की नई जानकारी उपलब्ध नहीं है। शिक्षक के निर्देश मानें।",
+      "mr": "हवेची नवीन माहिती उपलब्ध नाही. शिक्षकांच्या सूचना पाळा."
+    },
+    "ui.61424c5c2168": {
+      "en": "Check the plan, then enjoy your day.",
+      "hi": "योजना देखें, फिर दिन का आनंद लें।",
+      "mr": "योजना पाहा, मग दिवसाचा आनंद घ्या."
+    },
+    "ui.3b1bd14afbd2": {
+      "en": "Ask an adult to check the air.",
+      "hi": "हवा की जानकारी जाँचने के लिए बड़े से कहें।",
+      "mr": "हवेची माहिती तपासायला मोठ्यांना सांगा."
+    },
+    "ui.baf261ab7b29": {
+      "en": "Back to my day",
+      "hi": "मेरे दिन पर वापस जाएँ",
+      "mr": "माझ्या दिवसाकडे परत"
+    },
+    "ui.10a9d6c1be2a": {
+      "en": "Tiny things can be in the air.",
+      "hi": "हवा में बहुत छोटे कण हो सकते हैं।",
+      "mr": "हवेत खूप छोटे कण असू शकतात."
+    },
+    "ui.52f5e96af72b": {
+      "en": "Air can contain tiny particles. We cannot always see them, but instruments can measure them.",
+      "hi": "हवा में छोटे कण हो सकते हैं। वे हमेशा दिखाई नहीं देते, लेकिन उपकरण उन्हें माप सकते हैं।",
+      "mr": "हवेत छोटे कण असू शकतात. ते नेहमी दिसत नाहीत, पण उपकरणे ते मोजू शकतात."
+    },
+    "ui.39131125f332": {
+      "en": "An air-quality update helps your teacher decide what activities to plan.",
+      "hi": "हवा की जानकारी से शिक्षक गतिविधियों की योजना बना सकते हैं।",
+      "mr": "हवेची माहिती शिक्षकांना उपक्रम ठरवायला मदत करते."
+    },
+    "ui.7a00ca803826": {
+      "en": "What are PM2.5 and PM10?",
+      "hi": "PM2.5 और PM10 क्या हैं?",
+      "mr": "PM2.5 आणि PM10 म्हणजे काय?"
+    },
+    "ui.cf88e01591d5": {
+      "en": "These names describe particle sizes. PM2.5 particles are very small. PM10 includes slightly larger particles as well as the smaller ones.",
+      "hi": "ये नाम कणों का आकार बताते हैं। PM2.5 बहुत छोटे कण हैं। PM10 में छोटे और कुछ बड़े कण शामिल हैं।",
+      "mr": "ही नावे कणांचा आकार सांगतात. PM2.5 खूप छोटे कण आहेत. PM10 मध्ये छोटे आणि थोडे मोठे कणही असतात."
+    },
+    "ui.2913b08add91": {
+      "en": "What does an air-quality update help us do?",
+      "hi": "हवा की जानकारी किस काम में मदद करती है?",
+      "mr": "हवेची माहिती आपल्याला कशात मदत करते?"
+    },
+    "ui.01a9985de36e": {
+      "en": "Plan our outdoor activities",
+      "hi": "बाहर की गतिविधियों की योजना बनाना",
+      "mr": "मैदानी उपक्रम ठरवणे"
+    },
+    "ui.f6ffe04aa525": {
+      "en": "Predict exam results",
+      "hi": "परीक्षा का परिणाम बताना",
+      "mr": "परीक्षेचा निकाल सांगणे"
+    },
+    "ui.7ab93c9236ad": {
+      "en": "Choose a favourite colour",
+      "hi": "पसंदीदा रंग चुनना",
+      "mr": "आवडता रंग निवडणे"
+    },
+    "ui.9e00d70306d7": {
+      "en": "An air update helps us and our teachers plan outdoor activities.",
+      "hi": "हवा की जानकारी हमें और शिक्षक को बाहर की गतिविधियाँ तय करने में मदद करती है।",
+      "mr": "हवेची माहिती आपल्याला आणि शिक्षकांना मैदानी उपक्रम ठरवायला मदत करते."
+    },
+    "ui.d6cfe27c11de": {
+      "en": "Who should you check with before changing your school activity?",
+      "hi": "स्कूल की गतिविधि बदलने से पहले किससे पूछें?",
+      "mr": "शाळेचा उपक्रम बदलण्यापूर्वी कोणाला विचारावे?"
+    },
+    "ui.239680dd09f5": {
+      "en": "A teacher or trusted adult",
+      "hi": "शिक्षक या भरोसेमंद बड़े से",
+      "mr": "शिक्षक किंवा विश्वासू मोठ्या व्यक्तीला"
+    },
+    "ui.86d9eb081c2f": {
+      "en": "A game character",
+      "hi": "खेल के पात्र से",
+      "mr": "खेळातील पात्राला"
+    },
+    "ui.3fad99b521aa": {
+      "en": "Nobody",
+      "hi": "किसी से नहीं",
+      "mr": "कोणालाही नाही"
+    },
+    "ui.f6ae8f9a1e19": {
+      "en": "A teacher or trusted adult can explain the school’s plan.",
+      "hi": "शिक्षक या भरोसेमंद बड़े स्कूल की योजना समझा सकते हैं।",
+      "mr": "शिक्षक किंवा विश्वासू मोठी व्यक्ती शाळेची योजना समजावू शकते."
+    },
+    "ui.704577e8f047": {
+      "en": "What is PM2.5?",
+      "hi": "PM2.5 क्या है?",
+      "mr": "PM2.5 म्हणजे काय?"
+    },
+    "ui.fb7092cf0c56": {
+      "en": "A tiny particle in the air",
+      "hi": "हवा में बहुत छोटा कण",
+      "mr": "हवेतील खूप छोटा कण"
+    },
+    "ui.11a6f3089681": {
+      "en": "A type of school bag",
+      "hi": "स्कूल बैग का प्रकार",
+      "mr": "दप्तराचा प्रकार"
+    },
+    "ui.e228903e81f1": {
+      "en": "The time for lunch",
+      "hi": "खाने का समय",
+      "mr": "जेवणाची वेळ"
+    },
+    "ui.fd7e200758f5": {
+      "en": "PM2.5 means very small particles. They are too small to see one by one.",
+      "hi": "PM2.5 बहुत छोटे कण होते हैं। वे इतने छोटे होते हैं कि एक-एक करके दिखाई नहीं देते।",
+      "mr": "PM2.5 खूप छोटे कण असतात. ते इतके छोटे असतात की एकेकटे दिसत नाहीत."
+    },
+    "ui.a3c7e87dd830": {
+      "en": "That’s right!",
+      "hi": "सही जवाब!",
+      "mr": "बरोबर!"
+    },
+    "ui.2bacc0f92c69": {
+      "en": "Let’s learn together.",
+      "hi": "चलो साथ सीखें।",
+      "mr": "चला एकत्र शिकूया."
+    },
+    "ui.f7a9d7437e96": {
+      "en": "Next question",
+      "hi": "अगला प्रश्न",
+      "mr": "पुढचा प्रश्न"
+    },
+    "ui.773ba41a419a": {
+      "en": "Try the questions again",
+      "hi": "फिर से प्रश्न हल करें",
+      "mr": "प्रश्न पुन्हा सोडवा"
+    },
+    "ui.ac9fb07fd4f6": {
+      "en": "Pick an answer. It’s okay to learn as you go.",
+      "hi": "एक जवाब चुनें। कोशिश करते हुए सीखें।",
+      "mr": "एक उत्तर निवडा. प्रयत्न करत शिकूया."
+    },
+    "ui.5cd5828a7eab": {
+      "en": "If you feel unwell, tell a teacher or another trusted adult. Keep following any care plan you already have.",
+      "hi": "तबीयत खराब हो तो शिक्षक या भरोसेमंद बड़े को बताएँ। अपनी मौजूदा देखभाल योजना मानते रहें।",
+      "mr": "बरे वाटत नसेल तर शिक्षक किंवा विश्वासू मोठ्या व्यक्तीला सांगा. तुमची आधीची काळजीची योजना पाळत राहा."
+    },
+    "ui.b36c2611dcdf": {
+      "en": "Daily",
+      "hi": "दैनिक",
+      "mr": "दैनिक"
+    },
+    "ui.04d7b4833927": {
+      "en": "Messages",
+      "hi": "संदेश",
+      "mr": "संदेश"
+    },
+    "ui.2a932f90172e": {
+      "en": "Insights",
+      "hi": "विश्लेषण",
+      "mr": "विश्लेषण"
+    },
+    "ui.7013af4c42fe": {
+      "en": "Setup",
+      "hi": "व्यवस्था",
+      "mr": "व्यवस्था"
+    },
+    "ui.c1c224b03cd9": {
+      "en": "Admin",
+      "hi": "व्यवस्थापक",
+      "mr": "प्रशासक"
+    },
+    "ui.afc19f1734c1": {
+      "en": "Principal",
+      "hi": "प्रधानाचार्य",
+      "mr": "मुख्याध्यापक"
+    },
+    "ui.5eeee52ec1e5": {
+      "en": "Teacher",
+      "hi": "शिक्षक",
+      "mr": "शिक्षक"
+    },
+    "ui.681927e34b77": {
+      "en": "Staff",
+      "hi": "कर्मचारी",
+      "mr": "कर्मचारी"
+    },
+    "ui.5f7953f7c9b6": {
+      "en": "Parent",
+      "hi": "अभिभावक",
+      "mr": "पालक"
+    },
+    "ui.5ac45c94f6be": {
+      "en": "Kid",
+      "hi": "बच्चे",
+      "mr": "मुले"
+    },
+    "ui.5abd00cb0d7b": {
+      "en": "Publish the plan",
+      "hi": "योजना प्रकाशित करें",
+      "mr": "योजना प्रकाशित करा"
+    },
+    "ui.e2ca935e7a28": {
+      "en": "My class",
+      "hi": "मेरी कक्षा",
+      "mr": "माझा वर्ग"
+    },
+    "ui.fd50b69e7d9f": {
+      "en": "Duty and gate",
+      "hi": "ड्यूटी और गेट",
+      "mr": "ड्युटी आणि गेट"
+    },
+    "ui.1cbd169efa86": {
+      "en": "Today for my child",
+      "hi": "मेरे बच्चे का आज",
+      "mr": "माझ्या मुलाचा आजचा दिवस"
+    },
+    "ui.466264a440e5": {
+      "en": "Air Explorer",
+      "hi": "हवा के खोजी",
+      "mr": "हवेचा शोधक"
+    },
+    "ui.d82cac9ce568": {
+      "en": "Current school planning priority",
+      "hi": "स्कूल की मौजूदा योजना की प्राथमिकता",
+      "mr": "शाळेच्या सध्याच्या योजनेचे प्राधान्य"
+    },
+    "ui.3b16b4910a73": {
+      "en": "Move PE and assembly indoors",
+      "hi": "खेल और सभा को अंदर रखें",
+      "mr": "खेळ आणि सभा वर्गात घ्या"
+    },
+    "ui.72f9ccf10461": {
+      "en": "Rotate outdoor duties and take indoor breaks",
+      "hi": "बाहरी ड्यूटी बदलें और अंदर विश्राम करें",
+      "mr": "मैदानी ड्युटी बदला आणि आत विश्रांती घ्या"
+    },
+    "ui.a458e8a6082b": {
+      "en": "Review shorter, gentler outdoor activities",
+      "hi": "छोटी और हल्की बाहरी गतिविधियाँ चुनें",
+      "mr": "लहान आणि हलके मैदानी उपक्रम निवडा"
+    },
+    "ui.10a0525625be": {
+      "en": "Review the usual school timetable",
+      "hi": "स्कूल की सामान्य समय-सारणी देखें",
+      "mr": "शाळेचे नेहमीचे वेळापत्रक तपासा"
+    },
+    "ui.7e65f9e29fe3": {
+      "en": "Reduce waiting at the school gate",
+      "hi": "स्कूल गेट पर इंतज़ार कम करें",
+      "mr": "शाळेच्या गेटवरील थांबा कमी करा"
+    },
+    "ui.c53f664bc49a": {
+      "en": "Verify current air conditions",
+      "hi": "हवा की मौजूदा स्थिति जाँचें",
+      "mr": "हवेची सध्याची स्थिती तपासा"
+    },
+    "ui.d2f98dd6ef20": {
+      "en": "Suggested change. Check room conditions before confirming.",
+      "hi": "सुझाया गया बदलाव। पुष्टि से पहले कमरे की स्थिति जाँचें।",
+      "mr": "सुचवलेला बदल. पुष्टी करण्यापूर्वी खोलीची स्थिती तपासा."
+    },
+    "ui.8471174e58b3": {
+      "en": "School planning suggestion. Follow the published school instruction.",
+      "hi": "स्कूल योजना का सुझाव। प्रकाशित स्कूल निर्देश मानें।",
+      "mr": "शाळेच्या योजनेचा सल्ला. प्रकाशित शाळेची सूचना पाळा."
+    },
+    "ui.7645c944e091": {
+      "en": "Fresh air data is needed. Publication is paused.",
+      "hi": "हवा की नई जानकारी चाहिए। प्रकाशन रुका हुआ है।",
+      "mr": "हवेची ताजी माहिती हवी. प्रकाशन थांबवले आहे."
+    },
+    "ui.94410c37c2f3": {
+      "en": "Planning bands, not official AQI",
+      "hi": "योजना के स्तर, आधिकारिक AQI नहीं",
+      "mr": "योजनेचे स्तर, अधिकृत AQI नाही"
+    },
+    "ui.133a74039f48": {
+      "en": "Plan reviews",
+      "hi": "योजना की समीक्षाएँ",
+      "mr": "योजनेचे आढावे"
+    },
+    "ui.89b222b8a279": {
+      "en": "Reviews {0} of {1}",
+      "hi": "समीक्षाएँ {0} / {1}",
+      "mr": "आढावे {0} / {1}"
+    },
+    "ui.6e293a8c009e": {
+      "en": "Waiting",
+      "hi": "प्रतीक्षा",
+      "mr": "प्रतीक्षेत"
+    },
+    "ui.fad6057bb540": {
+      "en": "Reviewed",
+      "hi": "समीक्षित",
+      "mr": "आढावा घेतला"
+    },
+    "ui.2ef42ec21d93": {
+      "en": "Published",
+      "hi": "प्रकाशित",
+      "mr": "प्रकाशित"
+    },
+    "ui.ebf12ef47cf5": {
+      "en": "Draft",
+      "hi": "मसौदा",
+      "mr": "मसुदा"
+    },
+    "ui.0d43d6e657b1": {
+      "en": "Not yet shared",
+      "hi": "अभी साझा नहीं किया",
+      "mr": "अजून सामायिक नाही"
+    },
+    "ui.8453b58fc105": {
+      "en": "School administrator",
+      "hi": "स्कूल व्यवस्थापक",
+      "mr": "शाळा प्रशासक"
+    },
+    "ui.8d699b4ee2f8": {
+      "en": "Parent / guardian",
+      "hi": "अभिभावक",
+      "mr": "पालक"
+    },
+    "ui.a81d246d4c7f": {
+      "en": "School duty team",
+      "hi": "स्कूल ड्यूटी दल",
+      "mr": "शाळेचे ड्युटी पथक"
+    },
+    "ui.407084580f5a": {
+      "en": "Records review, not health outcomes.",
+      "hi": "यह समीक्षा की नोंद है, स्वास्थ्य परिणाम नहीं।",
+      "mr": "ही आढाव्याची नोंद आहे, आरोग्य परिणाम नाहीत."
+    },
+    "ui.62d42667aa94": {
+      "en": "This draft has no confirmations. Publish it before requesting reviews.",
+      "hi": "इस मसौदे की पुष्टि नहीं हुई। समीक्षा माँगने से पहले प्रकाशित करें।",
+      "mr": "या मसुद्याची पुष्टी नाही. आढावा मागण्यापूर्वी प्रकाशित करा."
+    },
+    "ui.1f8fd8b6ce70": {
+      "en": "Publish plan",
+      "hi": "योजना प्रकाशित करें",
+      "mr": "योजना प्रकाशित करा"
+    },
+    "ui.1df35181b0ab": {
+      "en": "Draft a revision",
+      "hi": "नया मसौदा बनाएँ",
+      "mr": "नवा मसुदा तयार करा"
+    },
+    "ui.57662ed4cb24": {
+      "en": "Edit wording",
+      "hi": "शब्द बदलें",
+      "mr": "मजकूर बदला"
+    },
+    "ui.1b9f6c7a1c9f": {
+      "en": "What changes · outdoor minutes at orange/red",
+      "hi": "बदलाव · नारंगी/लाल स्तर पर बाहरी मिनट",
+      "mr": "बदल · नारंगी/लाल स्तरातील मैदानी मिनिटे"
+    },
+    "ui.e20b4d1fc898": {
+      "en": "Planning estimate if the suggested changes are reviewed and followed.",
+      "hi": "सुझावों की समीक्षा करके अपनाने पर योजना का अनुमान।",
+      "mr": "सूचनांचा आढावा घेऊन पालन केल्यास योजनेचा अंदाज."
+    },
+    "ui.f0fc35235c5d": {
+      "en": "Published school plan",
+      "hi": "प्रकाशित स्कूल योजना",
+      "mr": "प्रकाशित शाळेची योजना"
+    },
+    "ui.38369662e1fa": {
+      "en": "Draft school plan",
+      "hi": "स्कूल योजना का मसौदा",
+      "mr": "शाळेच्या योजनेचा मसुदा"
+    },
+    "ui.56016447c30d": {
+      "en": "The school instruction is published.",
+      "hi": "स्कूल का निर्देश प्रकाशित है।",
+      "mr": "शाळेची सूचना प्रकाशित आहे."
+    },
+    "ui.c78647fa92ea": {
+      "en": "Review the new draft before sharing.",
+      "hi": "साझा करने से पहले नए मसौदे की समीक्षा करें।",
+      "mr": "सामायिक करण्यापूर्वी नव्या मसुद्याचा आढावा घ्या."
+    },
+    "ui.4e7ac0f2e888": {
+      "en": "Read school plan",
+      "hi": "स्कूल योजना पढ़ें",
+      "mr": "शाळेची योजना वाचा"
+    },
+    "ui.c6e5edcb50eb": {
+      "en": "Review draft",
+      "hi": "मसौदा देखें",
+      "mr": "मसुदा तपासा"
+    },
+    "ui.c6aa9cd74d6a": {
+      "en": "Morning brief",
+      "hi": "सुबह की जानकारी",
+      "mr": "सकाळची माहिती"
+    },
+    "ui.8ee716906c25": {
+      "en": "Tomorrow’s forecast",
+      "hi": "कल का पूर्वानुमान",
+      "mr": "उद्याचा अंदाज"
+    },
+    "ui.82a1c10bb7c0": {
+      "en": "Move PE and assembly indoors?",
+      "hi": "क्या खेल और सभा अंदर रखें?",
+      "mr": "खेळ आणि सभा वर्गात घ्यायची का?"
+    },
+    "ui.c8baeb97036a": {
+      "en": "Yes — review indoor alternatives.",
+      "hi": "हाँ — अंदर के विकल्प देखें।",
+      "mr": "हो — आतील पर्याय तपासा."
+    },
+    "ui.6d4c3fe31127": {
+      "en": "No — review the usual timetable.",
+      "hi": "नहीं — सामान्य समय-सारणी देखें।",
+      "mr": "नाही — नेहमीचे वेळापत्रक तपासा."
+    },
+    "ui.f25cf8273033": {
+      "en": "Unknown — forecast unavailable; verify with staff.",
+      "hi": "अज्ञात — पूर्वानुमान उपलब्ध नहीं; कर्मचारियों से जाँचें।",
+      "mr": "अज्ञात — अंदाज उपलब्ध नाही; कर्मचाऱ्यांना विचारा."
+    },
+    "ui.2b6ca0ecebc3": {
+      "en": "Demo forecast",
+      "hi": "नमूना पूर्वानुमान",
+      "mr": "नमुना अंदाज"
+    },
+    "ui.6c48bfaf64cc": {
+      "en": "Draft the morning message",
+      "hi": "सुबह का संदेश बनाएँ",
+      "mr": "सकाळचा संदेश तयार करा"
+    },
+    "ui.ebb0a6051dda": {
+      "en": "What changes in the school day",
+      "hi": "स्कूल के दिन में बदलाव",
+      "mr": "शाळेच्या दिवसातील बदल"
+    },
+    "ui.ce8a6ec931bd": {
+      "en": "Planned outdoors at orange or red",
+      "hi": "नारंगी या लाल स्तर पर बाहरी योजना",
+      "mr": "नारंगी किंवा लाल स्तरावर मैदानी योजना"
+    },
+    "ui.6e5625b8c130": {
+      "en": "Data health",
+      "hi": "डेटा की स्थिति",
+      "mr": "माहितीची स्थिती"
+    },
+    "ui.f810b6687741": {
+      "en": "Fresh",
+      "hi": "ताज़ा",
+      "mr": "ताजी"
+    },
+    "ui.7f7169f0cf4b": {
+      "en": "Getting old",
+      "hi": "पुरानी हो रही है",
+      "mr": "जुनी होत आहे"
+    },
+    "ui.40c9e59c5e15": {
+      "en": "Stale",
+      "hi": "पुराना",
+      "mr": "जुनी"
+    },
+    "ui.ca1844969742": {
+      "en": "Unavailable",
+      "hi": "उपलब्ध नहीं",
+      "mr": "उपलब्ध नाही"
+    },
+    "ui.29d7fc2c9ada": {
+      "en": "Your school day",
+      "hi": "आपका स्कूल दिवस",
+      "mr": "तुमचा शाळेचा दिवस"
+    },
+    "ui.3b8c85d55743": {
+      "en": "School-day blocks for your class",
+      "hi": "आपकी कक्षा के दैनिक हिस्से",
+      "mr": "तुमच्या वर्गाचे दिवसभरातील भाग"
+    },
+    "ui.72f6c8b32efb": {
+      "en": "Suggestions to review with a school adult.",
+      "hi": "स्कूल के जिम्मेदार वयस्क के साथ सुझाव देखें।",
+      "mr": "शाळेतील जबाबदार प्रौढासोबत सूचना तपासा."
+    },
+    "ui.294763754a8e": {
+      "en": "PE",
+      "hi": "खेल",
+      "mr": "खेळ"
+    },
+    "ui.f71081fb0af4": {
+      "en": "Break",
+      "hi": "विराम",
+      "mr": "सुट्टी"
+    },
+    "ui.b685076a6057": {
+      "en": "Pickup",
+      "hi": "बच्चे को लेने का समय",
+      "mr": "मुलाला घेण्याची वेळ"
+    },
+    "ui.41f9d57c3c4a": {
+      "en": "No change",
+      "hi": "कोई बदलाव नहीं",
+      "mr": "बदल नाही"
+    },
+    "ui.8893dff34c02": {
+      "en": "Why this matters",
+      "hi": "यह क्यों ज़रूरी है",
+      "mr": "हे महत्त्वाचे का आहे"
+    },
+    "ui.ae769ca00f54": {
+      "en": "Your next steps",
+      "hi": "आपके अगले कदम",
+      "mr": "तुमची पुढची पावले"
+    },
+    "ui.caf85b0888d7": {
+      "en": "Sources",
+      "hi": "स्रोत",
+      "mr": "स्रोत"
+    },
+    "ui.a22bd608ff67": {
+      "en": "Data sources",
+      "hi": "डेटा स्रोत",
+      "mr": "माहितीचे स्रोत"
+    },
+    "ui.74bfd3a37722": {
+      "en": "Public-source registry",
+      "hi": "सार्वजनिक स्रोत सूची",
+      "mr": "सार्वजनिक स्रोत यादी"
+    },
+    "ui.6657fbaab9fe": {
+      "en": "Where this reading came from",
+      "hi": "यह जानकारी कहाँ से आई",
+      "mr": "ही माहिती कुठून आली"
+    },
+    "ui.fe37fce8e1d6": {
+      "en": "Source details & explanation",
+      "hi": "स्रोत का विवरण और कारण",
+      "mr": "स्रोताचा तपशील आणि स्पष्टीकरण"
+    },
+    "ui.068c95194405": {
+      "en": "Plan an outdoor activity",
+      "hi": "बाहरी गतिविधि की योजना",
+      "mr": "मैदानी उपक्रमाची योजना"
+    },
+    "ui.0c2d78f3ffe3": {
+      "en": "Look ahead",
+      "hi": "आगे की योजना",
+      "mr": "पुढची योजना"
+    },
+    "ui.8659250e4088": {
+      "en": "Valid time",
+      "hi": "लागू समय",
+      "mr": "लागू वेळ"
+    },
+    "ui.0e570ca6fabe": {
+      "en": "Source",
+      "hi": "स्रोत",
+      "mr": "स्रोत"
+    },
+    "ui.4790277aa10c": {
+      "en": "Retrieved",
+      "hi": "प्राप्त",
+      "mr": "मिळवले"
+    },
+    "ui.7ae20a96e736": {
+      "en": "Activity start (local time)",
+      "hi": "गतिविधि शुरू (स्थानीय समय)",
+      "mr": "उपक्रम सुरू (स्थानिक वेळ)"
+    },
+    "ui.d74860aff5c1": {
+      "en": "Activity duration in minutes",
+      "hi": "गतिविधि की अवधि (मिनट)",
+      "mr": "उपक्रमाचा कालावधी (मिनिटे)"
+    },
+    "ui.6f8d531a5851": {
+      "en": "Review activity window",
+      "hi": "गतिविधि का समय जाँचें",
+      "mr": "उपक्रमाची वेळ तपासा"
+    },
+    "ui.ba2c905379a8": {
+      "en": "Weather context",
+      "hi": "मौसम की जानकारी",
+      "mr": "हवामानाची माहिती"
+    },
+    "ui.02a45696bfbf": {
+      "en": "Your class",
+      "hi": "आपकी कक्षा",
+      "mr": "तुमचा वर्ग"
+    },
+    "ui.3a08dec415e7": {
+      "en": "Class timetable",
+      "hi": "कक्षा की समय-सारणी",
+      "mr": "वर्गाचे वेळापत्रक"
+    },
+    "ui.504d45fd56e9": {
+      "en": "Class checklist",
+      "hi": "कक्षा की कार्यसूची",
+      "mr": "वर्गाची कृती यादी"
+    },
+    "ui.ab72fee543ca": {
+      "en": "Duty checklist",
+      "hi": "ड्यूटी कार्यसूची",
+      "mr": "ड्युटी कृती यादी"
+    },
+    "ui.e78a5ae5b947": {
+      "en": "Your duty briefing",
+      "hi": "आपकी ड्यूटी की जानकारी",
+      "mr": "तुमच्या ड्युटीची माहिती"
+    },
+    "ui.d39ddbd9f669": {
+      "en": "A message from your school",
+      "hi": "आपके स्कूल का संदेश",
+      "mr": "तुमच्या शाळेचा संदेश"
+    },
+    "ui.d0acecdc2ccb": {
+      "en": "School-linked class",
+      "hi": "स्कूल से जुड़ी कक्षा",
+      "mr": "शाळेशी जोडलेला वर्ग"
+    },
+    "ui.9fc70d597924": {
+      "en": "Class not linked",
+      "hi": "कक्षा जुड़ी नहीं है",
+      "mr": "वर्ग जोडलेला नाही"
+    },
+    "ui.50c8b81faf51": {
+      "en": "Mark as read",
+      "hi": "पढ़ लिया है",
+      "mr": "वाचले म्हणून नोंदवा"
+    },
+    "ui.6eda713822f1": {
+      "en": "Review recorded",
+      "hi": "समीक्षा दर्ज है",
+      "mr": "आढावा नोंदवला"
+    },
+    "ui.b3bd82c7e571": {
+      "en": "Read the full school plan",
+      "hi": "पूरी स्कूल योजना पढ़ें",
+      "mr": "शाळेची संपूर्ण योजना वाचा"
+    },
+    "ui.f8c0188a013c": {
+      "en": "Read the full duty plan",
+      "hi": "पूरी ड्यूटी योजना पढ़ें",
+      "mr": "संपूर्ण ड्युटी योजना वाचा"
+    },
+    "ui.8d613f0a279c": {
+      "en": "Review & acknowledge class plan",
+      "hi": "कक्षा की योजना देखें और पुष्टि करें",
+      "mr": "वर्गाची योजना तपासा आणि मान्य करा"
+    },
+    "ui.f9bd5d8cb773": {
+      "en": "Open my class details",
+      "hi": "मेरी कक्षा का विवरण",
+      "mr": "माझ्या वर्गाचा तपशील"
+    },
+    "ui.4229d2a01f49": {
+      "en": "Confirm completed",
+      "hi": "पूरा होने की पुष्टि करें",
+      "mr": "पूर्ण झाल्याची पुष्टी करा"
+    },
+    "ui.ca76eb5a3427": {
+      "en": "Completion recorded",
+      "hi": "पूर्णता दर्ज है",
+      "mr": "पूर्णता नोंदवली"
+    },
+    "ui.8e1563005070": {
+      "en": "Air evidence & planning tools",
+      "hi": "हवा का डेटा और योजना के साधन",
+      "mr": "हवेची माहिती आणि नियोजन साधने"
+    },
+    "ui.57ec085dc5da": {
+      "en": "School instruction · original wording",
+      "hi": "स्कूल निर्देश · मूल शब्द",
+      "mr": "शाळेची सूचना · मूळ मजकूर"
+    },
+    "ui.1793b5804987": {
+      "en": "School wording is not automatically translated.",
+      "hi": "स्कूल के अपने शब्द अपने आप अनुवादित नहीं होते।",
+      "mr": "शाळेचा मूळ मजकूर आपोआप अनुवादित केला जात नाही."
+    },
+    "ui.701a09da45b8": {
+      "en": "The shared school plan",
+      "hi": "साझा स्कूल योजना",
+      "mr": "सामायिक शाळेची योजना"
+    },
+    "ui.70843a06c3a7": {
+      "en": "School instruction",
+      "hi": "स्कूल निर्देश",
+      "mr": "शाळेची सूचना"
+    },
+    "ui.95e35be6cf5c": {
+      "en": "I read the latest notice",
+      "hi": "मैंने नई सूचना पढ़ी है",
+      "mr": "मी नवीन सूचना वाचली"
+    },
+    "ui.07dc4c2a3446": {
+      "en": "I confirmed the room and supervision",
+      "hi": "मैंने कमरे और निगरानी की पुष्टि की है",
+      "mr": "मी खोली आणि देखरेखीची खात्री केली"
+    },
+    "ui.ef17b8abda40": {
+      "en": "I told the class what changes",
+      "hi": "मैंने कक्षा को बदलाव बताए हैं",
+      "mr": "मी वर्गाला बदल सांगितले"
+    },
+    "ui.5e0cc3b83649": {
+      "en": "Reset to suggestion",
+      "hi": "सुझाव पर वापस जाएँ",
+      "mr": "सूचनेकडे परत जा"
+    },
+    "ui.f733b1b298cc": {
+      "en": "Preview language",
+      "hi": "नमूने की भाषा",
+      "mr": "नमुन्याची भाषा"
+    },
+    "ui.d00d525fc97b": {
+      "en": "Print notice",
+      "hi": "सूचना प्रिंट करें",
+      "mr": "सूचना छापा"
+    },
+    "ui.6267441b7e65": {
+      "en": "Explicit completion receipts",
+      "hi": "पूरा होने की स्पष्ट पुष्टि",
+      "mr": "पूर्णतेच्या स्पष्ट नोंदी"
+    },
+    "ui.5d5b0d383c10": {
+      "en": "Your plan checklist",
+      "hi": "आपकी योजना कार्यसूची",
+      "mr": "तुमच्या योजनेची कृती यादी"
+    },
+    "ui.44cbccd36b7e": {
+      "en": "Confirm reviewed and completed",
+      "hi": "समीक्षा और पूर्णता की पुष्टि करें",
+      "mr": "आढावा आणि पूर्णतेची पुष्टी करा"
+    },
+    "ui.f7d60da82c51": {
+      "en": "No school notice has been published.",
+      "hi": "स्कूल की सूचना प्रकाशित नहीं है।",
+      "mr": "शाळेची सूचना प्रकाशित नाही."
+    },
+    "ui.63a330968117": {
+      "en": "Earlier published instruction",
+      "hi": "पहले का प्रकाशित निर्देश",
+      "mr": "आधीची प्रकाशित सूचना"
+    },
+    "ui.8a013baaaa3f": {
+      "en": "No children linked to this class.",
+      "hi": "इस कक्षा से बच्चे जुड़े नहीं हैं।",
+      "mr": "या वर्गाशी मुले जोडलेली नाहीत."
+    },
+    "ui.efe4bbcc61b3": {
+      "en": "Your notifications",
+      "hi": "आपकी सूचनाएँ",
+      "mr": "तुमच्या सूचना"
+    },
+    "ui.43b689712897": {
+      "en": "Daily cap per channel",
+      "hi": "हर माध्यम की दैनिक सीमा",
+      "mr": "प्रत्येक माध्यमाची दैनिक मर्यादा"
+    },
+    "ui.800927bdf781": {
+      "en": "Channels you consent to receive",
+      "hi": "आपकी अनुमति वाले माध्यम",
+      "mr": "तुम्ही परवानगी दिलेली माध्यमे"
+    },
+    "ui.b43cc5dc31a8": {
+      "en": "Morning school-plan update",
+      "hi": "सुबह की स्कूल योजना सूचना",
+      "mr": "सकाळची शाळेची योजना सूचना"
+    },
+    "ui.089e57e38f93": {
+      "en": "Save preferences",
+      "hi": "विकल्प सहेजें",
+      "mr": "प्राधान्ये जतन करा"
+    },
+    "ui.690769be4d1a": {
+      "en": "No delivery attempts recorded.",
+      "hi": "भेजने का प्रयास दर्ज नहीं है।",
+      "mr": "वितरणाचा प्रयत्न नोंदवलेला नाही."
+    },
+    "ui.ae05024cb9e8": {
+      "en": "Today’s channel limits",
+      "hi": "आज की माध्यम सीमाएँ",
+      "mr": "आजच्या माध्यमांच्या मर्यादा"
+    },
+    "ui.45c13645aabb": {
+      "en": "Send a test to me",
+      "hi": "मुझे परीक्षण संदेश भेजें",
+      "mr": "मला चाचणी संदेश पाठवा"
+    },
+    "ui.76334f9de354": {
+      "en": "Remind unread adults",
+      "hi": "जिन्होंने नहीं पढ़ा उन्हें याद दिलाएँ",
+      "mr": "न वाचलेल्या प्रौढांना आठवण करा"
+    },
+    "ui.3aec36bbe993": {
+      "en": "Remind",
+      "hi": "याद दिलाएँ",
+      "mr": "आठवण करा"
+    },
+    "ui.e233fc0e8eed": {
+      "en": "School send log",
+      "hi": "स्कूल संदेश इतिहास",
+      "mr": "शाळेचा संदेश इतिहास"
+    },
+    "ui.33b93476cf59": {
+      "en": "Time",
+      "hi": "समय",
+      "mr": "वेळ"
+    },
+    "ui.545c02357695": {
+      "en": "Audience",
+      "hi": "प्राप्तकर्ता",
+      "mr": "प्राप्तकर्ते"
+    },
+    "ui.ce4683e7013a": {
+      "en": "Channel",
+      "hi": "माध्यम",
+      "mr": "माध्यम"
+    },
+    "ui.a4fe65264ef7": {
+      "en": "Language",
+      "hi": "भाषा",
+      "mr": "भाषा"
+    },
+    "ui.920e413c7d41": {
+      "en": "Status",
+      "hi": "स्थिति",
+      "mr": "स्थिती"
+    },
+    "ui.348d07c79eca": {
+      "en": "in-app",
+      "hi": "ऐप में",
+      "mr": "ॲपमध्ये"
+    },
+    "ui.d107ea3629c3": {
+      "en": "push",
+      "hi": "पुश सूचना",
+      "mr": "पुश सूचना"
+    },
+    "ui.82244417f956": {
+      "en": "email",
+      "hi": "ईमेल",
+      "mr": "ईमेल"
+    },
+    "ui.9582d03046bd": {
+      "en": "sms",
+      "hi": "SMS",
+      "mr": "SMS"
+    },
+    "ui.ec8202b6f9fb": {
+      "en": "whatsapp",
+      "hi": "WhatsApp",
+      "mr": "WhatsApp"
+    },
+    "ui.84637286c5b7": {
+      "en": "Classes",
+      "hi": "कक्षाएँ",
+      "mr": "वर्ग"
+    },
+    "ui.d5ab5f6b9f76": {
+      "en": "Your class plan",
+      "hi": "आपकी कक्षा की योजना",
+      "mr": "तुमच्या वर्गाची योजना"
+    },
+    "ui.13b0d277897e": {
+      "en": "Class plans",
+      "hi": "कक्षाओं की योजनाएँ",
+      "mr": "वर्गांच्या योजना"
+    },
+    "ui.4f3a9bd00397": {
+      "en": "Class",
+      "hi": "कक्षा",
+      "mr": "वर्ग"
+    },
+    "ui.d87cdf8aa304": {
+      "en": "Acknowledged",
+      "hi": "पुष्टि हुई",
+      "mr": "मान्य केले"
+    },
+    "ui.11fff9223273": {
+      "en": "Not acknowledged",
+      "hi": "पुष्टि नहीं हुई",
+      "mr": "मान्य केले नाही"
+    },
+    "ui.5ec559276c27": {
+      "en": "Plan awaiting publication",
+      "hi": "योजना प्रकाशन की प्रतीक्षा में",
+      "mr": "योजना प्रकाशनाच्या प्रतीक्षेत"
+    },
+    "ui.a90cfed8d45a": {
+      "en": "View school plan",
+      "hi": "स्कूल योजना देखें",
+      "mr": "शाळेची योजना पाहा"
+    },
+    "ui.cccc62a163be": {
+      "en": "School-day planning estimate",
+      "hi": "स्कूल दिवस की योजना का अनुमान",
+      "mr": "शाळेच्या दिवसाच्या योजनेचा अंदाज"
+    },
+    "ui.011b0b37ee05": {
+      "en": "Refresh demo fixtures",
+      "hi": "नमूना डेटा फिर लाएँ",
+      "mr": "नमुना माहिती पुन्हा आणा"
+    },
+    "ui.ded8fa071fb3": {
+      "en": "Demo tools…",
+      "hi": "नमूना साधन…",
+      "mr": "नमुना साधने…"
+    },
+    "ui.37640bda9ab8": {
+      "en": "Demo tools",
+      "hi": "नमूना साधन",
+      "mr": "नमुना साधने"
+    },
+    "ui.7d9eb7acb13e": {
+      "en": "Close",
+      "hi": "बंद करें",
+      "mr": "बंद करा"
+    },
+    "ui.dd92132da740": {
+      "en": "Choose scenario",
+      "hi": "परिस्थिति चुनें",
+      "mr": "परिस्थिती निवडा"
+    },
+    "ui.d486dfbd5fb5": {
+      "en": "Green",
+      "hi": "हरा",
+      "mr": "हिरवा"
+    },
+    "ui.19dd83f11752": {
+      "en": "Yellow",
+      "hi": "पीला",
+      "mr": "पिवळा"
+    },
+    "ui.78e7771b8b46": {
+      "en": "Orange",
+      "hi": "नारंगी",
+      "mr": "नारंगी"
+    },
+    "ui.ba19e9c3d5f4": {
+      "en": "Red",
+      "hi": "लाल",
+      "mr": "लाल"
+    },
+    "ui.b764cdc0eab7": {
+      "en": "Unknown",
+      "hi": "अज्ञात",
+      "mr": "अज्ञात"
+    },
+    "ui.ba4788b226aa": {
+      "en": "green",
+      "hi": "हरा",
+      "mr": "हिरवा"
+    },
+    "ui.c685a2c9bab2": {
+      "en": "yellow",
+      "hi": "पीला",
+      "mr": "पिवळा"
+    },
+    "ui.1b4c9133da73": {
+      "en": "orange",
+      "hi": "नारंगी",
+      "mr": "नारंगी"
+    },
+    "ui.b1f51a511f1d": {
+      "en": "red",
+      "hi": "लाल",
+      "mr": "लाल"
+    },
+    "ui.b23a6a8439c0": {
+      "en": "unknown",
+      "hi": "अज्ञात",
+      "mr": "अज्ञात"
+    },
+    "ui.71ddd59aa6f1": {
+      "en": "Demo data",
+      "hi": "नमूना डेटा",
+      "mr": "नमुना माहिती"
+    },
+    "ui.b07696465598": {
+      "en": "Demo data · synthetic station fixtures",
+      "hi": "नमूना डेटा · कृत्रिम स्टेशन रीडिंग",
+      "mr": "नमुना माहिती · कृत्रिम केंद्र रीडिंग"
+    },
+    "ui.1135ad19fa63": {
+      "en": "Synthetic preview fixtures",
+      "hi": "कृत्रिम नमूना डेटा",
+      "mr": "कृत्रिम नमुना माहिती"
+    },
+    "ui.63ea231f60c6": {
+      "en": "Demo fixtures",
+      "hi": "नमूना डेटा",
+      "mr": "नमुना माहिती"
+    },
+    "ui.0bc5ec999e52": {
+      "en": "Not live measurements",
+      "hi": "वास्तविक माप नहीं",
+      "mr": "प्रत्यक्ष मोजमाप नाही"
+    },
+    "ui.6853e715888a": {
+      "en": "Synthetic forecast fixture",
+      "hi": "कृत्रिम पूर्वानुमान नमूना",
+      "mr": "कृत्रिम अंदाज नमुना"
+    },
+    "ui.6c164f807c4f": {
+      "en": "Demo workspace. Sample data. No messages are sent.",
+      "hi": "नमूना कार्यस्थल। उदाहरण डेटा। संदेश नहीं भेजे जाते।",
+      "mr": "नमुना कार्यस्थान. उदाहरण माहिती. संदेश पाठवले जात नाहीत."
+    },
+    "ui.6c9065e13443": {
+      "en": "School air quality & action platform",
+      "hi": "स्कूल की हवा और कार्य योजना का मंच",
+      "mr": "शाळेच्या हवेची गुणवत्ता आणि कृती मंच"
+    },
+    "ui.583b5469007d": {
+      "en": "Skip to school workspace",
+      "hi": "स्कूल कार्यस्थल पर जाएँ",
+      "mr": "शाळेच्या कार्यस्थानाकडे जा"
+    },
+    "ui.ac576a66d456": {
+      "en": "Skip to content",
+      "hi": "मुख्य सामग्री पर जाएँ",
+      "mr": "मुख्य मजकुराकडे जा"
+    },
+    "ui.76c5505ff2e2": {
+      "en": "Back to home",
+      "hi": "मुखपृष्ठ पर जाएँ",
+      "mr": "मुखपृष्ठावर जा"
+    },
+    "ui.2422662844a9": {
+      "en": "Keep your school day coordinated.",
+      "hi": "स्कूल के दिन की योजना साथ रखें।",
+      "mr": "शाळेच्या दिवसाची योजना एकत्र ठेवा."
+    },
+    "ui.03742d51eac7": {
+      "en": "Check the air. Review the school plan.",
+      "hi": "हवा जाँचें। स्कूल योजना देखें।",
+      "mr": "हवा तपासा. शाळेच्या योजनेचा आढावा घ्या."
+    },
+    "ui.edbf260754ff": {
+      "en": "School workspace updated.",
+      "hi": "स्कूल की जानकारी फिर जाँची गई।",
+      "mr": "शाळेची माहिती पुन्हा तपासली."
+    },
+    "ui.640b4e3de734": {
+      "en": "Review saved.",
+      "hi": "समीक्षा सहेजी गई।",
+      "mr": "आढावा जतन केला."
+    },
+    "ui.d17777228ed2": {
+      "en": "Published.",
+      "hi": "प्रकाशित हुआ।",
+      "mr": "प्रकाशित केले."
+    },
+    "ui.60d6766a9e62": {
+      "en": "Preferences saved.",
+      "hi": "विकल्प सहेजे गए।",
+      "mr": "प्राधान्ये जतन केली."
+    },
+    "ui.b5cb041f5d7a": {
+      "en": "Completion recorded.",
+      "hi": "पूर्णता दर्ज हुई।",
+      "mr": "पूर्णता नोंदवली."
+    },
+    "ui.175076194dad": {
+      "en": "Haze is illustrative",
+      "hi": "धुंध केवल चित्रण है",
+      "mr": "धुके केवळ चित्रण आहे"
+    },
+    "ui.e55c1e80a432": {
+      "en": "Reduce effects",
+      "hi": "दृश्य प्रभाव कम करें",
+      "mr": "दृश्य परिणाम कमी करा"
+    },
+    "ui.13b394639582": {
+      "en": "Larger text",
+      "hi": "बड़ा पाठ",
+      "mr": "मोठा मजकूर"
+    },
+    "ui.ff8b555d818f": {
+      "en": "Update available",
+      "hi": "अपडेट उपलब्ध है",
+      "mr": "अद्यतन उपलब्ध आहे"
+    },
+    "ui.e53356925a10": {
+      "en": "Reload to update",
+      "hi": "अपडेट के लिए फिर खोलें",
+      "mr": "अद्यतनासाठी पुन्हा उघडा"
+    },
+    "ui.11510a0308cd": {
+      "en": "Offline · last known plan; writes are paused.",
+      "hi": "ऑफ़लाइन · पिछली योजना; बदलाव रुके हैं।",
+      "mr": "ऑफलाइन · मागील योजना; बदल थांबवले आहेत."
+    },
+    "ui.25b128ae6598": {
+      "en": "System status",
+      "hi": "सिस्टम की स्थिति",
+      "mr": "यंत्रणेची स्थिती"
+    },
+    "ui.4a99228d4110": {
+      "en": "Cleaner activity windows",
+      "hi": "गतिविधि के लिए साफ़ हवा का समय",
+      "mr": "उपक्रमांसाठी स्वच्छ हवेची वेळ"
+    },
+    "ui.915975cb7105": {
+      "en": "Planning estimate",
+      "hi": "योजना का अनुमान",
+      "mr": "योजनेचा अंदाज"
+    },
+    "ui.439b7f246776": {
+      "en": "No complete forecast window is available.",
+      "hi": "पूरा पूर्वानुमान उपलब्ध नहीं है।",
+      "mr": "संपूर्ण अंदाज उपलब्ध नाही."
+    },
+    "ui.777bd5261029": {
+      "en": "No safer time or activity clearance is implied.",
+      "hi": "सुरक्षित समय या गतिविधि की अनुमति का दावा नहीं है।",
+      "mr": "सुरक्षित वेळ किंवा उपक्रमाची परवानगी सूचित होत नाही."
+    },
+    "ui.9b5f349db6ec": {
+      "en": "School adult override",
+      "hi": "स्कूल वयस्क का बदलाव",
+      "mr": "शाळेतील प्रौढाचा बदल"
+    },
+    "ui.f9f7748f3c12": {
+      "en": "Keep outdoors",
+      "hi": "गतिविधि बाहर रखें",
+      "mr": "उपक्रम मैदानात ठेवा"
+    },
+    "ui.26cab30e6bda": {
+      "en": "Required reason",
+      "hi": "कारण ज़रूरी है",
+      "mr": "कारण आवश्यक आहे"
+    },
+    "ui.0eb246db5087": {
+      "en": "Record decision",
+      "hi": "निर्णय दर्ज करें",
+      "mr": "निर्णय नोंदवा"
+    },
+    "ui.2cd3f7ccdd7b": {
+      "en": "Recorded decision does not establish safe air.",
+      "hi": "निर्णय की नोंद हवा की सुरक्षा साबित नहीं करती।",
+      "mr": "नोंदवलेला निर्णय हवा सुरक्षित असल्याचे सिद्ध करत नाही."
+    },
+    "ui.9be9a10cfcd4": {
+      "en": "Waiting since {0}",
+      "hi": "{0} से प्रतीक्षा",
+      "mr": "{0} पासून प्रतीक्षा"
+    },
+    "ui.b351ce42557e": {
+      "en": "Observation: {0}",
+      "hi": "अवलोकन: {0}",
+      "mr": "निरीक्षण: {0}"
+    },
+    "ui.a3399d09a89e": {
+      "en": "Successful retrieval: {0}",
+      "hi": "सफल प्राप्ति: {0}",
+      "mr": "यशस्वी प्राप्ती: {0}"
+    },
+    "ui.7ecec25f9693": {
+      "en": "Published · {0}",
+      "hi": "प्रकाशित · {0}",
+      "mr": "प्रकाशित · {0}"
+    },
+    "ui.4d645c3db1f5": {
+      "en": "Published {0}",
+      "hi": "प्रकाशित {0}",
+      "mr": "प्रकाशित {0}"
+    },
+    "ui.744579ae7add": {
+      "en": "Valid {0}",
+      "hi": "लागू {0}",
+      "mr": "लागू {0}"
+    },
+    "ui.e2fa4c3082cd": {
+      "en": "Retrieved {0}",
+      "hi": "प्राप्त {0}",
+      "mr": "मिळवले {0}"
+    },
+    "ui.6ccda8184767": {
+      "en": "Planned outdoors · {0} min",
+      "hi": "बाहर नियोजित · {0} मिनट",
+      "mr": "मैदानात नियोजित · {0} मिनिटे"
+    },
+    "ui.4cbd84b479fb": {
+      "en": "{0} → {1} min",
+      "hi": "{0} → {1} मिनट",
+      "mr": "{0} → {1} मिनिटे"
+    },
+    "ui.69b3b37898e8": {
+      "en": "{0} teacher",
+      "hi": "{0} शिक्षक",
+      "mr": "{0} शिक्षक"
+    },
+    "ui.a7645b728b53": {
+      "en": "Viewing as: {0}",
+      "hi": "भूमिका: {0}",
+      "mr": "भूमिका: {0}"
+    },
+    "ui.d01f445f704b": {
+      "en": "{0} workspace",
+      "hi": "{0} कार्यस्थल",
+      "mr": "{0} कार्यस्थान"
+    },
+    "ui.ce1ccf1bccb3": {
+      "en": "Demo clock {0} IST",
+      "hi": "नमूना घड़ी {0} IST",
+      "mr": "नमुना घड्याळ {0} IST"
+    },
+    "ui.27ce5578bd10": {
+      "en": "{0} minutes since observation",
+      "hi": "अवलोकन के बाद {0} मिनट",
+      "mr": "निरीक्षणानंतर {0} मिनिटे"
+    },
+    "ui.ea771304d433": {
+      "en": "{0} linked students · {1} need extra caution",
+      "hi": "{0} जुड़े विद्यार्थी · {1} को अतिरिक्त सावधानी",
+      "mr": "{0} जोडलेले विद्यार्थी · {1} साठी अधिक काळजी"
+    },
+    "ui.c8f82eb80cfc": {
+      "en": "needs native review",
+      "hi": "मातृभाषी समीक्षा आवश्यक",
+      "mr": "मातृभाषिक पुनरावलोकन आवश्यक"
+    },
+    "ui.c8b63b408ef6": {
+      "en": "Read the plan with a grown-up.",
+      "hi": "किसी बड़े के साथ योजना पढ़ें।",
+      "mr": "मोठ्यांसोबत योजना वाचा."
+    },
+    "ui.9b4931537225": {
+      "en": "Ask your teacher where your class will play.",
+      "hi": "आपकी कक्षा कहाँ खेलेगी, शिक्षक से पूछें।",
+      "mr": "तुमचा वर्ग कुठे खेळेल, शिक्षकांना विचारा."
+    },
+    "ui.96ed97882d1d": {
+      "en": "Tell an adult if you feel unwell.",
+      "hi": "तबीयत ठीक न लगे तो बड़े को बताएँ।",
+      "mr": "बरे वाटत नसेल तर मोठ्यांना सांगा."
+    },
+    "ui.d6f972a8499b": {
+      "en": "Your school says indoor play today. What would you do?",
+      "hi": "स्कूल ने आज अंदर खेलने को कहा है। आप क्या करेंगे?",
+      "mr": "शाळेने आज आत खेळायला सांगितले आहे. तुम्ही काय कराल?"
+    },
+    "ui.7de6afb81acb": {
+      "en": "Ask my teacher what’s planned",
+      "hi": "शिक्षक से योजना पूछूँगा",
+      "mr": "शिक्षकांना योजना विचारेन"
+    },
+    "ui.cd2cd02fd13a": {
+      "en": "Choose outdoor play on my own",
+      "hi": "अपने आप बाहर खेलूँगा",
+      "mr": "स्वतः मैदानात खेळेन"
+    },
+    "ui.6b2c2c26395c": {
+      "en": "You earned an Air Explorer sticker!",
+      "hi": "आपको हवा के खोजी का स्टिकर मिला!",
+      "mr": "तुला हवेच्या शोधकाचे स्टिकर मिळाले!"
+    },
+    "ui.eb8f63ba51b8": {
+      "en": "Ask your teacher first. They know the school plan.",
+      "hi": "पहले शिक्षक से पूछें। उन्हें स्कूल योजना पता है।",
+      "mr": "आधी शिक्षकांना विचारा. त्यांना शाळेची योजना माहीत आहे."
+    },
+    "ui.d8b8392e2c54": {
+      "en": "Try again",
+      "hi": "फिर कोशिश करें",
+      "mr": "पुन्हा प्रयत्न करा"
+    },
+    "ui.a643d37e54b3": {
+      "en": "Back to question",
+      "hi": "प्रश्न पर वापस",
+      "mr": "प्रश्नाकडे परत"
+    },
+    "ui.604c2cc18c46": {
+      "en": "Reset demo",
+      "hi": "नमूना रीसेट करें",
+      "mr": "नमुना रीसेट करा"
+    },
+    "ui.f652ec015dd6": {
+      "en": "Story mode",
+      "hi": "प्रस्तुति के चरण",
+      "mr": "प्रात्यक्षिकाचे टप्पे"
+    },
+    "ui.298a9207a732": {
+      "en": "Next step",
+      "hi": "अगला कदम",
+      "mr": "पुढची पायरी"
+    },
+    "ui.93c8e19bd097": {
+      "en": "Story: {0} of {1}",
+      "hi": "प्रस्तुति: {0} / {1}",
+      "mr": "प्रात्यक्षिक: {0} / {1}"
+    },
+    "ui.3a78695388b3": {
+      "en": "Home",
+      "hi": "मुखपृष्ठ",
+      "mr": "मुखपृष्ठ"
+    },
+    "ui.60a627df404a": {
+      "en": "Receipts",
+      "hi": "पुष्टियाँ",
+      "mr": "पुष्टी नोंदी"
+    },
+    "ui.788011833a5a": {
+      "en": "Notifications",
+      "hi": "सूचनाएँ",
+      "mr": "सूचना"
+    },
+    "ui.c665338a9287": {
+      "en": "Update history",
+      "hi": "जानकारी का इतिहास",
+      "mr": "माहितीचा इतिहास"
+    },
+    "ui.6d1a354afe17": {
+      "en": "Campus settings",
+      "hi": "परिसर की व्यवस्था",
+      "mr": "परिसर सेटिंग्ज"
+    },
+    "ui.807b2d078155": {
+      "en": "People & classes",
+      "hi": "लोग और कक्षाएँ",
+      "mr": "लोक आणि वर्ग"
+    },
+    "ui.76140e34f635": {
+      "en": "Sensors",
+      "hi": "सेंसर",
+      "mr": "संवेदक"
+    },
+    "ui.eb12715170f4": {
+      "en": "Plan history & activity log",
+      "hi": "योजना और गतिविधि इतिहास",
+      "mr": "योजना आणि उपक्रमांचा इतिहास"
+    },
+    "ui.47e6f5e6633a": {
+      "en": "Child profiles",
+      "hi": "बच्चों की जानकारी",
+      "mr": "मुलांची माहिती"
+    },
+    "ui.bd12898b97b8": {
+      "en": "My data",
+      "hi": "मेरी जानकारी",
+      "mr": "माझी माहिती"
+    },
+    "ui.466820030365": {
+      "en": "admin workspace · Demo clock {0} IST",
+      "hi": "व्यवस्थापक कार्यस्थल · नमूना घड़ी {0} IST",
+      "mr": "प्रशासक कार्यस्थान · नमुना घड्याळ {0} IST"
+    },
+    "ui.a1d74ad2ddd3": {
+      "en": "teacher workspace · Demo clock {0} IST",
+      "hi": "शिक्षक कार्यस्थल · नमूना घड़ी {0} IST",
+      "mr": "शिक्षक कार्यस्थान · नमुना घड्याळ {0} IST"
+    },
+    "ui.bc5c0125013a": {
+      "en": "parent workspace · Demo clock {0} IST",
+      "hi": "अभिभावक कार्यस्थल · नमूना घड़ी {0} IST",
+      "mr": "पालक कार्यस्थान · नमुना घड्याळ {0} IST"
+    },
+    "ui.2638f990e78e": {
+      "en": "staff workspace · Demo clock {0} IST",
+      "hi": "कर्मचारी कार्यस्थल · नमूना घड़ी {0} IST",
+      "mr": "कर्मचारी कार्यस्थान · नमुना घड्याळ {0} IST"
+    },
+    "ui.f4d27899a5d4": {
+      "en": "Decide, publish and track reviews.",
+      "hi": "निर्णय लें, प्रकाशित करें और समीक्षा देखें।",
+      "mr": "निर्णय घ्या, प्रकाशित करा आणि आढावे तपासा."
+    },
+    "ui.44326e25d6f6": {
+      "en": "Check the timetable and confirm your class plan.",
+      "hi": "समय-सारणी देखें और कक्षा की योजना की पुष्टि करें।",
+      "mr": "वेळापत्रक तपासा आणि वर्गाची योजना मान्य करा."
+    },
+    "ui.b0b60bec0829": {
+      "en": "Read the duty instruction and complete your checklist.",
+      "hi": "ड्यूटी निर्देश पढ़ें और कार्यसूची पूरी करें।",
+      "mr": "ड्युटीची सूचना वाचा आणि कृती यादी पूर्ण करा."
+    },
+    "ui.419c375e7e5c": {
+      "en": "Read the school message and prepare for pickup.",
+      "hi": "स्कूल का संदेश पढ़ें और बच्चे को लेने की तैयारी करें।",
+      "mr": "शाळेचा संदेश वाचा आणि मुलाला घेण्याची तयारी करा."
+    },
+    "ui.441feb81cac1": {
+      "en": "One little air question, with a grown-up nearby.",
+      "hi": "हवा का छोटा सवाल, पास में एक बड़ा हो।",
+      "mr": "हवेचा छोटा प्रश्न, जवळ मोठी व्यक्ती असू द्या."
+    },
+    "ui.17b6bcc8cb98": {
+      "en": "{0} scene · Air flag: {1}. {2}",
+      "hi": "{0} दृश्य · हवा का संकेत: {1}। {2}",
+      "mr": "{0} दृश्य · हवेचा संकेत: {1}. {2}"
+    },
+    "ui.de1707bd5080": {
+      "en": "Demo data.",
+      "hi": "नमूना डेटा।",
+      "mr": "नमुना माहिती."
+    },
+    "ui.b0301cff66ee": {
+      "en": "School planning guidance.",
+      "hi": "स्कूल की योजना के लिए मार्गदर्शन।",
+      "mr": "शाळेच्या योजनेसाठी मार्गदर्शन."
+    },
+    "ui.7b2dbf251049": {
+      "en": "School planning guidance. Follow your school’s instructions and existing care plans. Regional estimates do not measure the school gate.",
+      "hi": "स्कूल योजना का मार्गदर्शन। स्कूल निर्देश और देखभाल योजना मानें। क्षेत्रीय अनुमान स्कूल गेट का माप नहीं हैं।",
+      "mr": "शाळेच्या योजनेचे मार्गदर्शन. शाळेच्या सूचना आणि काळजी योजना पाळा. प्रादेशिक अंदाज शाळेच्या गेटचे मोजमाप नाहीत."
+    },
+    "ui.e2e6dea947ff": {
+      "en": "School adult",
+      "hi": "स्कूल के वयस्क",
+      "mr": "शाळेतील प्रौढ"
+    },
+    "ui.8c2e6a1a26b3": {
+      "en": "{0} µg/m³ above {1} µg/m³ · red planning boundary",
+      "hi": "{0} µg/m³, लाल सीमा {1} µg/m³ से अधिक",
+      "mr": "{0} µg/m³, लाल मर्यादा {1} µg/m³ पेक्षा अधिक"
+    },
+    "ui.1ef68e9c8224": {
+      "en": "{0} µg/m³ below {1} µg/m³ · red planning boundary",
+      "hi": "{0} µg/m³, लाल सीमा {1} µg/m³ से कम",
+      "mr": "{0} µg/m³, लाल मर्यादा {1} µg/m³ पेक्षा कमी"
+    },
+    "ui.fa0397824342": {
+      "en": "Trend unavailable",
+      "hi": "रुझान उपलब्ध नहीं",
+      "mr": "कल उपलब्ध नाही"
+    },
+    "ui.fdd519ad7d98": {
+      "en": "Rising · supplied observations",
+      "hi": "बढ़ रहा है · उपलब्ध अवलोकन",
+      "mr": "वाढत आहे · उपलब्ध निरीक्षणे"
+    },
+    "ui.ae0d342c3197": {
+      "en": "Falling · supplied observations",
+      "hi": "घट रहा है · उपलब्ध अवलोकन",
+      "mr": "कमी होत आहे · उपलब्ध निरीक्षणे"
+    },
+    "ui.4446477d4167": {
+      "en": "Stable · supplied observations",
+      "hi": "स्थिर · उपलब्ध अवलोकन",
+      "mr": "स्थिर · उपलब्ध निरीक्षणे"
+    },
+    "ui.2b892020ff14": {
+      "en": "Forecast below red boundary",
+      "hi": "पूर्वानुमान लाल सीमा से कम",
+      "mr": "अंदाज लाल मर्यादेपेक्षा कमी"
+    },
+    "ui.9dcf9e3f3448": {
+      "en": "If the suggested PE and assembly changes are reviewed and followed. {0} minutes considered for an indoor alternative.",
+      "hi": "खेल और सभा के सुझाए बदलावों की समीक्षा करके अपनाने पर। अंदर के विकल्प के लिए {0} मिनट सोचे गए हैं।",
+      "mr": "खेळ आणि सभेतील सुचवलेल्या बदलांचा आढावा घेऊन पालन केल्यास. आतील पर्यायासाठी {0} मिनिटांचा विचार केला."
+    },
+    "ui.69d7ffdfe78a": {
+      "en": "Planning estimate. Not an exposure or health measurement.",
+      "hi": "योजना का अनुमान। संपर्क या स्वास्थ्य का माप नहीं।",
+      "mr": "योजनेचा अंदाज. संपर्क किंवा आरोग्याचे मोजमाप नाही."
+    },
+    "ui.c6eb233afc97": {
+      "en": "Available regional hourly forecast; unmatched blocks use current flag.",
+      "hi": "उपलब्ध क्षेत्रीय प्रति घंटे का पूर्वानुमान; बेमेल समय पर मौजूदा संकेत।",
+      "mr": "उपलब्ध प्रादेशिक तासाचा अंदाज; न जुळलेल्या वेळेस सध्याचा संकेत."
+    },
+    "ui.dbdd02095c6d": {
+      "en": "Current flag applied to the timetable; no matching hourly data.",
+      "hi": "समय-सारणी पर मौजूदा संकेत; प्रति घंटे का मेल खाता डेटा नहीं।",
+      "mr": "वेळापत्रकाला सध्याचा संकेत; जुळणारी तासाची माहिती नाही."
+    },
+    "ui.f6b272f2d2ad": {
+      "en": "See each block",
+      "hi": "हर समय का हिस्सा देखें",
+      "mr": "प्रत्येक वेळेचा भाग पाहा"
+    },
+    "ui.0421a5d8c885": {
+      "en": "Observed {0}",
+      "hi": "अवलोकन {0}",
+      "mr": "निरीक्षण {0}"
+    },
+    "ui.15b6cc673c7e": {
+      "en": "Last successful retrieval {0}",
+      "hi": "अंतिम सफल प्राप्ति {0}",
+      "mr": "शेवटची यशस्वी प्राप्ती {0}"
+    },
+    "ui.464c57ab76a1": {
+      "en": "Getting old after {0} hour; stale after {1} hours. Unknown conditions block publication.",
+      "hi": "{0} घंटे बाद पुराना होने लगता है; {1} घंटे बाद पुराना है। अज्ञात स्थिति में प्रकाशन रुकेगा।",
+      "mr": "{0} तासानंतर जुने होऊ लागते; {1} तासांनंतर जुने आहे. अज्ञात स्थितीत प्रकाशन थांबेल."
+    },
+    "ui.82eaba7f7419": {
+      "en": "Open the school plan to read the current notice and confirm your next step.",
+      "hi": "मौजूदा सूचना पढ़ने और अगला कदम तय करने के लिए स्कूल योजना खोलें।",
+      "mr": "सध्याची सूचना वाचायला आणि पुढचे पाऊल ठरवायला शाळेची योजना उघडा."
+    },
+    "ui.561f2a4ebc47": {
+      "en": "Create or review school plan",
+      "hi": "स्कूल योजना बनाएँ या देखें",
+      "mr": "शाळेची योजना तयार करा किंवा तपासा"
+    },
+    "ui.5d5720ef162c": {
+      "en": "Fictional fixtures",
+      "hi": "काल्पनिक डेटा",
+      "mr": "काल्पनिक माहिती"
+    },
+    "ui.3bc5b78f355e": {
+      "en": "Indoor conditions are unknown unless a suitable fresh measurement is available. AC does not establish clean indoor air.",
+      "hi": "उपयुक्त ताज़ा माप के बिना अंदर की स्थिति अज्ञात है। AC से साफ़ हवा साबित नहीं होती।",
+      "mr": "योग्य ताज्या मोजमापाशिवाय आतील स्थिती अज्ञात आहे. AC मुळे स्वच्छ हवा सिद्ध होत नाही."
+    },
+    "ui.11ea162fd7c3": {
+      "en": "No forecast is available. Follow the current school plan and check again later.",
+      "hi": "पूर्वानुमान उपलब्ध नहीं। मौजूदा स्कूल योजना मानें और बाद में फिर जाँचें।",
+      "mr": "अंदाज उपलब्ध नाही. सध्याची शाळेची योजना पाळा आणि नंतर पुन्हा तपासा."
+    },
+    "ui.be8a05c2aa7e": {
+      "en": "Provider forecast, not school-gate prediction. Forecast issue time may be unavailable; retrieval time is shown separately.",
+      "hi": "स्रोत का पूर्वानुमान, स्कूल गेट की भविष्यवाणी नहीं। जारी समय उपलब्ध न हो सकता है; प्राप्ति समय अलग है।",
+      "mr": "स्रोताचा अंदाज, शाळेच्या गेटची भविष्यवाणी नाही. जारी वेळ उपलब्ध नसू शकते; मिळवलेली वेळ वेगळी आहे."
+    },
+    "ui.dccafe55abe3": {
+      "en": "Not used",
+      "hi": "उपयोग नहीं हुआ",
+      "mr": "वापरले नाही"
+    },
+    "ui.eac8e6fab2d1": {
+      "en": "adapter available",
+      "hi": "एडाप्टर उपलब्ध",
+      "mr": "अडॅप्टर उपलब्ध"
+    },
+    "ui.9691e2e7e726": {
+      "en": "Used now",
+      "hi": "अभी उपयोग हुआ",
+      "mr": "आता वापरले"
+    },
+    "ui.2ec22557f844": {
+      "en": "Current input: {0}. Freshness: {1}. No external provider requests occur in the demo.",
+      "hi": "मौजूदा स्रोत: {0}। ताज़गी: {1}। नमूने में बाहरी स्रोत अनुरोध नहीं होते।",
+      "mr": "सध्याचा स्रोत: {0}. ताजेपणा: {1}. नमुन्यात बाह्य स्रोत विनंत्या नाहीत."
+    },
+    "ui.6a652ea6976e": {
+      "en": "Policy {0} · Evidence: {1}",
+      "hi": "नीति {0} · आधार: {1}",
+      "mr": "धोरण {0} · पुरावा: {1}"
+    },
+    "ui.5c42afc7a230": {
+      "en": "Moderate",
+      "hi": "मध्यम",
+      "mr": "मध्यम"
+    },
+    "ui.c4ebc6d4a583": {
+      "en": "High",
+      "hi": "उच्च",
+      "mr": "उच्च"
+    },
+    "ui.f793de205ead": {
+      "en": "Low",
+      "hi": "कम",
+      "mr": "कमी"
+    },
+    "ui.f07eb2f1bfe9": {
+      "en": "Air index {0} compared with {1} policy boundaries {2}.",
+      "hi": "हवा के सूचकांक {0} की तुलना {1} आयु की नीति सीमाओं {2} से।",
+      "mr": "हवेचा निर्देशांक {0} याची तुलना {1} वयाच्या धोरण मर्यादा {2} सोबत."
+    },
+    "ui.61962bccb674": {
+      "en": "PM2.5 {0} µg/m³ compared with planning boundaries {1} µg/m³.",
+      "hi": "PM2.5 {0} µg/m³ की तुलना योजना सीमाओं {1} µg/m³ से।",
+      "mr": "PM2.5 {0} µg/m³ याची तुलना योजना मर्यादा {1} µg/m³ सोबत."
+    },
+    "ui.e105cdaa1802": {
+      "en": "Building: {0}; AC alone does not establish cleaner indoor air.",
+      "hi": "भवन: {0}; केवल AC से अंदर की साफ़ हवा साबित नहीं होती।",
+      "mr": "इमारत: {0}; केवळ AC मुळे आतील स्वच्छ हवा सिद्ध होत नाही."
+    },
+    "ui.b404a5edf49c": {
+      "en": "No fresh usable air context is available.",
+      "hi": "हवा का ताज़ा उपयोगी डेटा उपलब्ध नहीं है।",
+      "mr": "हवेची ताजी वापरण्यायोग्य माहिती उपलब्ध नाही."
+    },
+    "ui.0af57c999267": {
+      "en": "These are school planning rules, not a diagnosis or activity clearance.",
+      "hi": "ये स्कूल योजना के नियम हैं, निदान या गतिविधि की अनुमति नहीं।",
+      "mr": "हे शाळा नियोजनाचे नियम आहेत, निदान किंवा उपक्रमाची परवानगी नाही."
+    },
+    "ui.d497a75b6c18": {
+      "en": "School sections",
+      "hi": "स्कूल के विभाग",
+      "mr": "शाळेचे विभाग"
+    },
+    "ui.4c9dca6f9ce8": {
+      "en": "Adults who confirmed review",
+      "hi": "समीक्षा की पुष्टि करने वाले वयस्क",
+      "mr": "आढावा निश्चित करणारे प्रौढ"
+    },
+    "ui.91f513ba95f4": {
+      "en": "Preferences are checked again at dispatch.",
+      "hi": "भेजने से पहले विकल्प फिर जाँचे जाते हैं।",
+      "mr": "पाठवण्यापूर्वी प्राधान्ये पुन्हा तपासली जातात."
+    },
+    "ui.4e6c1533ba52": {
+      "en": "This reading is old or unavailable. Check the source before publishing.",
+      "hi": "रीडिंग पुरानी या अनुपलब्ध है। प्रकाशन से पहले स्रोत जाँचें।",
+      "mr": "रीडिंग जुनी किंवा अनुपलब्ध आहे. प्रकाशित करण्यापूर्वी स्रोत तपासा."
+    },
+    "ui.1b739fd95f0e": {
+      "en": "Demo preferences are saved for this running preview. External notifications are off.",
+      "hi": "विकल्प इस चल रहे नमूने के लिए सहेजे हैं। बाहरी सूचनाएँ बंद हैं।",
+      "mr": "प्राधान्ये या चालू नमुन्यासाठी जतन केली. बाह्य सूचना बंद आहेत."
+    },
+    "ui.9f3d9773ee41": {
+      "en": "Quiet hours use {0}.",
+      "hi": "शांत समय {0} के अनुसार है।",
+      "mr": "शांत वेळ {0} नुसार आहे."
+    },
+    "ui.bf4b7eecfbc3": {
+      "en": "Provider acceptance does not establish that the device displayed a message or that a person read it.",
+      "hi": "स्रोत की स्वीकृति से संदेश दिखने या पढ़ने का प्रमाण नहीं मिलता।",
+      "mr": "सेवेच्या स्वीकृतीने संदेश दिसला किंवा व्यक्तीने वाचला हे सिद्ध होत नाही."
+    },
+    "ui.3823d21947e3": {
+      "en": "Morning update: {0} · Quiet hours {1}–{2}",
+      "hi": "सुबह का अपडेट: {0} · शांत समय {1}–{2}",
+      "mr": "सकाळचे अद्यतन: {0} · शांत वेळ {1}–{2}"
+    },
+    "ui.b7bf1219b9a4": {
+      "en": "Review counts are unavailable to this role.",
+      "hi": "इस भूमिका को समीक्षा गिनती नहीं दिखती।",
+      "mr": "या भूमिकेला आढाव्यांची संख्या दिसत नाही."
+    },
+    "ui.bcd3990edcaf": {
+      "en": "No receipts for this plan yet.",
+      "hi": "इस योजना की पुष्टि अभी दर्ज नहीं है।",
+      "mr": "या योजनेची पुष्टी अजून नोंदलेली नाही."
+    },
+    "ui.848416a80abb": {
+      "en": "Receipts record review and checklist completion, not health outcomes.",
+      "hi": "पुष्टि समीक्षा और कार्यसूची की पूर्णता दर्ज करती है, स्वास्थ्य परिणाम नहीं।",
+      "mr": "पुष्टी आढावा आणि कृती यादीची पूर्णता नोंदवते, आरोग्य परिणाम नाही."
+    },
+    "ui.cab1d6c31ddc": {
+      "en": "Only confirm what you actually completed. Receipts record review and completion, not health outcomes.",
+      "hi": "केवल किया हुआ काम पुष्ट करें। पुष्टि समीक्षा और पूर्णता दर्ज करती है, स्वास्थ्य परिणाम नहीं।",
+      "mr": "प्रत्यक्ष पूर्ण केलेले कामच निश्चित करा. पुष्टी आढावा आणि पूर्णता नोंदवते, आरोग्य परिणाम नाही."
+    },
+    "ui.75e10841ec82": {
+      "en": "Publish this school plan?",
+      "hi": "यह स्कूल योजना प्रकाशित करें?",
+      "mr": "ही शाळेची योजना प्रकाशित करायची का?"
+    },
+    "ui.e76fd2add010": {
+      "en": "Keep editing",
+      "hi": "संपादन जारी रखें",
+      "mr": "संपादन सुरू ठेवा"
+    },
+    "ui.9bf5fba127f2": {
+      "en": "This will notify {0} adults. Quiet hours and the daily limit still apply.",
+      "hi": "इससे {0} वयस्कों को सूचना जाएगी। शांत समय और दैनिक सीमा लागू हैं।",
+      "mr": "यामुळे {0} प्रौढांना सूचना जाईल. शांत वेळ आणि दैनिक मर्यादा लागू आहेत."
+    },
+    "ui.4fd62c668a5e": {
+      "en": "Demo data. No external messages will be sent.",
+      "hi": "नमूना डेटा। बाहरी संदेश नहीं भेजे जाएंगे।",
+      "mr": "नमुना माहिती. बाह्य संदेश पाठवले जाणार नाहीत."
+    },
+    "ui.936eb978926d": {
+      "en": "The delivery worker applies each recipient’s saved preferences.",
+      "hi": "भेजने की सेवा हर प्राप्तकर्ता के सहेजे विकल्प मानती है।",
+      "mr": "वितरण सेवा प्रत्येक प्राप्तकर्त्याची जतन केलेली प्राधान्ये पाळते."
+    },
+    "ui.cb0d20e4c12b": {
+      "en": "Current school information is unavailable",
+      "hi": "स्कूल की मौजूदा जानकारी उपलब्ध नहीं",
+      "mr": "शाळेची सध्याची माहिती उपलब्ध नाही"
+    },
+    "ui.d07f145f778a": {
+      "en": "Use Refresh to retry. Follow the school’s actual instructions.",
+      "hi": "फिर जाँचें से पुनः प्रयास करें। स्कूल के वास्तविक निर्देश मानें।",
+      "mr": "पुन्हा तपासा वापरा. शाळेच्या प्रत्यक्ष सूचना पाळा."
+    },
+    "ui.df8114364c54": {
+      "en": "Regional provider forecast",
+      "hi": "क्षेत्रीय स्रोत का पूर्वानुमान",
+      "mr": "प्रादेशिक स्रोताचा अंदाज"
+    },
+    "ui.567ab3005362": {
+      "en": "Forecast not connected for tomorrow morning. Current reading only.",
+      "hi": "कल सुबह का पूर्वानुमान जुड़ा नहीं है। केवल मौजूदा रीडिंग।",
+      "mr": "उद्याच्या सकाळचा अंदाज जोडलेला नाही. फक्त सध्याची रीडिंग."
+    },
+    "ui.d8ea1b1fe5bb": {
+      "en": "No change needed",
+      "hi": "बदलाव की ज़रूरत नहीं",
+      "mr": "बदल आवश्यक नाही"
+    },
+    "ui.3c8877a089af": {
+      "en": "Verify conditions first",
+      "hi": "पहले स्थिति जाँचें",
+      "mr": "आधी स्थिती तपासा"
+    },
+    "ui.acdfa468b41c": {
+      "en": "Planning estimate; check timetable conflicts and recheck before the activity.",
+      "hi": "योजना का अनुमान; समय-सारणी में टकराव जाँचें और गतिविधि से पहले फिर जाँचें।",
+      "mr": "योजनेचा अंदाज; वेळापत्रकातील संघर्ष तपासा आणि उपक्रमापूर्वी पुन्हा तपासा."
+    },
+    "ui.0318fbfb6bad": {
+      "en": "Decision recorded. Review and publish the school instruction.",
+      "hi": "निर्णय दर्ज हुआ। स्कूल निर्देश देखें और प्रकाशित करें।",
+      "mr": "निर्णय नोंदवला. शाळेची सूचना तपासा आणि प्रकाशित करा."
+    },
+    "ui.fdbf1c967250": {
+      "en": "Example only. Follow your teacher’s actual instruction.",
+      "hi": "केवल उदाहरण। शिक्षक के वास्तविक निर्देश मानें।",
+      "mr": "केवळ उदाहरण. शिक्षकांच्या प्रत्यक्ष सूचना पाळा."
+    },
+    "ui.b82b562e9662": {
+      "en": "At pickup, follow the school’s published gate arrangements. Keep vehicle engines off while waiting where permitted.",
+      "hi": "बच्चे को लेने पर प्रकाशित गेट व्यवस्था मानें। जहाँ अनुमति हो, इंतज़ार में वाहन का इंजन बंद रखें।",
+      "mr": "मुलाला घेताना प्रकाशित गेट व्यवस्था पाळा. परवानगी असेल तिथे थांबताना वाहनाचे इंजिन बंद ठेवा."
+    },
+    "ui.49316c4edaf1": {
+      "en": "The school has not published the current plan. Ask a school adult for the instruction.",
+      "hi": "स्कूल ने मौजूदा योजना प्रकाशित नहीं की। जिम्मेदार वयस्क से निर्देश पूछें।",
+      "mr": "शाळेने सध्याची योजना प्रकाशित नाही. जबाबदार प्रौढाला सूचना विचारा."
+    },
+    "ui.a3d109913a2c": {
+      "en": "No duty tasks assigned to this plan yet.",
+      "hi": "इस योजना में ड्यूटी काम नहीं सौंपे हैं।",
+      "mr": "या योजनेत ड्युटी कामे अजून नेमलेली नाहीत."
+    },
+    "ui.24fe646d55a2": {
+      "en": "No child profiles linked. Ask your school administrator.",
+      "hi": "बच्चों की जानकारी जुड़ी नहीं है। स्कूल व्यवस्थापक से पूछें।",
+      "mr": "मुलांची माहिती जोडलेली नाही. शाळेच्या प्रशासकाला विचारा."
+    },
+    "ui.b095bb0cb7fd": {
+      "en": "Awaiting publication · suggestions are not school instructions",
+      "hi": "प्रकाशन की प्रतीक्षा · सुझाव स्कूल निर्देश नहीं हैं",
+      "mr": "प्रकाशनाची प्रतीक्षा · सूचना शाळेचे प्रत्यक्ष निर्देश नाहीत"
+    },
+    "ui.082c8f608389": {
+      "en": "Navigation language: {0}",
+      "hi": "भाषा: {0}",
+      "mr": "भाषा: {0}"
+    },
+    "ui.b317b74ac03b": {
+      "en": "Choose navigation language; guidance keeps its original wording",
+      "hi": "भाषा चुनें; प्रकाशित निर्देश के मूल शब्द सुरक्षित रहते हैं",
+      "mr": "भाषा निवडा; प्रकाशित सूचनेचा मूळ मजकूर जपला जातो"
+    },
+    "ui.5f6868863471": {
+      "en": "Open website menu",
+      "hi": "वेबसाइट मेनू खोलें",
+      "mr": "वेबसाइट मेनू उघडा"
+    },
+    "ui.cf1230314b07": {
+      "en": "Close website menu",
+      "hi": "वेबसाइट मेनू बंद करें",
+      "mr": "वेबसाइट मेनू बंद करा"
+    },
+    "ui.8abe9e0ba6b6": {
+      "en": "Switch to dark theme",
+      "hi": "गहरा रंग चुनें",
+      "mr": "गडद रंग निवडा"
+    },
+    "ui.2f740f4cf688": {
+      "en": "Switch to light theme",
+      "hi": "हल्का रंग चुनें",
+      "mr": "हलका रंग निवडा"
+    },
+    "ui.ba118bf7fc9c": {
+      "en": "English",
+      "hi": "अंग्रेज़ी",
+      "mr": "इंग्रजी"
+    },
+    "ui.63c2dc51d089": {
+      "en": "Hindi",
+      "hi": "हिन्दी",
+      "mr": "हिंदी"
+    },
+    "ui.6bbef3a79c78": {
+      "en": "Marathi",
+      "hi": "मराठी",
+      "mr": "मराठी"
+    },
+    "ui.f2bc90d3a521": {
+      "en": "Read aloud is unavailable in this browser.",
+      "hi": "इस ब्राउज़र में पढ़कर सुनाना उपलब्ध नहीं।",
+      "mr": "या ब्राउझरमध्ये वाचून दाखवणे उपलब्ध नाही."
+    },
+    "ui.470b70facf7d": {
+      "en": "Translation draft",
+      "hi": "अनुवाद का मसौदा",
+      "mr": "अनुवादाचा मसुदा"
+    },
+    "ui.f6725f3af08a": {
+      "en": "Expires",
+      "hi": "समाप्ति",
+      "mr": "कालबाह्य"
+    },
+    "ui.8ac8b58b1d21": {
+      "en": "{0} review",
+      "hi": "{0} समीक्षा",
+      "mr": "{0} आढावा"
+    },
+    "ui.992bf5c131e8": {
+      "en": "{0} of {1} classes confirmed",
+      "hi": "{0} / {1} कक्षाओं ने पुष्टि की",
+      "mr": "{0} / {1} वर्गांनी पुष्टी केली"
+    },
+    "ui.55b8a0a070f7": {
+      "en": "The shared school timetable applies to these classes; class-specific rooms must be reviewed by the teacher.",
+      "hi": "इन कक्षाओं के लिए साझा समय-सारणी है; शिक्षक हर कक्षा के कमरे की स्थिति देखें।",
+      "mr": "या वर्गांसाठी सामायिक वेळापत्रक आहे; शिक्षकांनी प्रत्येक वर्गातील खोलीची स्थिती तपासावी."
+    },
+    "ui.c2109ded9625": {
+      "en": "Sent; awaiting class check",
+      "hi": "भेजा गया; कक्षा की जाँच की प्रतीक्षा",
+      "mr": "पाठवले; वर्गाच्या तपासणीची प्रतीक्षा"
+    },
+    "ui.0a38c083c499": {
+      "en": "Quiet hours use Asia/Kolkata.",
+      "hi": "शांत समय के लिए Asia/Kolkata समय क्षेत्र है।",
+      "mr": "शांत वेळेसाठी Asia/Kolkata वेळ क्षेत्र आहे."
+    },
+    "ui.8ad92ceb7196": {
+      "en": "Notification limits",
+      "hi": "सूचनाओं की सीमा",
+      "mr": "सूचनांची मर्यादा"
+    },
+    "ui.18870dc66fdf": {
+      "en": "{0} of {1} messages used today",
+      "hi": "आज {0} / {1} संदेश उपयोग किए",
+      "mr": "आज {0} / {1} संदेश वापरले"
+    },
+    "ui.51f6fcaa5ed1": {
+      "en": "Quiet hours {0} · Not active now · Asia/Kolkata",
+      "hi": "शांत समय {0} · अभी लागू नहीं · Asia/Kolkata",
+      "mr": "शांत वेळ {0} · सध्या लागू नाही · Asia/Kolkata"
+    },
+    "ui.07e8f19540f4": {
+      "en": "Notification limits use the actual school-local clock. Demo display timestamps are shifted to a 07:30 morning.",
+      "hi": "सूचनाओं की सीमा स्कूल की वास्तविक स्थानीय घड़ी पर है। नमूना समय सुबह 07:30 पर दिखता है।",
+      "mr": "सूचनांची मर्यादा शाळेच्या प्रत्यक्ष स्थानिक घड्याळावर आहे. नमुना वेळ सकाळी 07:30 दाखवते."
+    },
+    "ui.d70476579180": {
+      "en": "Remind people who have not confirmed",
+      "hi": "पुष्टि न करने वालों को याद दिलाएँ",
+      "mr": "पुष्टी न केलेल्यांना आठवण पाठवा"
+    },
+    "ui.52bd8195b3a0": {
+      "en": "Only in-app records are generated. No external messages are sent.",
+      "hi": "केवल ऐप के रिकॉर्ड बनते हैं। बाहरी संदेश नहीं भेजे जाते।",
+      "mr": "केवळ अॅपमधील नोंदी तयार होतात. बाहेरील संदेश पाठवले जात नाहीत."
+    },
+    "ui.7fd2fb093d04": {
+      "en": "Delivery acceptance is not a review receipt.",
+      "hi": "संदेश स्वीकार करना समीक्षा की पुष्टि नहीं है।",
+      "mr": "संदेश स्वीकारणे म्हणजे आढाव्याची पुष्टी नाही."
+    },
+    "ui.de914f324808": {
+      "en": "No external sends.",
+      "hi": "बाहरी संदेश नहीं भेजे।",
+      "mr": "बाहेरील संदेश पाठवले नाहीत."
+    },
+    "ui.0b9655f519f1": {
+      "en": "demo-record-only",
+      "hi": "केवल नमूना रिकॉर्ड",
+      "mr": "केवळ नमुना नोंद"
+    },
+    "ui.8c6976e5b541": {
+      "en": "admin",
+      "hi": "व्यवस्थापक",
+      "mr": "प्रशासक"
+    },
+    "ui.e47125968b3b": {
+      "en": "parent",
+      "hi": "अभिभावक",
+      "mr": "पालक"
+    },
+    "ui.1562206543da": {
+      "en": "staff",
+      "hi": "कर्मचारी",
+      "mr": "कर्मचारी"
+    },
+    "ui.1057a9604e04": {
+      "en": "teacher",
+      "hi": "शिक्षक",
+      "mr": "शिक्षक"
+    },
+    "ui.bec901852de2": {
+      "en": "Haze is illustrative.",
+      "hi": "धुंध केवल चित्रण है।",
+      "mr": "धुके केवळ चित्रण आहे."
+    },
+    "ui.acdfd4ce51e7": {
+      "en": "Publish by",
+      "hi": "इस समय तक प्रकाशित करें",
+      "mr": "या वेळेपर्यंत प्रकाशित करा"
+    },
+    "ui.2a9ecf780037": {
+      "en": "minutes remaining",
+      "hi": "मिनट शेष",
+      "mr": "मिनिटे उरली"
+    },
+    "ui.421b05985a77": {
+      "en": "Deadline passed — check the current instruction",
+      "hi": "समय निकल गया — मौजूदा निर्देश जाँचें",
+      "mr": "वेळ निघून गेली — सध्याची सूचना तपासा"
+    },
+    "ui.76707def751d": {
+      "en": "Offline · reconnect before changing the school plan.",
+      "hi": "ऑफ़लाइन · स्कूल योजना बदलने से पहले फिर जुड़ें।",
+      "mr": "ऑफलाइन · शाळेची योजना बदलण्याआधी पुन्हा जोडा."
+    },
+    "ui.9eda61fcf6bd": {
+      "en": "Offline · last known plan. Current conditions cannot be verified. Reconnect before taking action.",
+      "hi": "ऑफ़लाइन · अंतिम उपलब्ध योजना। मौजूदा स्थिति सत्यापित नहीं है। कदम उठाने से पहले फिर जुड़ें।",
+      "mr": "ऑफलाइन · शेवटची उपलब्ध योजना. सध्याची स्थिती पडताळता येत नाही. कृती करण्यापूर्वी पुन्हा जोडा."
+    },
+    "ui.58d473088171": {
+      "en": "Fetch live regional model",
+      "hi": "वास्तविक क्षेत्रीय मॉडल प्राप्त करें",
+      "mr": "प्रत्यक्ष प्रादेशिक मॉडेल मिळवा"
+    },
+    "ui.cb63abdbdd64": {
+      "en": "Update available — reload",
+      "hi": "अपडेट उपलब्ध — फिर खोलें",
+      "mr": "अपडेट उपलब्ध — पुन्हा उघडा"
+    },
+    "ui.356a5a8debd4": {
+      "en": "A more cautious flag is held until consecutive hourly recovery observations are available.",
+      "hi": "लगातार घंटेवार सुधार के अवलोकन मिलने तक अधिक सावधानी का संकेत कायम है।",
+      "mr": "सलग ताशी सुधाराची निरीक्षणे मिळेपर्यंत अधिक सावध इशारा कायम आहे."
+    },
+    "ui.74950d6ac14b": {
+      "en": "Cached reading · last successful retrieval",
+      "hi": "सहेजा हुआ डेटा · अंतिम सफल प्राप्ति",
+      "mr": "साठवलेला डेटा · शेवटची यशस्वी प्राप्ती"
+    },
+    "ui.eb28eaaed28a": {
+      "en": "A clearer school day",
+      "hi": "स्कूल का दिन स्पष्ट बनाएँ",
+      "mr": "शाळेचा दिवस स्पष्ट करा"
+    },
+    "ui.7c52efabd348": {
+      "en": "Know the air.",
+      "hi": "हवा को जानें।",
+      "mr": "हवा जाणून घ्या."
+    },
+    "ui.bd5a4911cb2c": {
+      "en": "Make a plan.",
+      "hi": "योजना बनाएँ।",
+      "mr": "योजना करा."
+    },
+    "ui.dbbeb4563dd2": {
+      "en": "Give assembly, PE and pickup a clear plan that school adults can share and families can review.",
+      "hi": "सभा, खेल और बच्चे को लेने के लिए स्पष्ट योजना बनाएँ जिसे स्कूल साझा करे और परिवार पढ़ें।",
+      "mr": "सभा, खेळ आणि मुलांना घेण्यासाठी स्पष्ट योजना करा जी शाळा शेअर करेल आणि कुटुंबे तपासतील."
+    },
+    "ui.8efda6ad61ef": {
+      "en": "Open the school workspace",
+      "hi": "स्कूल कार्यस्थल खोलें",
+      "mr": "शाळेचे कार्यस्थळ उघडा"
+    },
+    "ui.4e888e751593": {
+      "en": "See the parent view",
+      "hi": "अभिभावक दृश्य देखें",
+      "mr": "पालकांचे दृश्य पहा"
+    },
+    "ui.c0db75364543": {
+      "en": "Built for Environmental Hacks · Bharat Builds Tour · Air track",
+      "hi": "Environmental Hacks · Bharat Builds Tour · हवा विषय के लिए",
+      "mr": "Environmental Hacks · Bharat Builds Tour · हवा विभागासाठी"
+    },
+    "ui.3b0594c6bb9c": {
+      "en": "Example sky",
+      "hi": "उदाहरण का आकाश",
+      "mr": "उदाहरणाचे आकाश"
+    },
+    "ui.8dd9bfedce4c": {
+      "en": "Not today’s school instruction.",
+      "hi": "आज का स्कूल निर्देश नहीं।",
+      "mr": "आजची शाळेची सूचना नाही."
+    },
+    "ui.d77b6ea91040": {
+      "en": "Walk through a school day",
+      "hi": "स्कूल का दिन देखें",
+      "mr": "शाळेचा दिवस पहा"
+    },
+    "ui.0d469d194e61": {
+      "en": "Example day. Not today's school instruction.",
+      "hi": "उदाहरण का दिन। आज का स्कूल निर्देश नहीं।",
+      "mr": "उदाहरणाचा दिवस. आजची शाळेची सूचना नाही."
+    },
+    "ui.47366a7b5109": {
+      "en": "Air scenario",
+      "hi": "हवा का उदाहरण",
+      "mr": "हवेचे उदाहरण"
+    },
+    "ui.aa491d7ae4e8": {
+      "en": "{0} example",
+      "hi": "{0} उदाहरण",
+      "mr": "{0} उदाहरण"
+    },
+    "ui.7e9e44a62d7d": {
+      "en": "Explore the hour {0}",
+      "hi": "समय देखें {0}",
+      "mr": "वेळ पहा {0}"
+    },
+    "ui.f26ad92c6dd1": {
+      "en": "Example PM2.5: {0} µg/m³ · planning flag, not official AQI.",
+      "hi": "उदाहरण PM2.5: {0} µg/m³ · योजना का संकेत, आधिकारिक AQI नहीं।",
+      "mr": "उदाहरण PM2.5: {0} µg/m³ · योजनेचा इशारा, अधिकृत AQI नाही."
+    },
+    "ui.4e11a27fe100": {
+      "en": "A reading becomes a shared decision",
+      "hi": "जानकारी से साझा निर्णय",
+      "mr": "माहितीतून सामायिक निर्णय"
+    },
+    "ui.8b81e64aab19": {
+      "en": "The school makes the decision. Air Guardian keeps its evidence and review trail together.",
+      "hi": "निर्णय स्कूल लेता है। Air Guardian प्रमाण और समीक्षा साथ रखता है।",
+      "mr": "निर्णय शाळा घेते. Air Guardian पुरावे आणि आढाव्याची नोंद एकत्र ठेवते."
+    },
+    "ui.463816d07097": {
+      "en": "Reading",
+      "hi": "जानकारी",
+      "mr": "माहिती"
+    },
+    "ui.16cc8485e71f": {
+      "en": "Check the evidence",
+      "hi": "प्रमाण जाँचें",
+      "mr": "पुरावे तपासा"
+    },
+    "ui.dff381173193": {
+      "en": "Source, observation time and confidence stay visible. Missing air data stays unknown.",
+      "hi": "स्रोत, अवलोकन का समय और भरोसे का स्तर दिखते हैं। अनुपलब्ध जानकारी अज्ञात रहती है।",
+      "mr": "स्रोत, निरीक्षणाची वेळ आणि विश्वासपातळी दिसतात. नसलेली माहिती अज्ञात राहते."
+    },
+    "ui.e622d1796f44": {
+      "en": "Review what changes",
+      "hi": "बदलाव की समीक्षा करें",
+      "mr": "बदल तपासा"
+    },
+    "ui.b63fb4d467f5": {
+      "en": "Explainable rules suggest timetable actions. A school adult checks rooms and edits wording.",
+      "hi": "स्पष्ट नियम समय-सारणी के बदलाव सुझाते हैं। जिम्मेदार वयस्क कमरे जाँचते और निर्देश लिखते हैं।",
+      "mr": "स्पष्ट नियम वेळापत्रकातील बदल सुचवतात. जबाबदार प्रौढ खोल्या तपासतात आणि सूचना लिहितात."
+    },
+    "ui.13fbcabbd395": {
+      "en": "Share one instruction",
+      "hi": "एक निर्देश साझा करें",
+      "mr": "एक सूचना शेअर करा"
+    },
+    "ui.dc43c79e6381": {
+      "en": "Every role receives the same plan through saved notification preferences.",
+      "hi": "हर भूमिका को सहेजे विकल्पों के अनुसार वही योजना मिलती है।",
+      "mr": "प्रत्येक भूमिकेला जतन केलेल्या पर्यायांनुसार तीच योजना मिळते."
+    },
+    "ui.39e72c193e88": {
+      "en": "Know who confirmed",
+      "hi": "किसने पुष्टि की जानें",
+      "mr": "कोणी पुष्टी केली ते पहा"
+    },
+    "ui.65202da8df78": {
+      "en": "Explicit receipts and teacher checklists show completion, not health outcomes.",
+      "hi": "पुष्टि और शिक्षक की जाँच सूची काम पूरा होना दिखाती हैं, स्वास्थ्य परिणाम नहीं।",
+      "mr": "पुष्टी आणि शिक्षकांची तपाससूची काम पूर्ण होणे दाखवतात, आरोग्य परिणाम नाही."
+    },
+    "ui.48e186f7e622": {
+      "en": "The right next step for each person",
+      "hi": "हर व्यक्ति के लिए अगला कदम",
+      "mr": "प्रत्येकासाठी पुढचे पाऊल"
+    },
+    "ui.358f04aa34ef": {
+      "en": "School admin",
+      "hi": "स्कूल व्यवस्थापक",
+      "mr": "शाळेचा प्रशासक"
+    },
+    "ui.c4b1d30e222c": {
+      "en": "Set today’s school plan.",
+      "hi": "आज की स्कूल योजना तय करें।",
+      "mr": "आजची शाळेची योजना ठरवा."
+    },
+    "ui.3e0c14fafccb": {
+      "en": "Check the plan for your class.",
+      "hi": "अपनी कक्षा की योजना देखें।",
+      "mr": "तुमच्या वर्गाची योजना तपासा."
+    },
+    "ui.c82682be81f0": {
+      "en": "Your school-day duty instruction.",
+      "hi": "स्कूल की ड्यूटी का निर्देश।",
+      "mr": "शाळेच्या ड्युटीची सूचना."
+    },
+    "ui.9dbe1b578743": {
+      "en": "Know what your child’s school has planned.",
+      "hi": "अपने बच्चे के स्कूल की योजना जानें।",
+      "mr": "मुलाच्या शाळेची योजना जाणून घ्या."
+    },
+    "ui.1d2902ca81b6": {
+      "en": "Open →",
+      "hi": "खोलें →",
+      "mr": "उघडा →"
+    },
+    "ui.8b8d930799e1": {
+      "en": "Young explorer",
+      "hi": "नन्हे खोजी",
+      "mr": "छोटे शोधक"
+    },
+    "ui.0599f682665e": {
+      "en": "Simple words, one question and a grown-up to ask.",
+      "hi": "आसान शब्द, एक सवाल और मदद करने वाला बड़ा।",
+      "mr": "सोपे शब्द, एक प्रश्न आणि मदतीसाठी प्रौढ."
+    },
+    "ui.fd068ebb54b6": {
+      "en": "Big ideas.",
+      "hi": "बड़े विचार।",
+      "mr": "मोठ्या कल्पना."
+    },
+    "ui.e0a595516e06": {
+      "en": "Little next steps.",
+      "hi": "छोटे अगले कदम।",
+      "mr": "छोटी पुढची पावले."
+    },
+    "ui.cb1e67d9c2ab": {
+      "en": "Read the plan with a grown-up →",
+      "hi": "बड़े के साथ योजना पढ़ें →",
+      "mr": "मोठ्यांसोबत योजना वाचा →"
+    },
+    "ui.f5bb9696b7e2": {
+      "en": "Try a little air question",
+      "hi": "हवा का छोटा सवाल पूछें",
+      "mr": "हवेचा छोटा प्रश्न सोडवा"
+    },
+    "ui.87d035388492": {
+      "en": "Your school says indoor play today.",
+      "hi": "स्कूल कहता है आज अंदर खेलें।",
+      "mr": "शाळा सांगते आज आत खेळा."
+    },
+    "ui.e34406c362e5": {
+      "en": "What would you do?",
+      "hi": "आप क्या करेंगे?",
+      "mr": "तुम्ही काय कराल?"
+    },
+    "ui.8ea2d703b46a": {
+      "en": "Pick an answer. This is a learning example, not today’s school instruction.",
+      "hi": "उत्तर चुनें। यह सीखने का उदाहरण है, आज का स्कूल निर्देश नहीं।",
+      "mr": "उत्तर निवडा. हे शिकण्याचे उदाहरण आहे, आजची शाळेची सूचना नाही."
+    },
+    "ui.fd73cbf04637": {
+      "en": "Useful guidance needs clear boundaries",
+      "hi": "उपयोगी मार्गदर्शन की सीमाएँ स्पष्ट हों",
+      "mr": "उपयुक्त मार्गदर्शनाच्या मर्यादा स्पष्ट हव्यात"
+    },
+    "ui.d8de957dc226": {
+      "en": "Every reading explains where it came from and how fresh it is.",
+      "hi": "हर जानकारी अपना स्रोत और ताज़गी बताती है।",
+      "mr": "प्रत्येक माहिती तिचा स्रोत आणि ताजेपणा सांगते."
+    },
+    "ui.0ea6244105cd": {
+      "en": "Children use aliases. No date of birth or diagnosis is needed.",
+      "hi": "बच्चों के लिए उपनाम हैं। जन्मतिथि या बीमारी का विवरण नहीं चाहिए।",
+      "mr": "मुलांसाठी उपनावे आहेत. जन्मतारीख किंवा निदान आवश्यक नाही."
+    },
+    "ui.5e8a559904e5": {
+      "en": "Channel consent, quiet hours and daily limits control notifications.",
+      "hi": "माध्यम की सहमति, शांत समय और दैनिक सीमा सूचनाएँ नियंत्रित करते हैं।",
+      "mr": "माध्यमाची संमती, शांत वेळ आणि रोजची मर्यादा सूचनांवर नियंत्रण ठेवतात."
+    },
+    "ui.7dd8162db622": {
+      "en": "A school adult publishes the instruction. A receipt records review.",
+      "hi": "स्कूल का जिम्मेदार वयस्क निर्देश प्रकाशित करता है। पुष्टि समीक्षा दर्ज करती है।",
+      "mr": "शाळेचा जबाबदार प्रौढ सूचना प्रकाशित करतो. पुष्टी आढावा नोंदवते."
+    },
+    "ui.db33c9d142a4": {
+      "en": "Indoor conditions are unknown unless measured.",
+      "hi": "माप के बिना अंदर की स्थिति अज्ञात है।",
+      "mr": "मोजमाप नसल्यास आतील स्थिती अज्ञात आहे."
+    },
+    "ui.273147a71294": {
+      "en": "Honest boundaries",
+      "hi": "स्पष्ट सीमाएँ",
+      "mr": "प्रामाणिक मर्यादा"
+    },
+    "ui.0bfdfb6ba188": {
+      "en": "Does this measure air at my school gate?",
+      "hi": "क्या यह स्कूल गेट की हवा मापता है?",
+      "mr": "हे शाळेच्या गेटवरील हवा मोजते का?"
+    },
+    "ui.f9a6203353b6": {
+      "en": "Is the example plan a real school instruction?",
+      "hi": "क्या उदाहरण वास्तविक स्कूल निर्देश है?",
+      "mr": "उदाहरणाची योजना प्रत्यक्ष शाळेची सूचना आहे का?"
+    },
+    "ui.1fdf5761783f": {
+      "en": "What information do children need to share?",
+      "hi": "बच्चों को कौन सी जानकारी देनी है?",
+      "mr": "मुलांनी कोणती माहिती द्यायची?"
+    },
+    "ui.11d94ec32e5b": {
+      "en": "How does AWS fit?",
+      "hi": "AWS की भूमिका क्या है?",
+      "mr": "AWS ची भूमिका काय आहे?"
+    },
+    "ui.847267d45cd8": {
+      "en": "The implementation behind the plan",
+      "hi": "योजना के पीछे की तकनीक",
+      "mr": "योजनेमागील तंत्रज्ञान"
+    },
+    "ui.186448950759": {
+      "en": "Air inputs",
+      "hi": "हवा की जानकारी",
+      "mr": "हवेची माहिती"
+    },
+    "ui.8c855faa00bc": {
+      "en": "Policy engine",
+      "hi": "नियम इंजन",
+      "mr": "नियम इंजिन"
+    },
+    "ui.155503825fc1": {
+      "en": "Role views",
+      "hi": "भूमिका के दृश्य",
+      "mr": "भूमिकांचे दृश्य"
+    },
+    "ui.84cb7871b741": {
+      "en": "Reviews",
+      "hi": "समीक्षाएँ",
+      "mr": "आढावे"
+    },
+    "ui.0688268ef8dd": {
+      "en": "Provider adapters",
+      "hi": "स्रोत के अडैप्टर",
+      "mr": "स्रोताचे अडॅप्टर"
+    },
+    "ui.e6f308299d76": {
+      "en": "Fixtures locally",
+      "hi": "स्थानीय नमूने",
+      "mr": "स्थानिक नमुने"
+    },
+    "ui.6c772c24eb30": {
+      "en": "Adult publication",
+      "hi": "वयस्क का प्रकाशन",
+      "mr": "प्रौढाचे प्रकाशन"
+    },
+    "ui.ac71d82fbbe7": {
+      "en": "Give the school day a clear next step.",
+      "hi": "स्कूल के दिन को स्पष्ट अगला कदम दें।",
+      "mr": "शाळेच्या दिवसाला स्पष्ट पुढचे पाऊल द्या."
+    },
+    "ui.3c292c403a53": {
+      "en": "Cloud resources are implemented in templates. No AWS deployment is claimed.",
+      "hi": "क्लाउड संसाधनों के टेम्पलेट बने हैं। AWS पर तैनाती का दावा नहीं है।",
+      "mr": "क्लाउड संसाधनांचे टेम्पलेट तयार आहेत. AWS वरील तैनातीचा दावा नाही."
+    },
+    "ui.47ab5d578b01": {
+      "en": "Adapter implemented · not used in this demo",
+      "hi": "अडैप्टर बना है · इस नमूने में उपयोग नहीं",
+      "mr": "अडॅप्टर तयार · या नमुन्यात वापर नाही"
+    },
+    "ui.e4620af111c3": {
+      "en": "CPCB adapter implemented · not used in this demo",
+      "hi": "CPCB अडैप्टर बना है · इस नमूने में उपयोग नहीं",
+      "mr": "CPCB अडॅप्टर तयार · या नमुन्यात वापर नाही"
+    },
+    "ui.86800114939f": {
+      "en": "Fictional demo reset. No cloud records were changed.",
+      "hi": "काल्पनिक नमूना रीसेट हुआ। क्लाउड रिकॉर्ड नहीं बदले।",
+      "mr": "काल्पनिक नमुना रीसेट झाला. क्लाउड नोंदी बदलल्या नाहीत."
+    },
+    "ui.7150b5d4dee1": {
+      "en": "Demo story",
+      "hi": "नमूने की कहानी",
+      "mr": "नमुन्याची गोष्ट"
+    },
+    "ui.59a4869df44e": {
+      "en": "Parent view",
+      "hi": "अभिभावक दृश्य",
+      "mr": "पालकांचे दृश्य"
+    },
+    "ui.859390eb495b": {
+      "en": "Publish",
+      "hi": "प्रकाशित करें",
+      "mr": "प्रकाशित करा"
+    },
+    "ui.aff0766a5290": {
+      "en": "Review",
+      "hi": "समीक्षा",
+      "mr": "आढावा"
+    },
+    "ui.19e264049af0": {
+      "en": "Automatic deadline reminder queued",
+      "hi": "समय की स्वचालित याद दिलाने का संदेश कतार में",
+      "mr": "वेळेची स्वयंचलित आठवण रांगेत"
+    },
+    "ui.d03765fa8cbe": {
+      "en": "Consent, quiet hours and daily caps still apply.",
+      "hi": "सहमति, शांत समय और दैनिक सीमा लागू रहती हैं।",
+      "mr": "संमती, शांत वेळ आणि रोजची मर्यादा लागू राहतात."
+    },
+    "ui.a8e70f974e0b": {
+      "en": "Example only. A school adult checks room conditions before confirming.",
+      "hi": "केवल उदाहरण। पुष्टि से पहले स्कूल का जिम्मेदार वयस्क कमरे की स्थिति देखता है।",
+      "mr": "केवळ उदाहरण. पुष्टीपूर्वी शाळेचा जबाबदार प्रौढ खोलीची स्थिती तपासतो."
+    },
+    "ui.a65dbc2ee167": {
+      "en": "Read the plan with a grown-up. Ask your teacher where your class will play. Tell an adult if you feel unwell.",
+      "hi": "बड़े के साथ योजना पढ़ें। शिक्षक से पूछें कक्षा कहाँ खेलेगी। तबीयत ठीक न हो तो बड़े को बताएँ।",
+      "mr": "मोठ्यांसोबत योजना वाचा. वर्ग कुठे खेळेल ते शिक्षकांना विचारा. बरे वाटत नसल्यास प्रौढाला सांगा."
+    },
+    "ui.2768832a3d6f": {
+      "en": "Regional model estimates describe a wider area. They do not prove conditions at the school gate. The workspace shows sources and observation times; suitable local sensors need installation and assessment.",
+      "hi": "क्षेत्रीय मॉडल बड़े इलाके का अनुमान देते हैं। वे स्कूल गेट की स्थिति साबित नहीं करते। कार्यस्थल में स्रोत और अवलोकन समय दिखते हैं; स्थानीय सेंसर लगाने और जाँचने होंगे।",
+      "mr": "प्रादेशिक मॉडेल मोठ्या परिसराचे अंदाज देतात. ते शाळेच्या गेटवरील स्थिती सिद्ध करत नाहीत. कार्यस्थळात स्रोत व निरीक्षण वेळ दिसते; स्थानिक सेन्सर बसवून तपासावे लागतील."
+    },
+    "ui.3aa98fe7b930": {
+      "en": "No. The landing page example is an illustration. The local cloud preview uses labelled fictional data and sends no messages. In a configured school workspace, follow the school’s actual published instruction.",
+      "hi": "नहीं। मुखपृष्ठ का उदाहरण केवल चित्रण है। स्थानीय नमूना काल्पनिक डेटा उपयोग करता है और संदेश नहीं भेजता। जुड़े स्कूल कार्यस्थल में वास्तविक प्रकाशित निर्देश मानें।",
+      "mr": "नाही. मुखपृष्ठाचे उदाहरण केवळ चित्रण आहे. स्थानिक नमुन्यात काल्पनिक डेटा आहे आणि संदेश पाठवले जात नाहीत. जोडलेल्या शाळेच्या कार्यस्थळात प्रत्यक्ष प्रकाशित सूचना पाळा."
+    },
+    "ui.ba53bae68e06": {
+      "en": "This home page and learning question need no child details. School profiles use aliases, age groups and optional caution preferences. A school administrator controls membership and role access.",
+      "hi": "मुखपृष्ठ और सीखने के सवाल के लिए बच्चों की जानकारी नहीं चाहिए। स्कूल प्रोफ़ाइल में उपनाम, आयु वर्ग और वैकल्पिक सावधानी है। व्यवस्थापक सदस्यता और भूमिका की पहुँच तय करता है।",
+      "mr": "मुखपृष्ठ व शिकण्याच्या प्रश्नासाठी मुलांची माहिती लागत नाही. शाळेच्या प्रोफाइलमध्ये उपनावे, वयोगट व ऐच्छिक काळजी पर्याय आहेत. प्रशासक सदस्यत्व व भूमिकांची प्रवेशमर्यादा ठरवतो."
+    },
+    "ui.99558753eb6c": {
+      "en": "The project includes a cloud implementation for Cognito, DynamoDB and Lambda, plus a working local preview. Cloud deployment has not been verified. The original local API uses Powertools for AWS Lambda, an AWS open-source project.",
+      "hi": "परियोजना में Cognito, DynamoDB और Lambda का क्लाउड कोड और चलता हुआ स्थानीय नमूना है। क्लाउड तैनाती सत्यापित नहीं है। मूल स्थानीय API में AWS का मुक्त स्रोत Powertools for AWS Lambda है।",
+      "mr": "प्रकल्पात Cognito, DynamoDB व Lambda चा क्लाउड कोड आणि चालणारा स्थानिक नमुना आहे. क्लाउड तैनाती पडताळलेली नाही. मूळ स्थानिक API मध्ये AWS चे मुक्त स्रोत Powertools for AWS Lambda आहे."
+    },
+    "ui.507630e559e6": {
+      "en": "Live adapters also support WAQI, OpenWeather and regional Open-Meteo/CAMS. None is called by this fictional preview. Observation and retrieval times are shown separately in the workspace.",
+      "hi": "अडैप्टर WAQI, OpenWeather और क्षेत्रीय Open-Meteo/CAMS के लिए हैं। स्वतः चलने वाला नमूना काल्पनिक है; व्यवस्थापक वास्तविक मॉडल अलग से प्राप्त कर सकता है। कार्यस्थल में अवलोकन और प्राप्ति का समय अलग है।",
+      "mr": "WAQI, OpenWeather आणि प्रादेशिक Open-Meteo/CAMS साठी अडॅप्टर आहेत. आपोआप चालणारा नमुना काल्पनिक आहे; प्रशासक प्रत्यक्ष मॉडेल वेगळे मिळवू शकतो. कार्यस्थळात निरीक्षण व प्राप्ती वेळ वेगळी आहे."
+    },
+    "ui.dfe4d89fcb91": {
+      "en": "Your school workspace",
+      "hi": "आपका स्कूल कार्यस्थल",
+      "mr": "तुमचे शाळेचे कार्यस्थळ"
+    },
+    "ui.5244edc8ad5a": {
+      "en": "A clearer view.",
+      "hi": "स्पष्ट जानकारी।",
+      "mr": "स्पष्ट माहिती."
+    },
+    "ui.cb7cd1f75fc0": {
+      "en": "A better school day.",
+      "hi": "बेहतर स्कूल दिवस।",
+      "mr": "चांगला शाळेचा दिवस."
+    },
+    "ui.3f9bd8dcfcc2": {
+      "en": "Review the air, agree on the school day, and keep families informed.",
+      "hi": "हवा जाँचें, स्कूल दिन की योजना तय करें और परिवारों को बताएँ।",
+      "mr": "हवा तपासा, शाळेच्या दिवसाची योजना ठरवा आणि कुटुंबांना माहिती द्या."
+    },
+    "ui.a3d110b2c4d3": {
+      "en": "Sign in to your school",
+      "hi": "स्कूल में साइन इन करें",
+      "mr": "शाळेत साइन इन करा"
+    },
+    "ui.55596b1ab35b": {
+      "en": "Your school approves access. Signing up alone does not grant access to a school or child.",
+      "hi": "स्कूल पहुँच मंज़ूर करता है। खाता बनाने से ही स्कूल या बच्चे की जानकारी नहीं मिलती।",
+      "mr": "शाळा प्रवेश मंजूर करते. केवळ खाते केल्याने शाळा किंवा मुलांची माहिती मिळत नाही."
+    },
+    "ui.33fc234283b4": {
+      "en": "Loading school information…",
+      "hi": "स्कूल की जानकारी लोड हो रही है…",
+      "mr": "शाळेची माहिती लोड होत आहे…"
+    },
+    "ui.b78abcf68474": {
+      "en": "Hourly recovery check pending",
+      "hi": "घंटेवार सुधार की जाँच बाकी",
+      "mr": "ताशी सुधाराची तपासणी बाकी"
+    },
+    "ui.f73062dbc44d": {
+      "en": "Supporting hourly mean; not a replacement measurement.",
+      "hi": "सहायक घंटेवार औसत; वास्तविक माप का विकल्प नहीं।",
+      "mr": "सहायक ताशी सरासरी; प्रत्यक्ष मोजमापाचा पर्याय नाही."
+    },
+    "ui.ba6dbdee3559": {
+      "en": "Regional model, not a school-gate sensor.",
+      "hi": "क्षेत्रीय मॉडल, स्कूल गेट का सेंसर नहीं।",
+      "mr": "प्रादेशिक मॉडेल, शाळेच्या गेटवरील सेन्सर नाही."
+    },
+    "ui.cf39bdbb4c3b": {
+      "en": "Live adapters also support WAQI, OpenWeather and regional Open-Meteo/CAMS. The preview starts with fictional data; an administrator can request a real regional model in Demo tools. Observation and retrieval times are shown separately in the workspace.",
+      "hi": "अडैप्टर WAQI, OpenWeather और क्षेत्रीय Open-Meteo/CAMS के लिए हैं। नमूना काल्पनिक डेटा से शुरू होता है; व्यवस्थापक नमूना उपकरणों से वास्तविक क्षेत्रीय मॉडल प्राप्त कर सकता है। कार्यस्थल में अवलोकन और प्राप्ति समय अलग हैं।",
+      "mr": "WAQI, OpenWeather आणि प्रादेशिक Open-Meteo/CAMS साठी अडॅप्टर आहेत. नमुना काल्पनिक डेटाने सुरू होतो; प्रशासक नमुना साधनांतून प्रत्यक्ष प्रादेशिक मॉडेल मिळवू शकतो. कार्यस्थळात निरीक्षण व प्राप्ती वेळ वेगळी आहे."
+    },
+    "ui.d7ace1dc7bcc": {
+      "en": "Automatic preview uses fixtures. Demo tools can request a live regional model; no external messages are sent.",
+      "hi": "स्वचालित नमूना काल्पनिक डेटा उपयोग करता है। नमूना उपकरणों से वास्तविक क्षेत्रीय मॉडल माँग सकते हैं; बाहरी संदेश नहीं भेजे जाते।",
+      "mr": "स्वयंचलित नमुन्यात काल्पनिक डेटा वापरला जातो. नमुना साधनांतून प्रत्यक्ष प्रादेशिक मॉडेल मागवू शकता; बाहेरील संदेश पाठवले जात नाहीत."
+    },
+    "ui.1f29b6530ee6": {
+      "en": "PM2.5 {0} micrograms per cubic metre; school planning bands, not official AQI",
+      "hi": "PM2.5 {0} माइक्रोग्राम प्रति घन मीटर; स्कूल योजना के स्तर, आधिकारिक AQI नहीं",
+      "mr": "PM2.5 {0} मायक्रोग्रॅम प्रति घनमीटर; शाळेच्या योजनेचे स्तर, अधिकृत AQI नाही"
+    },
+    "ui.ba691ba042bc": {
+      "en": "unavailable",
+      "hi": "उपलब्ध नहीं",
+      "mr": "उपलब्ध नाही"
+    },
+    "ui.ea27b3464e97": {
+      "en": "Website controls",
+      "hi": "वेबसाइट नियंत्रण",
+      "mr": "वेबसाइट नियंत्रणे"
+    },
+    "ui.f24b6c5e9b73": {
+      "en": "Navigation language; school guidance remains in its original language",
+      "hi": "वेबसाइट की भाषा; स्कूल निर्देश मूल भाषा में रहते हैं",
+      "mr": "वेबसाइटची भाषा; शाळेच्या सूचना मूळ भाषेत राहतात"
+    },
+    "ui.bd538a54e3c2": {
+      "en": "Fictional school · Real source",
+      "hi": "काल्पनिक स्कूल · वास्तविक स्रोत",
+      "mr": "काल्पनिक शाळा · प्रत्यक्ष स्रोत"
+    },
+    "ui.f19b10f8210b": {
+      "en": "Demo data · Haze is illustrative",
+      "hi": "नमूना डेटा · धुंध केवल चित्रण है",
+      "mr": "नमुना डेटा · धुके केवळ चित्रण आहे"
+    },
+    "ui.0afda154dd00": {
+      "en": "School planning guidance · Haze is illustrative",
+      "hi": "स्कूल योजना मार्गदर्शन · धुंध केवल चित्रण है",
+      "mr": "शाळेच्या योजनेचे मार्गदर्शन · धुके केवळ चित्रण आहे"
+    },
+    "action.verify": {
+      "en": "Ask school staff to verify conditions before making an activity decision.",
+      "hi": "गतिविधि की योजना से पहले स्कूल कर्मचारियों से स्थिति की पुष्टि कराएँ।",
+      "mr": "उपक्रम ठरवण्यापूर्वी शाळेच्या कर्मचाऱ्यांकडून स्थितीची खात्री करा."
+    },
+    "action.indoor-pe": {
+      "en": "Review moving vigorous PE and assembly indoors; check room conditions before confirming.",
+      "hi": "तेज़ खेल और सभा अंदर करने की योजना देखें; पुष्टि से पहले कमरे की स्थिति जाँचें।",
+      "mr": "जोराचे खेळ आणि सभा आत घेण्याचा विचार करा; पुष्टीपूर्वी खोलीची स्थिती तपासा."
+    },
+    "action.gentle": {
+      "en": "Review shorter, gentler outdoor activities and recheck conditions before starting.",
+      "hi": "छोटी, हल्की बाहरी गतिविधियाँ चुनें और शुरू करने से पहले स्थिति फिर जाँचें।",
+      "mr": "लहान, हलके मैदानी उपक्रम निवडा आणि सुरू करण्यापूर्वी स्थिती पुन्हा तपासा."
+    },
+    "action.usual": {
+      "en": "Review the usual timetable and recheck the air before long outdoor sessions.",
+      "hi": "सामान्य समय-सारणी देखें और लंबे बाहरी सत्र से पहले हवा फिर जाँचें।",
+      "mr": "नेहमीचे वेळापत्रक तपासा आणि दीर्घ मैदानी उपक्रमापूर्वी हवा पुन्हा तपासा."
+    },
+    "action.pickup": {
+      "en": "Stagger pickup/drop-off and reduce waiting at the gate; ask drivers to avoid unnecessary idling.",
+      "hi": "आने-जाने का समय अलग रखें और गेट पर इंतज़ार कम करें; चालकों से बेकार इंजन चालू न रखने को कहें।",
+      "mr": "येण्या-जाण्याच्या वेळा वेगळ्या ठेवा आणि गेटवरील थांबा कमी करा; चालकांना विनाकारण इंजिन सुरू ठेवू नका असे सांगा."
+    },
+    "action.rotate": {
+      "en": "Ask the supervisor to rotate outdoor gate and ground duties and provide indoor breaks.",
+      "hi": "पर्यवेक्षक से गेट और मैदान की बाहरी ड्यूटी बदलने और अंदर विश्राम देने को कहें।",
+      "mr": "पर्यवेक्षकांना मैदानी ड्युटी बदलायला आणि आत विश्रांती द्यायला सांगा."
+    },
+    "action.mask": {
+      "en": "Ask a responsible adult or supervisor about a well-fitting N95/KN95 reminder where school guidance and an existing care plan call for one. Adult respirator fit is not assumed for children.",
+      "hi": "स्कूल निर्देश और देखभाल योजना के अनुसार उपयुक्त N95/KN95 के बारे में जिम्मेदार बड़े से पूछें। वयस्क मास्क का फिट बच्चों के लिए नहीं माना जाता।",
+      "mr": "शाळेच्या सूचना आणि काळजी योजनेनुसार योग्य N95/KN95 बाबत जबाबदार प्रौढाला विचारा. प्रौढांचा मास्क मुलांना योग्य बसेल असे गृहीत नाही."
+    },
+    "action.route": {
+      "en": "Discuss avoiding high-traffic roads and unnecessary outdoor stops with an adult. Use route estimates as planning comparisons, not proof that a road is clean.",
+      "hi": "व्यस्त सड़कें और बेकार बाहरी ठहराव टालने के लिए बड़े से बात करें। मार्ग के अनुमान तुलना हैं, साफ़ हवा का प्रमाण नहीं।",
+      "mr": "वर्दळीचे रस्ते आणि विनाकारण मैदानी थांबे टाळण्याबाबत मोठ्यांशी बोला. मार्गांचे अंदाज तुलना आहेत, स्वच्छ हवेचा पुरावा नाही."
+    },
+    "action.care-plan": {
+      "en": "Keep following existing school instructions and care plans; tell a trusted adult if you feel unwell.",
+      "hi": "स्कूल निर्देश और देखभाल योजना मानते रहें; तबीयत ठीक न हो तो भरोसेमंद बड़े को बताएँ।",
+      "mr": "शाळेच्या सूचना आणि काळजी योजना पाळा; बरे वाटत नसल्यास विश्वासू प्रौढाला सांगा."
+    },
+    "action.peak": {
+      "en": "At the predicted pollution peak, staff should review keeping windows closed if indoor air and ventilation/heat conditions support it; follow the building plan.",
+      "hi": "प्रदूषण के अनुमानित चरम पर, अंदर की हवा और गर्मी/वेंटिलेशन ठीक होने पर कर्मचारी खिड़कियाँ बंद रखने पर विचार करें; भवन योजना मानें।",
+      "mr": "प्रदूषणाच्या अंदाजित उच्च काळात, आतील हवा आणि उष्णता/वायुवीजन योग्य असल्यास खिडक्या बंद ठेवण्याचा विचार करा; इमारतीची योजना पाळा."
+    },
+    "action.indoor-check": {
+      "en": "Review the room air before relying on an indoor alternative.",
+      "hi": "अंदर के विकल्प पर भरोसा करने से पहले कमरे की हवा जाँचें।",
+      "mr": "आतील पर्यायावर अवलंबून राहण्यापूर्वी खोलीची हवा तपासा."
+    },
+    "notification.prefix": {
+      "en": "School flag",
+      "hi": "स्कूल संकेत",
+      "mr": "शाळेचा इशारा"
+    },
+    "notification.title": {
+      "en": "Air Guardian school update",
+      "hi": "Air Guardian स्कूल सूचना",
+      "mr": "Air Guardian शाळेची सूचना"
+    },
+    "ui.native-review": {
+      "en": "Translation draft · needs native review",
+      "hi": "अनुवाद का मसौदा · मातृभाषी समीक्षा आवश्यक",
+      "mr": "अनुवादाचा मसुदा · मातृभाषिक पुनरावलोकन आवश्यक"
+    },
+    "kid.question": {
+      "en": "Your school says indoor play today. What would you do?",
+      "hi": "स्कूल कहता है आज अंदर खेलें। आप क्या करेंगे?",
+      "mr": "शाळा सांगते आज आत खेळा. तुम्ही काय कराल?"
+    },
+    "kid.action.verify": {
+      "en": "Ask a grown-up for today’s school plan.",
+      "hi": "बड़े से आज की स्कूल योजना पूछें।",
+      "mr": "मोठ्यांना आजची शाळेची योजना विचारा."
+    },
+    "kid.action.indoor-pe": {
+      "en": "Ask your teacher about playing indoors today.",
+      "hi": "शिक्षक से आज अंदर खेलने के बारे में पूछें।",
+      "mr": "आज आत खेळण्याबद्दल शिक्षकांना विचारा."
+    },
+    "kid.action.gentle": {
+      "en": "Ask your teacher about shorter outdoor play.",
+      "hi": "शिक्षक से थोड़ी देर बाहर खेलने के बारे में पूछें।",
+      "mr": "थोडा वेळ बाहेर खेळण्याबद्दल शिक्षकांना विचारा."
+    },
+    "kid.action.usual": {
+      "en": "Ask your teacher what your class has planned today.",
+      "hi": "शिक्षक से पूछें आज कक्षा की क्या योजना है।",
+      "mr": "आज वर्गाची काय योजना आहे ते शिक्षकांना विचारा."
+    },
+    "flag.green": {
+      "en": "green",
+      "hi": "हरा",
+      "mr": "हिरवा"
+    },
+    "flag.yellow": {
+      "en": "yellow",
+      "hi": "पीला",
+      "mr": "पिवळा"
+    },
+    "flag.orange": {
+      "en": "orange",
+      "hi": "नारंगी",
+      "mr": "नारंगी"
+    },
+    "flag.red": {
+      "en": "red",
+      "hi": "लाल",
+      "mr": "लाल"
+    },
+    "flag.unknown": {
+      "en": "unknown",
+      "hi": "अज्ञात",
+      "mr": "अज्ञात"
+    },
+    "headline.usual": {
+      "en": "Keep the usual school timetable",
+      "hi": "स्कूल की सामान्य समय-सारणी रखें",
+      "mr": "शाळेचे नेहमीचे वेळापत्रक ठेवा"
+    },
+    "headline.gentle": {
+      "en": "Shorter, gentler outdoor activities",
+      "hi": "बाहर छोटी और हल्की गतिविधियाँ करें",
+      "mr": "मैदानी उपक्रम लहान आणि हलके ठेवा"
+    },
+    "headline.indoor-pe": {
+      "en": "Move PE and assembly indoors",
+      "hi": "खेल और सभा को अंदर रखें",
+      "mr": "खेळ आणि सभा वर्गात घ्या"
+    },
+    "headline.verify": {
+      "en": "Verify conditions before outdoor activities",
+      "hi": "बाहरी गतिविधियों से पहले स्थिति जाँचें",
+      "mr": "मैदानी उपक्रमांपूर्वी परिस्थिती तपासा"
+    },
+    "headline.rotate": {
+      "en": "Rotate outdoor duties and take indoor breaks",
+      "hi": "बाहरी ड्यूटी बारी-बारी करें और अंदर विश्राम लें",
+      "mr": "मैदानी कामाच्या पाळ्या बदला आणि आत विश्रांती घ्या"
+    },
+    "headline.pickup": {
+      "en": "Reduce waiting at the school gate",
+      "hi": "स्कूल के गेट पर इंतज़ार कम करें",
+      "mr": "शाळेच्या प्रवेशद्वारावरील प्रतीक्षा कमी करा"
+    },
+    "review.classTeacher": {
+      "en": "{0} teacher",
+      "hi": "{0} शिक्षक",
+      "mr": "{0} शिक्षक"
+    },
+    "class.label": {
+      "en": "Class {0}",
+      "hi": "कक्षा {0}",
+      "mr": "वर्ग {0}"
+    }
+  }
+}
