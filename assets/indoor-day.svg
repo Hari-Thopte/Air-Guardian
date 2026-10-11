@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" shape-rendering="crispEdges" role="img" aria-label="Pixel art of a classroom with books, a table and a plant beside an open sky">
+  <rect width="640" height="280" fill="#f3ead5"/>
+  <path d="M0 0h640v16H0ZM0 176h640v16H0Z" fill="#e4d6ba"/>
+  <rect y="192" width="640" height="88" fill="#caa982"/>
+  <path d="M0 200h640v8H0ZM0 232h640v8H0ZM0 264h640v8H0ZM80 208h8v24h-8ZM272 208h8v24h-8ZM472 208h8v24h-8ZM152 240h8v24h-8ZM352 240h8v24h-8ZM568 240h8v24h-8Z" fill="#b6926d"/>
+  <path d="M352 24h232v152H352Z" fill="#9a7859"/>
+  <path d="M360 32h216v136H360Z" fill="#72beee"/>
+  <path d="M360 32h216v16H360Z" fill="#65b4e9"/>
+  <path d="M368 64h16V48h24v-8h32v8h16v16h8v16h-96ZM504 56h16V40h32v8h16v8h8v16h-72Z" fill="#ffffff"/>
+  <path d="M368 72h96v8h-96ZM504 64h72v8h-72Z" fill="#e4f3fb"/>
+  <path d="M360 152v-32h24v-16h24v48h16V96h24V80h24v72h16v-32h24v32h24V96h24v16h16v56H360Z" fill="#84b7ca"/>
+  <path d="M392 120h8v8h-8ZM440 104h8v8h-8ZM456 96h8v8h-8ZM544 120h8v8h-8Z" fill="#b5d8df"/>
+  <path d="M360 152h24v-8h40v8h40v-8h48v8h24v-8h40v24H360Z" fill="#73a781"/>
+  <path d="M376 152h8v-16h-8ZM512 144h8v24h-8Z" fill="#785944"/>
+  <path d="M360 120h8v-16h24v8h16v24h-8v16h-32v-8h-8ZM488 120h8v-16h16v-8h16v8h16v16h8v16h-16v16h-32v-16h-16Z" fill="#69a664"/>
+  <path d="M360 96h216v8H360ZM464 32h8v136h-8Z" fill="#f9f0dd"/>
+  <path d="M344 168h248v16H344Z" fill="#f8f0db"/>
+  <path d="M352 184h232v8H352Z" fill="#bca485"/>
+  <path d="M32 32h152v168H32Z" fill="#856043"/>
+  <path d="M40 40h136v144H40Z" fill="#5f4c3c"/>
+  <path d="M32 80h152v8H32ZM32 128h152v8H32ZM32 176h152v8H32Z" fill="#ae835a"/>
+  <path d="M32 184h152v16H32ZM40 200h16v16H40ZM160 200h16v16h-16Z" fill="#70563d"/>
+  <path d="M48 48h16v32H48ZM128 48h8v32h-8ZM80 96h16v32H80ZM128 96h16v32h-16ZM64 144h16v32H64ZM128 144h16v32h-16Z" fill="#70aab5"/>
+  <path d="M64 56h8v24h-8ZM96 48h16v32H96ZM48 104h16v24H48ZM112 104h8v24h-8ZM96 144h8v32h-8ZM144 152h16v24h-16Z" fill="#c87253"/>
+  <path d="M72 48h16v32H72ZM112 56h16v24h-16ZM64 96h16v32H64ZM144 96h16v32h-16ZM48 152h16v24H48ZM112 144h16v32h-16Z" fill="#d6b66a"/>
+  <path d="M136 56h16v24h-16ZM96 104h16v24H96ZM80 152h16v24H80Z" fill="#a5b781"/>
+  <path d="M48 56h16v8H48ZM72 56h16v8H72ZM96 56h16v8H96ZM128 56h8v8h-8ZM64 104h16v8H64ZM80 104h16v8H80ZM128 104h16v8h-16ZM48 160h16v8H48ZM64 152h16v8H64ZM112 152h16v8h-16ZM144 160h16v8h-16Z" fill="#eee2c5"/>
+  <path d="M216 32h104v88H216Z" fill="#ac835b"/>
+  <path d="M224 40h88v72h-88Z" fill="#466459"/>
+  <path d="M240 56h8v-8h16v8h8v16h-8v8h-16v-8h-8ZM280 56h16v8h-16ZM280 80h16v8h-16ZM240 96h56v8h-56Z" fill="#dce6d1"/>
+  <path d="M224 112h88v8h-88Z" fill="#c49b70"/>
+  <path d="M272 112h24v8h-24Z" fill="#eadfcc"/>
+  <path d="M208 144h112v8H208ZM208 136h16v8h-16ZM240 136h48v8h-48Z" fill="#8d6f50"/>
+  <path d="M240 128h48v8h-48ZM248 120h32v8h-32Z" fill="#ded4b9"/>
+  <path d="M184 208h288v16H184Z" fill="#9c6e48"/>
+  <path d="M184 192h288v16H184Z" fill="#d4a771"/>
+  <path d="M192 192h272v8H192Z" fill="#e3bc86"/>
+  <path d="M200 224h16v56h-16ZM440 224h16v56h-16Z" fill="#76543b"/>
+  <path d="M208 224h8v56h-8ZM448 224h8v56h-8Z" fill="#654b39"/>
+  <path d="M224 176h48v8h-48ZM216 184h64v8h-64Z" fill="#6fa6b5"/>
+  <path d="M224 180h48v4h-48Z" fill="#f6edd8"/>
+  <path d="M304 180h64v12h-64Z" fill="#f5ebd3"/>
+  <path d="M328 180h8v12h-8ZM312 184h16v4h-16ZM344 184h16v4h-16Z" fill="#c7b594"/>
+  <path d="M392 160h24v32h-24Z" fill="#be7857"/>
+  <path d="M392 160h24v8h-24Z" fill="#9a5e43"/>
+  <path d="M392 144h8v16h-8Z" fill="#d6b65e"/>
+  <path d="M400 136h8v24h-8Z" fill="#6d9fb1"/>
+  <path d="M408 144h8v16h-8Z" fill="#d8ddd0"/>
+  <path d="M544 224h64v16h-64ZM552 240h48v24h-48Z" fill="#b77454"/>
+  <path d="M552 224h48v8h-48Z" fill="#d89369"/>
+  <path d="M560 256h32v8h-32Z" fill="#965b43"/>
+  <path d="M568 152h8v72h-8ZM576 176h8v48h-8Z" fill="#4a7450"/>
+  <path d="M544 152h24v8h8v16h-24v-8h-8ZM576 128h16v8h8v16h-16v8h-8ZM584 176h24v8h8v16h-24v-8h-8ZM536 192h24v8h8v16h-24v-8h-8Z" fill="#70a563"/>
+  <path d="M552 152h16v8h-16ZM584 136h8v16h-8ZM592 184h16v8h-16ZM544 200h16v8h-16Z" fill="#9ac27a"/>
+  <path d="M72 256h88v8H72Z" fill="#a48461"/>
+  <path d="M80 216h64v32H80ZM88 248h8v32h-8ZM128 248h8v32h-8Z" fill="#597e89"/>
+  <path d="M80 216h64v8H80ZM80 240h64v8H80Z" fill="#78a5af"/>
+  <path d="M488 32h8v136h-8" fill="#e7d8bd" opacity=".4"/>
+</svg>

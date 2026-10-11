@@ -1,0 +1,19 @@
+{
+  "application_type": "web_application",
+  "expected_users": 500,
+  "requests_per_second": 5,
+  "budget_monthly_usd": 15,
+  "team_size": 1,
+  "aws_experience": "intermediate",
+  "data_size_gb": 1,
+  "region": "ap-south-1",
+  "pilot_schools": 3,
+  "selected_pattern": "serverless_web",
+  "hosting": "private S3 with CloudFront OAC",
+  "database_billing": "on-demand; paid requests after applicable credits",
+  "notification_defaults": "in-app only until explicit user opt-in",
+  "sensor_default": "disabled",
+  "forecast_default": "provider forecast; local ML is not trained",
+  "cost_exclusions": ["hardware", "domain", "paid data", "SMS", "WhatsApp", "taxes"],
+  "availability": "controlled pilot; no uptime SLA asserted"
+}

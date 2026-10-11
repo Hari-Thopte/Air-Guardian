@@ -1,0 +1,2 @@
+aws-lambda-powertools==3.35.0
+pywebpush==2.0.3

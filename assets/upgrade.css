@@ -1,0 +1,61 @@
+.drifting-haze{position:absolute;inset:0;pointer-events:none;opacity:var(--haze-opacity,0);transition:opacity 1.2s ease;overflow:hidden}
+.drifting-haze i{position:absolute;width:70%;height:150%;left:-15%;top:-20%;background:radial-gradient(ellipse,rgba(153,132,108,.85),transparent 65%);animation:haze-drift 48s ease-in-out infinite alternate}
+.drifting-haze i:nth-child(2){left:35%;top:5%;animation-duration:57s;animation-delay:-20s}
+.drifting-haze i:nth-child(3){left:65%;top:-45%;animation-duration:43s;animation-delay:-12s}
+@keyframes haze-drift{to{transform:translateX(22%);opacity:.65}}
+.sky-city{opacity:calc(1 - var(--haze-opacity,0));transition:opacity 1s}
+body[data-flag="3"] .sky-sun{opacity:.6}
+body[data-effects="reduced"] *,body[data-tab-hidden="true"] *{animation-play-state:paused!important}
+body.ui-restyle .current-air .planning-gauge{grid-template-columns:168px minmax(0,1fr)}
+body.ui-restyle .planning-gauge svg{width:168px}
+body.ui-restyle .planning-gauge text{font-size:13px}
+body.ui-restyle :is(small,.eyebrow,.sky-caption,.gauge-readout small,.gauge-readout span){font-size:max(13px,.8rem)!important}
+html[lang="hi"],html[lang="mr"]{line-height:1.6}
+.translation-review{font-size:13px;padding:6px 14px;color:var(--muted);border-bottom:1px solid var(--line)}
+.kid-mascot{max-width:220px;width:60%;height:auto}
+.kid-view{text-align:center;max-width:680px;margin:auto;padding:28px}
+.kid-view button{min-height:44px;margin:8px}
+.upgrade-controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.upgrade-controls button{font-size:13px;padding:8px 12px}
+.story-stepper{position:fixed;bottom:12px;left:50%;transform:translateX(-50%);z-index:50;display:flex;flex-wrap:wrap;gap:12px;max-width:95%;padding:12px 16px;background:var(--bg);border:1px solid var(--line);border-radius:16px;box-shadow:0 4px 18px #0002}
+.story-stepper a{font-size:13px;white-space:nowrap}
+.ui-restyle p a{text-decoration:underline;text-underline-offset:3px}
+.ui-restyle .badge{transition:background-color .4s,color .4s}
+html.switching-theme *,html.switching-theme *::before,html.switching-theme *::after{transition:none!important}
+.ui-restyle :is(td,th,label,time,.nav-group-label){font-size:max(13px,.85rem)}
+.loading-skeleton{height:180px;border-radius:20px;background:linear-gradient(110deg,var(--line) 25%,var(--bg) 45%,var(--line) 65%);background-size:200% 100%;animation:skeleton-shift 1.5s linear infinite;padding:24px}
+@keyframes skeleton-shift{to{background-position:-200% 0}}
+.kid-workspace{text-align:center;max-width:720px;margin:auto}.kid-question .row{justify-content:center;flex-wrap:wrap}.kid-instruction{font-size:21px;line-height:1.6}
+.school-layout thead{position:sticky;top:0;background:var(--bg);z-index:1}
+.review-people>p{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 12px;align-items:center}
+.review-people>p>span{grid-column:1;grid-row:1}.review-people>p>b{grid-column:2;grid-row:1;font-size:13px}
+.review-people>p>small{grid-column:1;grid-row:2;line-height:1.6;color:var(--muted)}
+.review-people>p>button{grid-column:2;grid-row:2;white-space:nowrap;min-height:36px;padding:6px 12px}
+@media(max-width:480px){body.ui-restyle .current-air .planning-gauge{grid-template-columns:140px minmax(0,1fr)}body.ui-restyle .planning-gauge svg{width:140px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/* The banner's own content controls its height; the sky is contained decoration. */
+body.ui-restyle:has(#content) #content>.row.between.workspace-heading.today-banner{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px;padding:20px;margin:0 0 20px;min-height:0;height:auto;position:relative;isolation:isolate;border:0;border-radius:20px;overflow:hidden}
+body.ui-restyle:has(#content) .workspace-heading.today-banner>.workspace-sky{position:absolute;inset:0;width:auto;height:auto;max-width:none;padding:0;border:0;border-radius:0;background:transparent;z-index:-1;pointer-events:none}
+body.ui-restyle:has(#content) .workspace-heading.today-banner>.banner-card{grid-column:1;padding:18px;margin:0;min-width:0;max-width:none;flex:none;background:var(--bg);border:1px solid var(--line);border-radius:16px}
+body.ui-restyle:has(#content) .workspace-heading.today-banner>#refresh{grid-column:2;position:static;margin:0;align-self:center;white-space:nowrap}
+body.ui-restyle:has(#content) .workspace-heading.today-banner p{font-size:13px;line-height:1.5;margin:6px 0 0}
+body.ui-restyle:has(#content) .workspace-heading.today-banner .eyebrow{margin:0}
+@media(max-width:480px){body.ui-restyle:has(#content) #content>.row.between.workspace-heading.today-banner{padding:16px;gap:8px;grid-template-columns:minmax(0,1fr) auto}body.ui-restyle:has(#content) .workspace-heading.today-banner>.banner-card{padding:12px}body.ui-restyle:has(#content) .workspace-heading.today-banner h1{font-size:20px}}
+
+/* One box per gauge part, with no SVG overflow into the readout. */
+body.ui-restyle:has(#content) .current-air .planning-gauge{display:grid;grid-template-columns:minmax(100px,160px) minmax(0,1fr);gap:16px;align-items:center;width:100%}
+body.ui-restyle:has(#content) .planning-gauge .gauge-face{min-width:0;width:100%;aspect-ratio:200/116;overflow:hidden}
+body.ui-restyle:has(#content) .planning-gauge .gauge-face svg{display:block;width:100%;height:100%;overflow:hidden}
+body.ui-restyle:has(#content) .planning-gauge .gauge-readout{min-width:0;display:grid;gap:4px;overflow-wrap:anywhere}
+body.ui-restyle:has(#content) .gauge-readout :is(span,small){margin:0;font-size:13px;line-height:1.5}
+@media(max-width:480px){body.ui-restyle:has(#content) .current-air .planning-gauge{grid-template-columns:minmax(90px,120px) minmax(0,1fr);gap:12px}}
+
+/* Structural selectors must not depend on translated accessibility labels. */
+body.ui-restyle:has(#content) nav.school-nav{display:flex;flex-direction:column;flex-wrap:nowrap;align-items:stretch;min-width:0;overflow:visible}
+body.ui-restyle:has(#content) .school-nav>.nav-group-label{display:block;flex:none;width:100%;max-width:none;margin:0;padding:12px 16px 4px;line-height:1.6;white-space:normal;overflow-wrap:anywhere;cursor:default}
+body.ui-restyle:has(#content) .school-nav>button,body.ui-restyle:has(#content) .school-nav>a{display:flex;flex:none;width:100%;min-width:0;height:auto;white-space:normal;overflow-wrap:anywhere;line-height:1.6;text-align:left;justify-content:flex-start}
+body.ui-restyle:has(#content) .school-nav>button svg{flex-shrink:0}
+body.ui-restyle:has(#content) .school-nav>button span{min-width:0;line-height:1.6}
+@media(max-width:759px){body.ui-restyle:has(#content){padding-bottom:0}body.ui-restyle:has(#content) nav.school-nav{position:static;inset:auto;margin:0 0 20px;padding:0;border:0;min-height:0;gap:6px}body.ui-restyle:has(#content) .school-nav>button{flex-direction:row;min-height:48px;padding:12px 16px;border-radius:999px}body.ui-restyle:has(#content) .school-nav>.workspace-return{padding:16px;text-align:left;margin:0}}
+
+body.ui-restyle:has(#content) .school-nav>.workspace-return{margin-inline:0}
